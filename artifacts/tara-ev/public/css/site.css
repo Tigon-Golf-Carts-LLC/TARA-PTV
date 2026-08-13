@@ -174,13 +174,6 @@
 /* Dealership disclaimer in footer */
 #tara-footer .tf-disclaimer { color: #777d73; font-size: 12px; margin: 0 0 12px; }
 
-/* Accessory / product card backdrop */
-.product_items .product_item figure {
-  background: url(/images/accessory-card-bg.jpg) center / cover no-repeat !important;
-}
-.product_items .product_item .item_img img {
-  mix-blend-mode: multiply; /* lets the white-background product photos sit on the backdrop */
-}
 
 /* Vehicles mega-menu: one even row of 5 items, names under images (desktop only) */
 @media (min-width: 1025px) {
