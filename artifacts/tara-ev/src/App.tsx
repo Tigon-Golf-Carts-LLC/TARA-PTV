@@ -4,7 +4,7 @@ import { injectStructuredData } from './structuredData';
 
 const BASE = import.meta.env.BASE_URL; // e.g. "/"
 
-type RouteMeta = { file: string; title: string; bodyClass: string };
+type RouteMeta = { file: string; title: string; description?: string; bodyClass: string };
 type Routes = Record<string, RouteMeta>;
 
 function normalizePath(p: string): string {
@@ -86,6 +86,40 @@ export default function App() {
 
         document.title = meta.title;
         injectStructuredData(path, meta.title);
+
+        // Update per-route meta: canonical, description, OG, Twitter Card.
+        const siteOrigin = 'https://taragolfcart.com';
+        const canonicalUrl = `${siteOrigin}${path}`;
+
+        // Canonical link tag
+        let canonical = document.querySelector<HTMLLinkElement>('link[rel="canonical"]');
+        if (!canonical) {
+          canonical = document.createElement('link');
+          canonical.setAttribute('rel', 'canonical');
+          document.head.appendChild(canonical);
+        }
+        canonical.setAttribute('href', canonicalUrl);
+
+        // Meta description
+        if (meta.description) {
+          const descEl = document.querySelector<HTMLMetaElement>('meta[name="description"]');
+          if (descEl) descEl.setAttribute('content', meta.description);
+        }
+
+        // Open Graph: og:title, og:description, og:url
+        const ogTitle = document.querySelector<HTMLMetaElement>('meta[property="og:title"]');
+        if (ogTitle) ogTitle.setAttribute('content', meta.title);
+        const ogDesc = document.querySelector<HTMLMetaElement>('meta[property="og:description"]');
+        if (ogDesc && meta.description) ogDesc.setAttribute('content', meta.description);
+        const ogUrl = document.querySelector<HTMLMetaElement>('meta[property="og:url"]');
+        if (ogUrl) ogUrl.setAttribute('content', canonicalUrl);
+
+        // Twitter Card: twitter:title, twitter:description
+        const twTitle = document.querySelector<HTMLMetaElement>('meta[name="twitter:title"]');
+        if (twTitle) twTitle.setAttribute('content', meta.title);
+        const twDesc = document.querySelector<HTMLMetaElement>('meta[name="twitter:description"]');
+        if (twDesc && meta.description) twDesc.setAttribute('content', meta.description);
+
         if (meta.bodyClass) document.body.className = meta.bodyClass;
         containerRef.current.innerHTML = html;
         setStatus('ready');

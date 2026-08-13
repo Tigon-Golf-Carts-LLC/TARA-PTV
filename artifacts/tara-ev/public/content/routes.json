@@ -1,342 +1,410 @@
 {
   "/about-us/": {
     "file": "about-us.html",
-    "title": "About TARA Neighborhood Electric Vehicles - TARA ELECTRIC VEHICLE",
+    "title": "About TARA Neighborhood Electric Vehicles",
+    "description": "Learn about TARA Neighborhood Electric Vehicles — your authorized US dealer for electric golf carts, NEVs, and utility vehicles for golf courses and communities.",
     "bodyClass": ""
   },
   "/accessories/": {
     "file": "accessories.html",
-    "title": "Accessories for TARA Neighborhood Electric Vehicles - TARA ELECTRIC VEHICLE",
+    "title": "Accessories for TARA Electric Golf Carts | TARA",
+    "description": "Shop TARA electric vehicle accessories — chargers, covers, seat kits, and more. Find the right accessories for your TARA golf cart or utility vehicle.",
     "bodyClass": ""
   },
   "/cases/": {
     "file": "cases.html",
-    "title": "TARA Neighborhood Electric Vehicles Customer Cases - TARA ELECTRIC VEHICLE",
+    "title": "Customer Cases | TARA Electric Vehicles",
+    "description": "See how golf courses, resorts, and communities use TARA electric vehicles. Real customer success stories and fleet case studies from across the US.",
     "bodyClass": ""
   },
   "/contact/": {
     "file": "contact.html",
-    "title": "Contact TARA Neighborhood Electric Vehicles - TARA ELECTRIC VEHICLE",
+    "title": "Contact TARA Electric Vehicles",
+    "description": "Contact TARA Neighborhood Electric Vehicles for sales, service, or support. Call 844-844-3432 or send an inquiry and our team will respond promptly.",
     "bodyClass": ""
   },
   "/emergency-response-guides/": {
     "file": "emergency-response-guides.html",
-    "title": "Emergency Response Guides - TARA ELECTRIC VEHICLE",
+    "title": "Emergency Response Guides | TARA Electric Vehicles",
+    "description": "Download TARA electric vehicle emergency response guides for first responders. Safety protocols for all TARA NEV and golf cart models.",
     "bodyClass": ""
   },
   "/explorer-2-2-golf-cart-product/": {
     "file": "explorer-2-2-golf-cart-product.html",
-    "title": "Explorer 2+2  | TARA Neighborhood Electric Vehicles",
+    "title": "Explorer 2+2 Electric Golf Cart | TARA Electric Vehicles",
+    "description": "The TARA Explorer 2+2 is a 4-seat electric golf cart built for resorts and communities. View specs, color options, and features at TARA Electric Vehicles.",
     "bodyClass": ""
   },
   "/explorer-2-2-product/": {
     "file": "explorer-2-2-product.html",
-    "title": "Explorer 2+2  | TARA Neighborhood Electric Vehicles",
+    "title": "Explorer 2+2 Electric Golf Cart | TARA Electric Vehicles",
+    "description": "The TARA Explorer 2+2 is a 4-seat electric golf cart built for resorts and communities. View specs, color options, and features at TARA Electric Vehicles.",
     "bodyClass": ""
   },
   "/faqs/": {
     "file": "faqs.html",
-    "title": "TARA Neighborhood Electric Vehicles FAQs & Support - TARA ELECTRIC VEHICLE",
+    "title": "FAQs & Support | TARA Electric Vehicles",
+    "description": "Frequently asked questions about TARA electric golf carts and NEVs. Find answers on charging, maintenance, warranty, registration, and dealer support.",
     "bodyClass": ""
   },
   "/fleet-golf-carts/": {
     "file": "fleet-golf-carts.html",
-    "title": "Fleet Golf Carts Solutions - TARA ELECTRIC VEHICLE",
+    "title": "Fleet Golf Cart Solutions | TARA Electric Vehicles",
+    "description": "TARA fleet golf carts are purpose-built for golf courses, resorts, and large properties. Explore the Harmony, Spirit Pro, and Spirit Plus fleet models.",
     "bodyClass": ""
   },
   "/harmony-fleet-golf-cart-product/": {
     "file": "harmony-fleet-golf-cart-product.html",
-    "title": "Tara Harmony 2 Seater Fleet Golf Cart  | TARA Neighborhood Electric Vehicles",
+    "title": "Harmony Fleet Golf Cart | TARA Electric Vehicles",
+    "description": "The TARA Harmony is a quiet, reliable 2-seat fleet golf cart designed for premium golf courses. View specs, features, and color options.",
     "bodyClass": ""
   },
   "/harmony-product/": {
     "file": "harmony-product.html",
-    "title": "Harmony | TARA Electric Vehicle  | TARA Neighborhood Electric Vehicles",
+    "title": "Harmony Electric Golf Cart | TARA Electric Vehicles",
+    "description": "The TARA Harmony electric golf cart delivers quiet performance and smooth handling for golf courses and resorts. View specs and color options.",
     "bodyClass": ""
   },
   "/": {
     "file": "home.html",
-    "title": "Best Golf Carts and Utility Vehicles for Golf Courses - TARA",
+    "title": "TARA Electric Golf Carts & NEVs for Golf Courses",
+    "description": "TARA Neighborhood Electric Vehicles — electric golf carts, NEVs, and utility vehicles for golf courses, resorts, and communities across the US.",
     "bodyClass": ""
   },
   "/horizon-4-golf-cart-product/": {
     "file": "horizon-4-golf-cart-product.html",
-    "title": "Horizon 4  | TARA Neighborhood Electric Vehicles",
+    "title": "Horizon 4 Electric Golf Cart | TARA Electric Vehicles",
+    "description": "The TARA Horizon 4 electric golf cart seats 4 passengers with comfort and style. Explore specs, color choices, and features for golf courses and communities.",
     "bodyClass": ""
   },
   "/horizon-4-product/": {
     "file": "horizon-4-product.html",
-    "title": "Horizon 4  | TARA Neighborhood Electric Vehicles",
+    "title": "Horizon 4 Electric Golf Cart | TARA Electric Vehicles",
+    "description": "The TARA Horizon 4 electric golf cart seats 4 passengers with comfort and style. Explore specs, color choices, and features for golf courses and communities.",
     "bodyClass": ""
   },
   "/horizon-6-golf-cart-product/": {
     "file": "horizon-6-golf-cart-product.html",
-    "title": "Horizon 6  | TARA Neighborhood Electric Vehicles",
+    "title": "Horizon 6 Electric Golf Cart | TARA Electric Vehicles",
+    "description": "The TARA Horizon 6 seats 6 passengers — ideal for resort shuttles and large community transport. View specs and available color options.",
     "bodyClass": ""
   },
   "/horizon-6-product/": {
     "file": "horizon-6-product.html",
-    "title": "Horizon 6  | TARA Neighborhood Electric Vehicles",
+    "title": "Horizon 6 Electric Golf Cart | TARA Electric Vehicles",
+    "description": "The TARA Horizon 6 seats 6 passengers — ideal for resort shuttles and large community transport. View specs and available color options.",
     "bodyClass": ""
   },
   "/lander-4-golf-cart-product/": {
     "file": "lander-4-golf-cart-product.html",
-    "title": "Lander 4  | TARA Neighborhood Electric Vehicles",
+    "title": "Lander 4 Electric Golf Cart | TARA Electric Vehicles",
+    "description": "The TARA Lander 4 is a 4-seat electric utility golf cart built for rugged terrain and demanding property work. View specs and color options.",
     "bodyClass": ""
   },
   "/lander-4-product/": {
     "file": "lander-4-product.html",
-    "title": "Lander 4  | TARA Neighborhood Electric Vehicles",
+    "title": "Lander 4 Electric Golf Cart | TARA Electric Vehicles",
+    "description": "The TARA Lander 4 is a 4-seat electric utility golf cart built for rugged terrain and demanding property work. View specs and color options.",
     "bodyClass": ""
   },
   "/lander-6-golf-cart-product/": {
     "file": "lander-6-golf-cart-product.html",
-    "title": "Lander 6  | TARA Neighborhood Electric Vehicles",
+    "title": "Lander 6 Electric Golf Cart | TARA Electric Vehicles",
+    "description": "The TARA Lander 6 carries 6 passengers across rugged terrain — perfect for large resorts, parks, and campuses. View full specs and color options.",
     "bodyClass": ""
   },
   "/lander-6-product/": {
     "file": "lander-6-product.html",
-    "title": "Lander 6  | TARA Neighborhood Electric Vehicles",
+    "title": "Lander 6 Electric Golf Cart | TARA Electric Vehicles",
+    "description": "The TARA Lander 6 carries 6 passengers across rugged terrain — perfect for large resorts, parks, and campuses. View full specs and color options.",
     "bodyClass": ""
   },
   "/mainitenance-support/": {
     "file": "mainitenance-support.html",
-    "title": "TARA Neighborhood Electric Vehicles Maintenance &amp; Support - TARA ELECTRIC VEHICLE",
+    "title": "Maintenance & Support | TARA Electric Vehicles",
+    "description": "TARA electric vehicle maintenance guides, service schedules, and support resources. Keep your golf cart or utility vehicle running at peak performance.",
     "bodyClass": ""
   },
   "/maintenance-support/": {
     "file": "maintenance-support.html",
-    "title": "TARA Neighborhood Electric Vehicles Maintenance & Support - TARA ELECTRIC VEHICLE",
+    "title": "Maintenance & Support | TARA Electric Vehicles",
+    "description": "TARA electric vehicle maintenance guides, service schedules, and support resources. Keep your golf cart or utility vehicle running at peak performance.",
     "bodyClass": ""
   },
   "/privacy-policy/": {
     "file": "privacy-policy.html",
-    "title": "Privacy Policy - TARA ELECTRIC VEHICLE",
+    "title": "Privacy Policy | TARA Electric Vehicles",
+    "description": "Read the TARA Neighborhood Electric Vehicles privacy policy. Learn how we collect, use, and protect your personal information on our website.",
     "bodyClass": ""
   },
   "/rambler-2-product/": {
     "file": "rambler-2-product.html",
-    "title": "China ALL-NEW RAMBLER 2 PASSENGER GOLF CART Manufacturers and Suppliers | TARA",
+    "title": "TARA Rambler 2 Electric Golf Cart | TARA Electric Vehicles",
+    "description": "The TARA Rambler 2 is a stylish 2-seat personal electric golf cart. View specs, color options, and features for personal and resort use.",
     "bodyClass": ""
   },
   "/rambler-se2-product/": {
     "file": "rambler-se2-product.html",
-    "title": "China ALL-NEW RAMBLER SE2 PASSENGER GOLF CART Manufacturers and Suppliers | TARA",
+    "title": "TARA Rambler SE2 Electric Golf Cart | TARA Electric Vehicles",
+    "description": "The TARA Rambler SE2 is an upgraded 2-seat electric golf cart with premium features. View specs, color options, and details for personal and resort use.",
     "bodyClass": ""
   },
   "/recall-information/": {
     "file": "recall-information.html",
-    "title": "Recall Information of TARA Neighborhood Electric Vehicles - TARA ELECTRIC VEHICLE",
+    "title": "Recall Information | TARA Electric Vehicles",
+    "description": "Important TARA electric vehicle recall notices. Check if your TARA golf cart or NEV is affected and find instructions for service or repair.",
     "bodyClass": ""
   },
   "/roadster-2-2-golf-cart-product/": {
     "file": "roadster-2-2-golf-cart-product.html",
-    "title": "Tara Roadster 2+2 4 Seats Golf Cart  | TARA Neighborhood Electric Vehicles",
+    "title": "Roadster 2+2 Golf Cart | TARA Electric Vehicles",
+    "description": "The TARA Roadster 2+2 fits 4 passengers in a sporty electric golf cart body. Ideal for resorts, communities, and personal use. View full specs and colors.",
     "bodyClass": ""
   },
   "/roadster-2-2-product/": {
     "file": "roadster-2-2-product.html",
-    "title": "Roadster 2+2  | TARA Neighborhood Electric Vehicles",
+    "title": "Roadster 2+2 Golf Cart | TARA Electric Vehicles",
+    "description": "The TARA Roadster 2+2 fits 4 passengers in a sporty electric golf cart body. Ideal for resorts, communities, and personal use. View full specs and colors.",
     "bodyClass": ""
   },
   "/safety-information/": {
     "file": "safety-information.html",
-    "title": "Safety Information of TARA Neighborhood Electric Vehicles - TARA ELECTRIC VEHICLE",
+    "title": "Safety Information | TARA Electric Vehicles",
+    "description": "Essential safety information for TARA electric golf carts and NEVs. Read operating guidelines, safety warnings, and best practices for all TARA models.",
     "bodyClass": ""
   },
   "/spirit-plus-fleet-golf-cart-product/": {
     "file": "spirit-plus-fleet-golf-cart-product.html",
-    "title": "Spirit Plus  | TARA Neighborhood Electric Vehicles",
+    "title": "Spirit Plus Fleet Golf Cart | TARA Electric Vehicles",
+    "description": "The TARA Spirit Plus fleet golf cart delivers premium player comfort for golf course fleets. View specs, seating, and color options.",
     "bodyClass": ""
   },
   "/spirit-plus-product/": {
     "file": "spirit-plus-product.html",
-    "title": "Spirit Plus  | TARA Neighborhood Electric Vehicles",
+    "title": "Spirit Plus Electric Golf Cart | TARA Electric Vehicles",
+    "description": "The TARA Spirit Plus electric golf cart delivers premium player comfort and smooth performance. View specs, color options, and features.",
     "bodyClass": ""
   },
   "/spirit-pro-fleet-golf-cart-product/": {
     "file": "spirit-pro-fleet-golf-cart-product.html",
-    "title": "Tara Spirit Pro Fleet Golf Cart  | TARA Neighborhood Electric Vehicles",
+    "title": "Spirit Pro Fleet Golf Cart | TARA Electric Vehicles",
+    "description": "The TARA Spirit Pro is built for high-volume golf course fleets — durable, reliable, and easy to maintain. View specs and fleet pricing.",
     "bodyClass": ""
   },
   "/spirit-pro-product/": {
     "file": "spirit-pro-product.html",
-    "title": "Spirit Pro  | TARA Neighborhood Electric Vehicles",
+    "title": "Spirit Pro Electric Golf Cart | TARA Electric Vehicles",
+    "description": "The TARA Spirit Pro electric golf cart is built for performance and durability on the course. View full specs, color options, and features.",
     "bodyClass": ""
   },
   "/t1-series/": {
     "file": "t1-series.html",
-    "title": "T1 Golf Cart Series \u2013 Fleet Golf Carts for Golf Courses",
+    "title": "T1 Golf Cart Series – Fleet Carts for Golf Courses",
+    "description": "The TARA T1 series includes purpose-built fleet golf carts for golf courses. Explore the Harmony, Spirit Pro, and Spirit Plus models in the T1 lineup.",
     "bodyClass": ""
   },
   "/t2-series/": {
     "file": "t2-series.html",
-    "title": "T2 Utility Golf Cart Series \u2013 Utility Vehicles for Golf Courses",
+    "title": "T2 Utility Golf Cart Series – Electric Utility Vehicles",
+    "description": "The TARA T2 series features electric utility vehicles for golf courses, resorts, and large properties. Explore the Turfman 450, 700, and 1000 models.",
     "bodyClass": ""
   },
   "/t3-2-2-golf-cart-product/": {
     "file": "t3-2-2-golf-cart-product.html",
-    "title": "Tara T3 2+2 4 Passenger Golf Cart  | TARA Neighborhood Electric Vehicles",
+    "title": "T3 2+2 Street Legal Golf Cart | TARA Electric Vehicles",
+    "description": "The TARA T3 2+2 is a street-legal 4-passenger NEV for communities and resorts. View specs, features, and color options for this premium electric cart.",
     "bodyClass": ""
   },
   "/t3-2-2-lifted-golf-cart-product/": {
     "file": "t3-2-2-lifted-golf-cart-product.html",
-    "title": "T3 2+2 Lifted  | TARA Neighborhood Electric Vehicles",
+    "title": "T3 2+2 Lifted Golf Cart | TARA Electric Vehicles",
+    "description": "The TARA T3 2+2 Lifted adds extra ground clearance to the street-legal T3 platform. Perfect for communities with varied terrain. View full specs.",
     "bodyClass": ""
   },
   "/t3-2-2-lifted-product/": {
     "file": "t3-2-2-lifted-product.html",
-    "title": "T3 2+2 Lifted  | TARA Neighborhood Electric Vehicles",
+    "title": "T3 2+2 Lifted Golf Cart | TARA Electric Vehicles",
+    "description": "The TARA T3 2+2 Lifted adds extra ground clearance to the street-legal T3 platform. Perfect for communities with varied terrain. View full specs.",
     "bodyClass": ""
   },
   "/t3-2-2-product/": {
     "file": "t3-2-2-product.html",
-    "title": "T3 2+2  | TARA Neighborhood Electric Vehicles",
+    "title": "T3 2+2 Electric Golf Cart | TARA Electric Vehicles",
+    "description": "The TARA T3 2+2 electric golf cart seats 4 with a premium feel and street-legal NEV capability. View specs, color options, and community use cases.",
     "bodyClass": ""
   },
   "/t3-22-lifted-product/": {
     "file": "t3-22-lifted-product.html",
-    "title": "T3 2+2 Lifted  | TARA Neighborhood Electric Vehicles",
+    "title": "T3 2+2 Lifted Golf Cart | TARA Electric Vehicles",
+    "description": "The TARA T3 2+2 Lifted adds extra ground clearance to the street-legal T3 platform. Perfect for communities with varied terrain. View full specs.",
     "bodyClass": ""
   },
   "/t3-22-product/": {
     "file": "t3-22-product.html",
-    "title": "T3 2+2  | TARA Neighborhood Electric Vehicles",
+    "title": "T3 2+2 Electric Golf Cart | TARA Electric Vehicles",
+    "description": "The TARA T3 2+2 electric golf cart seats 4 with a premium feel and street-legal NEV capability. View specs, color options, and community use cases.",
     "bodyClass": ""
   },
   "/t3-series/": {
     "file": "t3-series.html",
-    "title": "T3 Street Legal Series \u2013 Street Legal Carts for Communities",
+    "title": "T3 Street Legal Series – NEVs for Communities",
+    "description": "The TARA T3 series offers street-legal neighborhood electric vehicles (NEVs) for gated communities and resorts. Explore the T3 2+2 and T3 2+2 Lifted.",
     "bodyClass": ""
   },
   "/techncal-support/": {
     "file": "techncal-support.html",
-    "title": "Techncal Support - TARA ELECTRIC VEHICLE",
+    "title": "Technical Support | TARA Electric Vehicles",
+    "description": "TARA electric vehicle technical support resources, troubleshooting guides, and documentation. Get help with your TARA golf cart or utility vehicle.",
     "bodyClass": ""
   },
   "/technical-document-2/": {
     "file": "technical-document-2.html",
-    "title": "TARA Neighborhood Electric Vehicles Technical Documents - TARA ELECTRIC VEHICLE",
+    "title": "Technical Documents | TARA Electric Vehicles",
+    "description": "Download TARA electric vehicle technical documents, service manuals, and spec sheets for all current and previous TARA golf cart and NEV models.",
     "bodyClass": ""
   },
   "/technical-support/": {
     "file": "technical-support.html",
-    "title": "Techncal Support - TARA ELECTRIC VEHICLE",
+    "title": "Technical Support | TARA Electric Vehicles",
+    "description": "TARA electric vehicle technical support resources, troubleshooting guides, and documentation. Get help with your TARA golf cart or utility vehicle.",
     "bodyClass": ""
   },
   "/terms-and-conditions/": {
     "file": "terms-and-conditions.html",
-    "title": "Terms and Conditions - TARA ELECTRIC VEHICLE",
+    "title": "Terms and Conditions | TARA Electric Vehicles",
+    "description": "Read the TARA Neighborhood Electric Vehicles terms and conditions. Understand your rights and obligations when purchasing or using our products and services.",
     "bodyClass": ""
   },
   "/turfman-1000-utility-vehicle-product/": {
     "file": "turfman-1000-utility-vehicle-product.html",
-    "title": "Turfman 1000 Utility Vehicle  | TARA Neighborhood Electric Vehicles",
+    "title": "Turfman 1000 Utility Vehicle | TARA Electric Vehicles",
+    "description": "The TARA Turfman 1000 is a heavy-duty electric utility vehicle for large golf courses and commercial properties. View payload specs and features.",
     "bodyClass": ""
   },
   "/turfman-450-utility-vehicle-product/": {
     "file": "turfman-450-utility-vehicle-product.html",
-    "title": "Turfman 450 Utility Vehicle  | TARA Neighborhood Electric Vehicles",
+    "title": "Turfman 450 Utility Vehicle | TARA Electric Vehicles",
+    "description": "The TARA Turfman 450 electric utility vehicle is the groundskeeper's everyday partner — compact, capable, and built for course maintenance.",
     "bodyClass": ""
   },
   "/turfman-700-eec-utility-vehicle-product/": {
     "file": "turfman-700-eec-utility-vehicle-product.html",
-    "title": "Turfman 700 EEC  | TARA Neighborhood Electric Vehicles",
+    "title": "Turfman 700 EEC Utility Vehicle | TARA Electric Vehicles",
+    "description": "The TARA Turfman 700 EEC is a street-legal electric utility vehicle for golf courses and communities requiring on-road capable work transport.",
     "bodyClass": ""
   },
   "/turfman-700-utility-vehicle-product/": {
     "file": "turfman-700-utility-vehicle-product.html",
-    "title": "Turfman 700  | TARA Neighborhood Electric Vehicles",
+    "title": "Turfman 700 Utility Vehicle | TARA Electric Vehicles",
+    "description": "The TARA Turfman 700 electric utility vehicle handles bigger payloads for larger golf courses and resorts. View specs, bed options, and features.",
     "bodyClass": ""
   },
   "/varranty-terms/": {
     "file": "warranty-terms.html",
-    "title": "TARA Neighborhood Electric Vehicles Warranty Terms - TARA ELECTRIC VEHICLE",
+    "title": "Warranty Terms | TARA Electric Vehicles",
+    "description": "Read the TARA Neighborhood Electric Vehicles warranty terms and coverage details. Understand what's covered for your electric golf cart or utility vehicle.",
     "bodyClass": ""
   },
   "/vogue-2-2-product/": {
     "file": "vogue-2-2-product.html",
-    "title": "China ALL-NEW VOGUE 2+2 PASSENGER GOLF CART Manufacturers and Suppliers | TARA",
+    "title": "TARA Vogue 2+2 Electric Golf Cart | TARA Electric Vehicles",
+    "description": "The TARA Vogue 2+2 is a stylish 4-seat personal electric golf cart with premium finishes. View specs, color options, and features.",
     "bodyClass": ""
   },
   "/vogue-2-product/": {
     "file": "vogue-2-product.html",
-    "title": "China ALL-NEW VOGUE 2 PASSENGER GOLF CART Manufacturers and Suppliers | TARA",
+    "title": "TARA Vogue 2 Electric Golf Cart | TARA Electric Vehicles",
+    "description": "The TARA Vogue 2 is a stylish 2-seat personal electric golf cart with premium finishes. View specs, color options, and features for personal and resort use.",
     "bodyClass": ""
   },
   "/vogue-se2-product/": {
     "file": "vogue-se2-product.html",
-    "title": "ALL-NEW VOGUE SE2 PASSENGER GOLF CART  | TARA Neighborhood Electric Vehicles",
+    "title": "TARA Vogue SE2 Electric Golf Cart | TARA Electric Vehicles",
+    "description": "The TARA Vogue SE2 is a premium 2-seat electric golf cart with upgraded features and finishes. View specs and color options at TARA Electric Vehicles.",
     "bodyClass": ""
   },
   "/warranty-terms/": {
     "file": "warranty-terms.html",
-    "title": "TARA Neighborhood Electric Vehicles Warranty Terms - TARA ELECTRIC VEHICLE",
+    "title": "Warranty Terms | TARA Electric Vehicles",
+    "description": "Read the TARA Neighborhood Electric Vehicles warranty terms and coverage details. Understand what's covered for your electric golf cart or utility vehicle.",
     "bodyClass": ""
   },
   "/blog/spirit-pro-fleet-choice/": {
     "file": "blog__spirit-pro-fleet-choice.html",
-    "title": "Why the Spirit Pro Is Built for Golf Course Fleets - TARA ELECTRIC VEHICLES",
+    "title": "Why the Spirit Pro Is Built for Golf Course Fleets - TARA",
+    "description": "The TARA Spirit Pro is engineered for high-cycle fleet use on golf courses. Learn why course managers choose the Spirit Pro for reliability and low cost of ownership.",
     "bodyClass": ""
   },
   "/blog/spirit-plus-player-comfort/": {
     "file": "blog__spirit-plus-player-comfort.html",
-    "title": "Spirit Plus: Player Comfort as a Fleet Standard - TARA ELECTRIC VEHICLES",
+    "title": "Spirit Plus: Player Comfort as a Fleet Standard - TARA",
+    "description": "The TARA Spirit Plus brings premium player comfort to golf course fleets. Discover the features that make it a standout choice for courses focused on the player experience.",
     "bodyClass": ""
   },
   "/blog/harmony-quiet-performance/": {
     "file": "blog__harmony-quiet-performance.html",
-    "title": "HARMONY: Quiet Performance for Premium Courses - TARA ELECTRIC VEHICLES",
+    "title": "HARMONY: Quiet Performance for Premium Courses - TARA",
+    "description": "The TARA Harmony fleet golf cart delivers near-silent operation for premium golf courses. Learn how its performance and refinement set it apart from standard fleet carts.",
     "bodyClass": ""
   },
   "/blog/roadster-2-2-versatility/": {
     "file": "blog__roadster-2-2-versatility.html",
-    "title": "Roadster 2+2: One Cart, Four Seats, Endless Uses - TARA ELECTRIC VEHICLES",
+    "title": "Roadster 2+2: One Cart, Four Seats, Endless Uses - TARA",
+    "description": "The TARA Roadster 2+2 adapts to golf, resort, and community use with 4 seats in a sporty package. Discover the versatility of this popular electric golf cart.",
     "bodyClass": ""
   },
   "/blog/explorer-2-2-adventure/": {
     "file": "blog__explorer-2-2-adventure.html",
-    "title": "Explorer 2+2: Where the Cart Path Ends - TARA ELECTRIC VEHICLES",
+    "title": "Explorer 2+2: Where the Cart Path Ends - TARA",
+    "description": "The TARA Explorer 2+2 is built for off-path capability at resorts and communities. Read how this 4-seat electric cart handles terrain beyond the standard course.",
     "bodyClass": ""
   },
   "/blog/t3-2-2-personal-luxury/": {
     "file": "blog__t3-2-2-personal-luxury.html",
-    "title": "T3 2+2: Personal Transport with a Premium Feel - TARA ELECTRIC VEHICLES",
+    "title": "T3 2+2: Personal Transport with a Premium Feel - TARA",
+    "description": "The TARA T3 2+2 street-legal NEV brings a premium personal transport experience to gated communities and resorts. Explore its design and NEV credentials.",
     "bodyClass": ""
   },
   "/blog/t3-lifted-capability/": {
     "file": "blog__t3-lifted-capability.html",
-    "title": "T3 2+2 Lifted: Extra Clearance, Same Refinement - TARA ELECTRIC VEHICLES",
+    "title": "T3 2+2 Lifted: Extra Clearance, Same Refinement - TARA",
+    "description": "The TARA T3 2+2 Lifted keeps the street-legal refinement of the standard T3 and adds extra ground clearance for communities with varied terrain and rougher paths.",
     "bodyClass": ""
   },
   "/blog/turfman-450-groundskeeping/": {
     "file": "blog__turfman-450-groundskeeping.html",
-    "title": "Turfman 450: The Groundskeeper's Everyday Partner - TARA ELECTRIC VEHICLES",
+    "title": "Turfman 450: The Groundskeeper's Everyday Partner - TARA",
+    "description": "The TARA Turfman 450 is the compact, capable electric utility vehicle groundskeepers rely on daily. Learn how it improves efficiency on golf courses and large properties.",
     "bodyClass": ""
   },
   "/blog/turfman-700-workhorse/": {
     "file": "blog__turfman-700-workhorse.html",
-    "title": "Turfman 700: More Payload for Bigger Properties - TARA ELECTRIC VEHICLES",
+    "title": "Turfman 700: More Payload for Bigger Properties - TARA",
+    "description": "The TARA Turfman 700 handles bigger payloads and longer shifts on large golf courses and resort properties. Read about its utility, durability, and electric advantage.",
     "bodyClass": ""
   },
   "/blog/turfman-1000-heavy-duty/": {
     "file": "blog__turfman-1000-heavy-duty.html",
-    "title": "Turfman 1000: Heavy-Duty Electric Utility - TARA ELECTRIC VEHICLES",
+    "title": "Turfman 1000: Heavy-Duty Electric Utility - TARA",
+    "description": "The TARA Turfman 1000 is built for the heaviest utility work on large golf courses and commercial properties. Learn about its heavy-duty payload and electric reliability.",
     "bodyClass": ""
   },
   "/blog/lithium-battery-advantage/": {
     "file": "blog__lithium-battery-advantage.html",
-    "title": "The Lithium Advantage: Why Every TARA Runs Lithium - TARA ELECTRIC VEHICLES",
+    "title": "The Lithium Advantage: Why Every TARA Runs Lithium - TARA",
+    "description": "Every TARA electric golf cart and utility vehicle runs on lithium batteries. Discover why lithium outperforms lead-acid for performance, longevity, and total cost of ownership.",
     "bodyClass": ""
   },
   "/blog/choosing-right-tara/": {
     "file": "blog__choosing-right-tara.html",
-    "title": "Choosing the Right TARA: A Buyer's Guide to the Lineup - TARA ELECTRIC VEHICLES",
+    "title": "Choosing the Right TARA: A Buyer's Guide to the Lineup",
+    "description": "Not sure which TARA electric golf cart is right for you? This buyer's guide covers the full lineup — from fleet carts to street-legal NEVs — to help you decide.",
     "bodyClass": ""
   },
   "/blog/": {
     "file": "blog.html",
-    "title": "Blog - TARA ELECTRIC VEHICLES",
+    "title": "Blog | TARA Electric Vehicles",
+    "description": "The TARA Electric Vehicles blog — tips, guides, and stories about electric golf carts, NEVs, fleet management, and golf course operations.",
     "bodyClass": ""
   },
   "/financing/": {
