@@ -183,6 +183,7 @@ export default function App() {
                 <a href="/recall-information/">Recall Information</a>
                 <a href="/emergency-response-guides/">Emergency Guides</a>
                 <a href="/faqs/">FAQs</a>
+                <a href="/financing/">Financing</a>
               </div>
               <div class="tf-col">
                 <h4>Company</h4>
