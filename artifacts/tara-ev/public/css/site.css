@@ -68,8 +68,20 @@
   /* Compact header bar with a properly sized logo */
   .head-layer { padding: 6px 0 !important; }
   .head-layer .layout { display: flex; align-items: center; justify-content: center; min-height: 0 !important; }
-  .logo { margin: 0 !important; padding: 0 !important; }
-  .logo img { max-height: 44px !important; }
+  .web-head .logo { margin: 0 !important; padding: 4px 0 !important; float: none !important; text-align: center; height: auto !important; width: 100% !important; display: block !important; }
+  .web-head .logo a { display: inline-block; }
+  .web-head .logo img { max-height: 44px !important; width: auto !important; height: 44px !important; aspect-ratio: auto !important; }
+
+  /* Hamburger on the right side of the mobile top bar */
+  .mobile-head-item.mobile-head-nav { float: right; }
+
+  /* Drawer opens from the right edge, sliding toward the left */
+  .mobile-head-item .side-content-wrap {
+    left: auto !important;
+    right: -70%;
+    transition: right 0.3s ease-in-out !important;
+  }
+  .mobile-head-item .side-content-wrap.show-content-wrap { right: 0; }
 }
 
 /* ── Site-wide Call Now button ─────────────────────────── */
