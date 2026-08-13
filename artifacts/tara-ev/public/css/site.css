@@ -408,3 +408,10 @@
   margin-bottom: -40px !important; /* swallow the footer's top margin */
   padding-bottom: 60px !important;
 }
+
+/* Accordion open/close (toggle handled in jquery.min_index.js) */
+.fl-accordion .fl-accordion-item .fl-accordion-content { display: none; }
+.fl-accordion .fl-accordion-item.fl-accordion-item-active .fl-accordion-content { display: block; }
+.fl-accordion .fl-accordion-button { cursor: pointer; }
+.fl-accordion .fl-accordion-content ul { list-style: disc; padding-left: 22px; margin: 10px 0; }
+.fl-accordion .fl-accordion-content li { margin: 4px 0; }

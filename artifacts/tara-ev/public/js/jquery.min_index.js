@@ -581,3 +581,58 @@ if ('requestIdleCallback' in window) {
 } else {
   setTimeout(runNonCriticalTasks, 1500);
 }
+
+/* Accordion toggle (FAQ + product spec accordions) — delegated so it works
+   with content injected after load. Keyboard accessible: buttons get
+   role/tabindex/aria-expanded via enhancement, Enter/Space toggles. */
+(function () {
+  var uid = 0;
+  function enhance(root) {
+    (root.querySelectorAll ? root.querySelectorAll('.fl-accordion-button') : []).forEach(function (btn) {
+      if (btn.hasAttribute('data-acc-enhanced')) return;
+      btn.setAttribute('data-acc-enhanced', '1');
+      btn.setAttribute('role', 'button');
+      btn.setAttribute('tabindex', '0');
+      var item = btn.closest('.fl-accordion-item');
+      var content = item && item.querySelector('.fl-accordion-content');
+      if (content) {
+        if (!content.id) content.id = 'fl-acc-panel-' + (++uid);
+        btn.setAttribute('aria-controls', content.id);
+      }
+      btn.setAttribute('aria-expanded', item && item.classList.contains('fl-accordion-item-active') ? 'true' : 'false');
+    });
+  }
+  function setState(item, open) {
+    item.classList.toggle('fl-accordion-item-active', open);
+    var ic = item.querySelector('.fl-accordion-button-icon');
+    if (ic) { ic.classList.toggle('fa-minus', open); ic.classList.toggle('fa-plus', !open); }
+    var b = item.querySelector('.fl-accordion-button');
+    if (b) b.setAttribute('aria-expanded', open ? 'true' : 'false');
+  }
+  function toggleFrom(target) {
+    var btn = target.closest && target.closest('.fl-accordion-button');
+    if (!btn) return false;
+    var item = btn.closest('.fl-accordion-item');
+    if (!item) return false;
+    var acc = item.closest('.fl-accordion');
+    var isOpen = item.classList.contains('fl-accordion-item-active');
+    if (acc && acc.classList.contains('fl-accordion-collapse')) {
+      acc.querySelectorAll('.fl-accordion-item-active').forEach(function (other) { setState(other, false); });
+    }
+    if (!isOpen) setState(item, true); else setState(item, false);
+    return true;
+  }
+  document.addEventListener('click', function (e) { toggleFrom(e.target); });
+  document.addEventListener('keydown', function (e) {
+    if (e.key !== 'Enter' && e.key !== ' ' && e.key !== 'Spacebar') return;
+    if (e.target.closest && e.target.closest('.fl-accordion-button')) {
+      if (toggleFrom(e.target)) e.preventDefault();
+    }
+  });
+  var mo = new MutationObserver(function () { enhance(document); });
+  function start() {
+    enhance(document);
+    mo.observe(document.body, { childList: true, subtree: true });
+  }
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', start); else start();
+})();
