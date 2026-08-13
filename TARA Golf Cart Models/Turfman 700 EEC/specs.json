@@ -1,0 +1,145 @@
+{
+  "model": "Turfman 700 EEC",
+  "page_title": "Turfman 700 EEC – Street-Legal Electric Utility Vehicle",
+  "category": "Electric Utility Vehicle",
+  "description": "Turfman 700 with EEC certification. This vehicle meets the EU regulations on safety, environmental protection, noise and other aspects, and can be legally driven on the road in Europe. The Turfman 700 EEC is equipped with a large-capacity cargo box to meet the needs of various working conditions such as golf course maintenance, green maintenance and logistics supply.",
+  "schema_org": {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": "TARA Turfman 700 EEC",
+    "category": "Electric Utility Vehicle",
+    "description": "TARA Turfman 700 EEC — EU street legal lithium-powered electric utility vehicle with cargo box.",
+    "image": "https://taranev.com/images/TURFMAN-700-EEC.webp",
+    "url": "https://taranev.com/turfman-700-eec-utility-vehicle-product/",
+    "brand": {
+      "@type": "Brand",
+      "name": "TARA"
+    },
+    "additionalProperty": [
+      {
+        "@type": "PropertyValue",
+        "name": "Dimensions (mm)",
+        "value": "3000x1400x2000"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Cargo Box (mm)",
+        "value": "1100x990x275"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Battery",
+        "value": "Lithium battery"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Motor",
+        "value": "48V 6.3KW AC motor"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Controller",
+        "value": "400 AMP AC Controller"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Max Speed",
+        "value": "30 km/h"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Charger",
+        "value": "25A on-board charger"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Street Legal",
+        "value": "EU street legal"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Suspension",
+        "value": "Independent suspension with four arms"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Chassis",
+        "value": "Electrophoresis chassis"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Body",
+        "value": "TPO injection moulding front and rear body"
+      }
+    ]
+  },
+  "colors": [
+    {
+      "name": "ARCTIC GRAY",
+      "swatch_image": "single_icon_32.webp",
+      "variation_image": "turfman700-eecarctic-gray1.webp"
+    },
+    {
+      "name": "BLACK SAPPHIRE",
+      "swatch_image": "single_icon_41.webp",
+      "variation_image": "turfman700-eecBLACK-SAPPHIRE1.webp"
+    },
+    {
+      "name": "FLAMENCO RED ",
+      "swatch_image": "single_icon_61.webp",
+      "variation_image": "turfman700-eecFlamenco-Red1.webp"
+    },
+    {
+      "name": "MEDITERRANEAN BLUE",
+      "swatch_image": "single_icon_5.webp",
+      "variation_image": "turfman700-eecMEDITERRANEAN-BLUE1.webp"
+    },
+    {
+      "name": " MINERAL WHITE",
+      "swatch_image": "single_icon_12.webp",
+      "variation_image": "turfman700-eecMineral-White1.webp"
+    },
+    {
+      "name": "PORTIMAO BLUE",
+      "swatch_image": "single_icon_22.webp",
+      "variation_image": "turfman700-eecPORTIMAO-BLUE-1.webp"
+    }
+  ],
+  "spec_sections": [
+    {
+      "section": "DIMENSIONS",
+      "content": "Turfman 700 EEC Dimension (mm): 3000×1400×2000. Cargo Box Dimension (mm): 1100x990x275."
+    },
+    {
+      "section": "POWER",
+      "content": "Lithium battery 48V 6.3KW AC motor 400 AMP AC Controller 30km/h max speed 25A on-board charger"
+    },
+    {
+      "section": "FEATURES",
+      "content": "EU street legal Luxury seats Aluminum alloy wheel trim Dashboard with color-matching cupholder insert Luxury steering wheel Cargo Box Rearview mirror Horn USB charging ports"
+    },
+    {
+      "section": "ADDITIONAL FEATURES",
+      "content": "Windshield LED headlights and taillights Independent suspension with four arms"
+    },
+    {
+      "section": "BODY & CHASSIS",
+      "content": "Electrophoresis Chasis TPO injection moulding front and rear body"
+    }
+  ],
+  "gallery_images": [
+    "turfman-700-eec-banner11.webp",
+    "turfman-700-eec-banner21.webp",
+    "turfman-700-eec-banner3.webp"
+  ],
+  "detail_images": [
+    "48afbefe-led-light.jpg",
+    "5c49aaa3-GAS-SPRING1.png",
+    "628e4c79-TIRE2.png",
+    "98ed9357-Taillight3.png",
+    "f60fcbf3-Windshield.png",
+    "fc9a666d-APPROVED-SWITCHES.png"
+  ],
+  "hero_image": "TURFMAN-700-EEC.webp",
+  "source_page": "turfman-700-eec-utility-vehicle-product.html"
+}

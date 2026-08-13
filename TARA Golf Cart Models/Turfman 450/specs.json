@@ -1,0 +1,140 @@
+{
+  "model": "Turfman 450",
+  "page_title": "Turfman 450 – Compact Electric Utility Vehicle",
+  "category": "Electric Utility Vehicle",
+  "description": "With its impressive load capacity, durable construction, and efficient performance, the Turfman 450 ensures reliability and ease of use, even on challenging terrain. Its robust cargo box is seamlessly integrated at the rear, making it a top choice for those who require efficiency and performance on the job.",
+  "schema_org": {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": "TARA Turfman 450",
+    "category": "Electric Utility Vehicle",
+    "description": "TARA Turfman 450 lithium-powered electric utility vehicle with cargo box and 48V 6.3KW AC motor.",
+    "image": "https://taranev.com/images/turfman-450.webp",
+    "url": "https://taranev.com/turfman-450-utility-vehicle-product/",
+    "brand": {
+      "@type": "Brand",
+      "name": "TARA"
+    },
+    "additionalProperty": [
+      {
+        "@type": "PropertyValue",
+        "name": "Dimensions (mm)",
+        "value": "2700x1400x1830"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Cargo Box (mm)",
+        "value": "1100x770x275"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Battery",
+        "value": "Lithium battery"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Motor",
+        "value": "48V 6.3KW AC motor"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Controller",
+        "value": "400 AMP AC Controller"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Max Speed",
+        "value": "30 km/h"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Charger",
+        "value": "25A on-board charger"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Suspension",
+        "value": "Independent suspension with four arms"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Chassis",
+        "value": "Electrophoresis chassis"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Body",
+        "value": "TPO injection moulding front and rear body"
+      }
+    ]
+  },
+  "colors": [
+    {
+      "name": "ARCTIC GRAY",
+      "swatch_image": "single_icon_32.webp",
+      "variation_image": "turfman450arctic-gray3.webp"
+    },
+    {
+      "name": "BLACK SAPPHIRE",
+      "swatch_image": "single_icon_41.webp",
+      "variation_image": "turfman450BLACK-SAPPHIRE.webp"
+    },
+    {
+      "name": "FLAMENCO RED ",
+      "swatch_image": "single_icon_61.webp",
+      "variation_image": "turfman450Flamenco-Red.webp"
+    },
+    {
+      "name": "MEDITERRANEAN BLUE",
+      "swatch_image": "single_icon_5.webp",
+      "variation_image": "turfman450MEDITERRANEAN-BLUE.webp"
+    },
+    {
+      "name": " MINERAL WHITE",
+      "swatch_image": "single_icon_12.webp",
+      "variation_image": "turfman450Mineral-White.webp"
+    },
+    {
+      "name": "PORTIMAO BLUE",
+      "swatch_image": "single_icon_22.webp",
+      "variation_image": "turfman450PORTIMAO-BLUE-.webp"
+    }
+  ],
+  "spec_sections": [
+    {
+      "section": "DIMENSIONS",
+      "content": "Turfman 450 Dimension (mm): 2700x1400x1830. Cargo Box Dimension (mm): 1100x770x275."
+    },
+    {
+      "section": "POWER",
+      "content": "Lithium battery 48V 6.3KW AC motor 400 AMP AC Controller 30km/h max speed 25A on-board charger"
+    },
+    {
+      "section": "FEATURES",
+      "content": "Luxury seats Aluminum alloy wheel trim Dashboard with color-matching cupholder insert Luxury steering wheel Cargo box Rearview mirror Horn USB charging ports"
+    },
+    {
+      "section": "ADDITIONAL FEATURES",
+      "content": "Foldable windshield LED headlights and taillights Independent suspension with four arms"
+    },
+    {
+      "section": "BODY & CHASSIS",
+      "content": "Electrophoresis Chasis TPO injection moulding front and rear body"
+    }
+  ],
+  "gallery_images": [
+    "turfman-450-banner1.webp",
+    "turfman-450-banner2.webp",
+    "turfman-450-banner3.webp"
+  ],
+  "detail_images": [
+    "2af450ed-light.png",
+    "7045d8d8-Dashboard.jpg",
+    "889aaf96-seat.png",
+    "9d9484e4-Cargo-box.png",
+    "c119eb6c-TIRE.png",
+    "cca961c7-Taillight.png"
+  ],
+  "hero_image": "turfman-450.webp",
+  "source_page": "turfman-450-utility-vehicle-product.html"
+}

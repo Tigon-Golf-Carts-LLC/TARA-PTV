@@ -1,0 +1,17 @@
+/* Roadster 2+2 — color picker styles. Swatch thumbnails + variation image switching. */
+.pro-color-list{display:flex;gap:14px;list-style:none;padding:0;margin:0;flex-wrap:wrap}
+.pro-color-list li{cursor:pointer;text-align:center;font-size:12px;letter-spacing:.5px}
+.pro-color-list li img{width:44px;height:44px;border-radius:50%;border:2px solid transparent;object-fit:cover;display:block;margin:0 auto 6px}
+.pro-color-list li.active img{border-color:#e8b34b}
+/* MEDITERRANEAN BLUE: swatch image images/single_icon_5.webp → shows images/2+2-pass-golf-cart-color-MEDITERRANEAN-BLUE1.webp */
+.color-mediterranean-blue .pro-main-image{content:url("images/2+2-pass-golf-cart-color-MEDITERRANEAN-BLUE1.webp")}
+/* ARCTIC GRAY: swatch image images/single_icon_3.webp → shows images/2+2-pass-golf-cart-color-ARCTIC-GRAY1.webp */
+.color-arctic-gray .pro-main-image{content:url("images/2+2-pass-golf-cart-color-ARCTIC-GRAY1.webp")}
+/* FLAMENCO RED: swatch image images/single_icon_6.webp → shows images/2+2-pass-golf-cart-color-FLAMENCO-RED1.webp */
+.color-flamenco-red .pro-main-image{content:url("images/2+2-pass-golf-cart-color-FLAMENCO-RED1.webp")}
+/* BLACK SAPPHIRE: swatch image images/single_icon_4.webp → shows images/2+2-pass-golf-cart-color-BLACK-SAPPHIRE1.webp */
+.color-black-sapphire .pro-main-image{content:url("images/2+2-pass-golf-cart-color-BLACK-SAPPHIRE1.webp")}
+/* MINERAL WHITE: swatch image images/single_icon_1.webp → shows images/2+2-pass-golf-cart-color-MINERAL-WHITE1.webp */
+.color-mineral-white .pro-main-image{content:url("images/2+2-pass-golf-cart-color-MINERAL-WHITE1.webp")}
+/* SKY BLUE: swatch image images/sky-blue-1.webp → shows images/2+2-pass-golf-cart-color-sky-blue.webp */
+.color-sky-blue .pro-main-image{content:url("images/2+2-pass-golf-cart-color-sky-blue.webp")}

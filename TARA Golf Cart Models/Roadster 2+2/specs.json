@@ -1,0 +1,130 @@
+{
+  "model": "Roadster 2+2",
+  "page_title": "Roadster 2+2 – Stylish Electric Golf Cart",
+  "category": "Electric Golf Cart",
+  "description": "Tara Roadster 2+2 enhances both your golf game and neighborhood cruise. This golf and leisure cart comes standard with premium features — like luxury seats — designed to help you relax and enjoy every ride. Whether you’re navigating the course or coasting through the community, its neighborhood-friendly design delivers comfort, style, and versatility.",
+  "schema_org": {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": "TARA Roadster 2+2",
+    "category": "Electric Golf Cart",
+    "description": "TARA Roadster 2+2 lithium-powered golf cart with 48V 6.3KW motor with EM brake and luxury seating.",
+    "image": "https://taranev.com/images/roadster-2+24.webp",
+    "url": "https://taranev.com/roadster-2-2-golf-cart-product/",
+    "brand": {
+      "@type": "Brand",
+      "name": "TARA"
+    },
+    "additionalProperty": [
+      {
+        "@type": "PropertyValue",
+        "name": "Dimensions (mm)",
+        "value": "2975x1410(rearview mirror)x1985"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Battery",
+        "value": "Lithium battery"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Motor",
+        "value": "48V 6.3KW with EM brake"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Controller",
+        "value": "400 AMP AC Controller"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Max Speed",
+        "value": "30 km/h"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Seats",
+        "value": "Luxury seats"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Suspension",
+        "value": "Front: double wishbone independent; Rear: leaf spring"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Body",
+        "value": "TPO injection moulding front and rear body"
+      }
+    ]
+  },
+  "colors": [
+    {
+      "name": "MEDITERRANEAN BLUE",
+      "swatch_image": "single_icon_5.webp",
+      "variation_image": "2+2-pass-golf-cart-color-MEDITERRANEAN-BLUE1.webp"
+    },
+    {
+      "name": "ARCTIC GRAY",
+      "swatch_image": "single_icon_3.webp",
+      "variation_image": "2+2-pass-golf-cart-color-ARCTIC-GRAY1.webp"
+    },
+    {
+      "name": "FLAMENCO RED",
+      "swatch_image": "single_icon_6.webp",
+      "variation_image": "2+2-pass-golf-cart-color-FLAMENCO-RED1.webp"
+    },
+    {
+      "name": "BLACK SAPPHIRE",
+      "swatch_image": "single_icon_4.webp",
+      "variation_image": "2+2-pass-golf-cart-color-BLACK-SAPPHIRE1.webp"
+    },
+    {
+      "name": "MINERAL WHITE",
+      "swatch_image": "single_icon_1.webp",
+      "variation_image": "2+2-pass-golf-cart-color-MINERAL-WHITE1.webp"
+    },
+    {
+      "name": "SKY BLUE",
+      "swatch_image": "sky-blue-1.webp",
+      "variation_image": "2+2-pass-golf-cart-color-sky-blue.webp"
+    }
+  ],
+  "spec_sections": [
+    {
+      "section": "DIMENSIONS",
+      "content": "ROADSTER 2+2 Dimensions (mm): 2975x1410(rearview mirror)x1985."
+    },
+    {
+      "section": "POWER",
+      "content": "Lithium battery 48V 6.3KW with EM brake 400 AMP AC Controller 30km/h max speed"
+    },
+    {
+      "section": "FEATURES",
+      "content": "Luxury Seats Dashboard with cupholder insert Luxury Steering Wheel Rearview Mirror Horn USB Charging Ports"
+    },
+    {
+      "section": "ADDITIONAL FEATURES",
+      "content": "Foldable windshield Impact-resistant injection mold bodies Suspension: Front: double wishbone independent suspension. Rear: leaf spring suspension"
+    },
+    {
+      "section": "BODY & CHASSIS",
+      "content": "TPO injection moulding front and rear body."
+    }
+  ],
+  "gallery_images": [
+    "Roadster-2+2-banner13.webp",
+    "Roadster-2+2-banner21.webp",
+    "Roadster-2+2-banner31.webp"
+  ],
+  "detail_images": [
+    "9fcdf224-TIRE.jpg",
+    "a1ad673f-CLIMATE-LUXURY-SEAT1.jpg",
+    "bab78858-FLIP-FLOP-REAR-SEAT-STORAGE-KIT1.jpg",
+    "c0d03a12-carplay1.jpg",
+    "c2318ee3-CONTROL-SWITCHES.jpg",
+    "d1e40616-CUBOID-SOUND-BAR.jpg"
+  ],
+  "hero_image": "roadster-2+24.webp",
+  "source_page": "roadster-2-2-golf-cart-product.html"
+}

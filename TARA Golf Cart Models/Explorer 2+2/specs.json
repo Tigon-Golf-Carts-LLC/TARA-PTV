@@ -1,0 +1,135 @@
+{
+  "model": "Explorer 2+2",
+  "page_title": "Explorer 2+2 – Versatile Electric Golf Cart",
+  "category": "Electric Golf Cart",
+  "description": "Tara Explorer 2+2 is a lifted golf cart designed for those who need more than just smooth fairways. Featuring a raised chassis and off-road tread tires, this personal golf cart handles varied terrain with ease while delivering quiet, energy-efficient performance. From course paths to community trails, it offers a stable, comfortable ride with elevated style and utility.",
+  "schema_org": {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": "TARA Explorer 2+2",
+    "category": "Electric Golf Cart",
+    "description": "TARA Explorer 2+2 lithium-powered golf cart with 48V 6.3kW motor, 14\" aluminum wheels, and off-road tires.",
+    "image": "https://taranev.com/images/explorer-2+22.webp",
+    "url": "https://taranev.com/explorer-2-2-golf-cart-product/",
+    "brand": {
+      "@type": "Brand",
+      "name": "TARA"
+    },
+    "additionalProperty": [
+      {
+        "@type": "PropertyValue",
+        "name": "Dimensions (mm)",
+        "value": "3060x1410(rearview mirror)x2100"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Battery",
+        "value": "48V Lithium battery"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Motor",
+        "value": "48V 6.3kW Motor with EM brake"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Controller",
+        "value": "400A AC Controller"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Max Speed",
+        "value": "30 km/h"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Charger",
+        "value": "25A on-board charger"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Wheels/Tires",
+        "value": "14\" Aluminum Wheel, 22x10-14 silent tire with off-road thread"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Suspension",
+        "value": "Front: double wishbone independent; Rear: leaf spring"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Body",
+        "value": "TPO injection moulding front and rear body"
+      }
+    ]
+  },
+  "colors": [
+    {
+      "name": "MEDITERRANEAN BLUE",
+      "swatch_image": "single_icon_5.webp",
+      "variation_image": "Tara-Explorer-4-Seater-Golf-Cart-MEDITERRANEAN-BLUE.webp"
+    },
+    {
+      "name": "ARCTIC GRAY",
+      "swatch_image": "single_icon_3.webp",
+      "variation_image": "Tara-Explorer-4-Seater-Golf-Cart-ARCTIC-GRAY.webp"
+    },
+    {
+      "name": "FLAMENCO RED",
+      "swatch_image": "single_icon_6.webp",
+      "variation_image": "Tara-Explorer-4-Seater-Golf-Cart-FLAMENCO-RED.webp"
+    },
+    {
+      "name": "BLACK SAPPHIRE",
+      "swatch_image": "single_icon_4.webp",
+      "variation_image": "Tara-Explorer-4-Seater-Golf-Cart-BLACK-SAPPHIRE.webp"
+    },
+    {
+      "name": "MINERAL WHITE",
+      "swatch_image": "single_icon_1.webp",
+      "variation_image": "Tara-Explorer-4-Seater-Golf-Cart-MINERAL-WHITE.webp"
+    },
+    {
+      "name": "SKY BLUE",
+      "swatch_image": "sky-blue-1.webp",
+      "variation_image": "Tara-Explorer-4-Seater-Golf-Cart-sky-blue.webp"
+    }
+  ],
+  "spec_sections": [
+    {
+      "section": "DIMENSIONS",
+      "content": "EXPLORER 2+2 Dimensions (mm): 3060x1410(rearview mirror)x2100."
+    },
+    {
+      "section": "POWER",
+      "content": "48V Lithium battery 48V 6.3kW Motor with EM brake 400A AC Controller 30km/h max speed 25A on-board charger"
+    },
+    {
+      "section": "FEATURES",
+      "content": "Luxury Seats Dashboard with Cupholder Insert Luxury Steering Wheel Rearview Mirror Horn USB Charging Ports 14\" Aluminum Wheel 22x10-14 Silent Tire with Off-road Thread"
+    },
+    {
+      "section": "ADDITIONAL FEATURES",
+      "content": "Foldable windshield Impact-resistant injection mold bodies Suspension: Front: double wishbone independent suspension. Rear: leaf spring suspension"
+    },
+    {
+      "section": "BODY & CHASSIS",
+      "content": "TPO injection moulding front and rear body."
+    }
+  ],
+  "gallery_images": [
+    "Explorer-2+2-banner11.webp",
+    "Explorer-2+2-banner21.webp",
+    "Explorer-2+2-banner3-11.webp"
+  ],
+  "detail_images": [
+    "1125c3d8-REAR-HANDRAIL.png",
+    "2d089420-TIRE1.jpg",
+    "c0d03a12-carplay1.jpg",
+    "dcc345f1-CUBOID-SOUND-BAR1.jpg",
+    "eadc7d69-FRONT-BUMPER-AND-ALL-LED-LIGHTS.jpg",
+    "fba4b4b5-CLIMATE-LUXURY-SEAT5.jpg"
+  ],
+  "hero_image": "explorer-2+22.webp",
+  "source_page": "explorer-2-2-golf-cart-product.html"
+}

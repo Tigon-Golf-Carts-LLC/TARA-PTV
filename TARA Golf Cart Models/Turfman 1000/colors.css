@@ -1,0 +1,17 @@
+/* Turfman 1000 — color picker styles. Swatch thumbnails + variation image switching. */
+.pro-color-list{display:flex;gap:14px;list-style:none;padding:0;margin:0;flex-wrap:wrap}
+.pro-color-list li{cursor:pointer;text-align:center;font-size:12px;letter-spacing:.5px}
+.pro-color-list li img{width:44px;height:44px;border-radius:50%;border:2px solid transparent;object-fit:cover;display:block;margin:0 auto 6px}
+.pro-color-list li.active img{border-color:#e8b34b}
+/* ARCTIC GRAY: swatch image images/single_icon_32.webp → shows images/turfman-1000arctic-gray.webp */
+.color-arctic-gray .pro-main-image{content:url("images/turfman-1000arctic-gray.webp")}
+/* BLACK SAPPHIRE: swatch image images/single_icon_41.webp → shows images/turfman-1000BLACK-SAPPHIRE.webp */
+.color-black-sapphire .pro-main-image{content:url("images/turfman-1000BLACK-SAPPHIRE.webp")}
+/* FLAMENCO RED : swatch image images/single_icon_61.webp → shows images/turfman-1000Flamenco-Red.webp */
+.color-flamenco-red .pro-main-image{content:url("images/turfman-1000Flamenco-Red.webp")}
+/* MEDITERRANEAN BLUE: swatch image images/single_icon_5.webp → shows images/turfman-1000MEDITERRANEAN-BLUE.webp */
+.color-mediterranean-blue .pro-main-image{content:url("images/turfman-1000MEDITERRANEAN-BLUE.webp")}
+/*  MINERAL WHITE: swatch image images/single_icon_12.webp → shows images/turfman-1000Mineral-White.webp */
+.color-mineral-white .pro-main-image{content:url("images/turfman-1000Mineral-White.webp")}
+/* PORTIMAO BLUE: swatch image images/single_icon_22.webp → shows images/turfman-1000PORTIMAO-BLUE.webp */
+.color-portimao-blue .pro-main-image{content:url("images/turfman-1000PORTIMAO-BLUE.webp")}

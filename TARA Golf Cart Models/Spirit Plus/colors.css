@@ -1,0 +1,15 @@
+/* Spirit Plus — color picker styles. Swatch thumbnails + variation image switching. */
+.pro-color-list{display:flex;gap:14px;list-style:none;padding:0;margin:0;flex-wrap:wrap}
+.pro-color-list li{cursor:pointer;text-align:center;font-size:12px;letter-spacing:.5px}
+.pro-color-list li img{width:44px;height:44px;border-radius:50%;border:2px solid transparent;object-fit:cover;display:block;margin:0 auto 6px}
+.pro-color-list li.active img{border-color:#e8b34b}
+/* MINERAL WHITE: swatch image images/single_icon_11.webp → shows images/Tara-Spirit-Plus-2-Seater-Fleet-Golf-Cart-white.webp */
+.color-mineral-white .pro-main-image{content:url("images/Tara-Spirit-Plus-2-Seater-Fleet-Golf-Cart-white.webp")}
+/* GREEN: swatch image images/GREEN.webp → shows images/Tara-Spirit-Plus-2-Seater-Fleet-Golf-Cart-green.webp */
+.color-green .pro-main-image{content:url("images/Tara-Spirit-Plus-2-Seater-Fleet-Golf-Cart-green.webp")}
+/* PORTIMAO BLUE: swatch image images/single_icon_21.webp → shows images/Tara-Spirit-Plus-2-Seater-Fleet-Golf-Cart-PORTIMAO-BLUE-.webp */
+.color-portimao-blue .pro-main-image{content:url("images/Tara-Spirit-Plus-2-Seater-Fleet-Golf-Cart-PORTIMAO-BLUE-.webp")}
+/* ARCTIC GRAY: swatch image images/single_icon_31.webp → shows images/Tara-Spirit-Plus-2-Seater-Fleet-Golf-Cart-ARCTIC-GRAY.webp */
+.color-arctic-gray .pro-main-image{content:url("images/Tara-Spirit-Plus-2-Seater-Fleet-Golf-Cart-ARCTIC-GRAY.webp")}
+/* BEIGE: swatch image images/BEIGE.webp → shows images/Tara-Spirit-Plus-2-Seater-Fleet-Golf-Cart-beige.webp */
+.color-beige .pro-main-image{content:url("images/Tara-Spirit-Plus-2-Seater-Fleet-Golf-Cart-beige.webp")}

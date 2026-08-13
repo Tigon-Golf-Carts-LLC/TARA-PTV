@@ -1,0 +1,135 @@
+{
+  "model": "Spirit Plus",
+  "page_title": "Spirit Plus – Premium Electric Golf Cart for Golf Courses",
+  "category": "Electric Golf Cart",
+  "description": "Experience a luxury electric golf cart built for today’s golf course needs — smooth, quiet, and packed with value. Designed for fleet use, this golf course cart offers premium comfort, stylish design, and extra entertainment features, delivering a high-end feel at a high-value golf car price.",
+  "schema_org": {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": "TARA Spirit Plus",
+    "category": "Electric Golf Cart",
+    "description": "TARA Spirit Plus lithium-powered fleet golf cart with 48V 6.3KW AC motor, 2 luxury seats, and premium golf course features.",
+    "image": "https://taranev.com/images/spirit-plus-250626.webp",
+    "url": "https://taranev.com/spirit-plus-fleet-golf-cart-product/",
+    "brand": {
+      "@type": "Brand",
+      "name": "TARA"
+    },
+    "additionalProperty": [
+      {
+        "@type": "PropertyValue",
+        "name": "Dimensions (mm)",
+        "value": "2530x1220x1956"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Battery",
+        "value": "Lithium battery"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Motor",
+        "value": "48V 6.3KW AC motor"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Controller",
+        "value": "400 AMP AC Controller"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Max Speed",
+        "value": "20 km/h"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Charger",
+        "value": "17A off-board charger"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Seats",
+        "value": "2 luxury seats"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Wheels/Tires",
+        "value": "12\" aluminum wheel, 205/50R12 radial tire"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Suspension",
+        "value": "Front: double wishbone independent; Rear: leaf spring"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Body",
+        "value": "TPO injection moulding front and rear body"
+      }
+    ]
+  },
+  "colors": [
+    {
+      "name": "MINERAL WHITE",
+      "swatch_image": "single_icon_11.webp",
+      "variation_image": "Tara-Spirit-Plus-2-Seater-Fleet-Golf-Cart-white.webp"
+    },
+    {
+      "name": "GREEN",
+      "swatch_image": "GREEN.webp",
+      "variation_image": "Tara-Spirit-Plus-2-Seater-Fleet-Golf-Cart-green.webp"
+    },
+    {
+      "name": "PORTIMAO BLUE",
+      "swatch_image": "single_icon_21.webp",
+      "variation_image": "Tara-Spirit-Plus-2-Seater-Fleet-Golf-Cart-PORTIMAO-BLUE-.webp"
+    },
+    {
+      "name": "ARCTIC GRAY",
+      "swatch_image": "single_icon_31.webp",
+      "variation_image": "Tara-Spirit-Plus-2-Seater-Fleet-Golf-Cart-ARCTIC-GRAY.webp"
+    },
+    {
+      "name": "BEIGE",
+      "swatch_image": "BEIGE.webp",
+      "variation_image": "Tara-Spirit-Plus-2-Seater-Fleet-Golf-Cart-beige.webp"
+    }
+  ],
+  "spec_sections": [
+    {
+      "section": "DIMENSIONS",
+      "content": "SPIRIT PLUS Dimension (mm): 2530x1220x1956."
+    },
+    {
+      "section": "POWER",
+      "content": "Lithium battery 48V 6.3KW AC motor 400 AMP AC Controller 20km/h max speed 17A off-board charger"
+    },
+    {
+      "section": "FEATURES",
+      "content": "2 luxury seats 12\" aluminum wheel/205/50R12 radial tire Luxury steering wheel Golf bag holder & sweater basket Rearview mirror Horn USB charging ports Ice bucket/sand bottle/ball washer/golf bag cover"
+    },
+    {
+      "section": "ADDITIONAL FEATURES",
+      "content": "Foldable windshield Impact-resistant injection mold bodies Suspension: Front: double wishbone independent suspension. Rear: leaf spring suspension"
+    },
+    {
+      "section": "BODY & CHASSIS",
+      "content": "TPO injection moulding front and rear body."
+    }
+  ],
+  "gallery_images": [
+    "spirit-plus-banner16.webp",
+    "spirit-plus-banner24.webp",
+    "spirit-plus-banner33.webp"
+  ],
+  "detail_images": [
+    "2782e486-MULTI-FUNCTIONAL-DASHBOARD2.jpg",
+    "3cc66baa-DESIGNED-FOR-GOLFING3.png",
+    "4372fa1a-CLIMATE-LUXURY-SEAT1.png",
+    "4d664f84-COMFORT-GRIP-STEERING-WHEEL3.jpg",
+    "8764e3c3-detail-r.jpg",
+    "dcc345f1-CUBOID-SOUND-BAR1.jpg"
+  ],
+  "hero_image": "spirit-plus-250626.webp",
+  "source_page": "spirit-plus-fleet-golf-cart-product.html"
+}

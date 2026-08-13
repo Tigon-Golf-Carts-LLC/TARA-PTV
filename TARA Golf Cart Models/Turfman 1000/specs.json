@@ -1,0 +1,140 @@
+{
+  "model": "Turfman 1000",
+  "page_title": "Turfman 1000 – High-Capacity Utility Vehicle",
+  "category": "Electric Utility Vehicle",
+  "description": "Turfman 1000 boasts an impressive towing capacity, ample storage space, and a durable construction that can handle the rigors of golf courses, sports fields, and large estates. Its intuitive design and user-friendly features make it the perfect solution for groundskeepers and maintenance teams looking to streamline their operations and get the job done faster, all while prioritizing sustainability.",
+  "schema_org": {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": "TARA Turfman 1000",
+    "category": "Electric Utility Vehicle",
+    "description": "TARA Turfman 1000 lithium-powered electric utility vehicle with extra-large cargo box.",
+    "image": "https://taranev.com/images/TURFMAN-1000.webp",
+    "url": "https://taranev.com/turfman-1000-utility-vehicle-product/",
+    "brand": {
+      "@type": "Brand",
+      "name": "TARA"
+    },
+    "additionalProperty": [
+      {
+        "@type": "PropertyValue",
+        "name": "Dimensions (mm)",
+        "value": "3330x1400x1830"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Cargo Box (mm)",
+        "value": "1650x1100x275"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Battery",
+        "value": "Lithium battery"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Motor",
+        "value": "48V 6.3KW AC motor"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Controller",
+        "value": "400 AMP AC Controller"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Max Speed",
+        "value": "30 km/h"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Charger",
+        "value": "25A on-board charger"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Suspension",
+        "value": "Independent suspension with four arms"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Chassis",
+        "value": "Electrophoresis chassis"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Body",
+        "value": "TPO injection moulding front and rear body"
+      }
+    ]
+  },
+  "colors": [
+    {
+      "name": "ARCTIC GRAY",
+      "swatch_image": "single_icon_32.webp",
+      "variation_image": "turfman-1000arctic-gray.webp"
+    },
+    {
+      "name": "BLACK SAPPHIRE",
+      "swatch_image": "single_icon_41.webp",
+      "variation_image": "turfman-1000BLACK-SAPPHIRE.webp"
+    },
+    {
+      "name": "FLAMENCO RED ",
+      "swatch_image": "single_icon_61.webp",
+      "variation_image": "turfman-1000Flamenco-Red.webp"
+    },
+    {
+      "name": "MEDITERRANEAN BLUE",
+      "swatch_image": "single_icon_5.webp",
+      "variation_image": "turfman-1000MEDITERRANEAN-BLUE.webp"
+    },
+    {
+      "name": " MINERAL WHITE",
+      "swatch_image": "single_icon_12.webp",
+      "variation_image": "turfman-1000Mineral-White.webp"
+    },
+    {
+      "name": "PORTIMAO BLUE",
+      "swatch_image": "single_icon_22.webp",
+      "variation_image": "turfman-1000PORTIMAO-BLUE.webp"
+    }
+  ],
+  "spec_sections": [
+    {
+      "section": "DIMENSIONS",
+      "content": "Turfman 1000 Dimension (mm): 3330x1400x1830. Cargo Box Dimension (mm): 1650x1100x275."
+    },
+    {
+      "section": "POWER",
+      "content": "Lithium battery 48V 6.3KW AC motor 400 AMP AC Controller 30km/h max speed 25A on-board charger"
+    },
+    {
+      "section": "FEATURES",
+      "content": "Luxury seats Aluminum alloy wheel trim Dashboard with color-matching cupholder insert Luxury steering wheel Cargo box Rearview mirror Horn USB charging ports"
+    },
+    {
+      "section": "ADDITIONAL FEATURES",
+      "content": "Foldable windshield LED headlights and taillights Independent suspension with four arms"
+    },
+    {
+      "section": "BODY & CHASSIS",
+      "content": "Electrophoresis Chasis TPO injection moulding front and rear body"
+    }
+  ],
+  "gallery_images": [
+    "turfman-700-banner11.webp",
+    "turfman-700-banner21.webp",
+    "turfman-700-banner31.webp"
+  ],
+  "detail_images": [
+    "0147610a-seat2.png",
+    "1d7fad7a-TOGGLE-CLAMP1.png",
+    "2bfc0a68-Dashboard2.jpg",
+    "7a215f8e-CARGO-BOX.png",
+    "a5967c3e-TIRE3.png",
+    "d1ba7d75-led-light.png"
+  ],
+  "hero_image": "TURFMAN-1000.webp",
+  "source_page": "turfman-1000-utility-vehicle-product.html"
+}

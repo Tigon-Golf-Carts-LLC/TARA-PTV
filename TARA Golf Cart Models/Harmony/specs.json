@@ -1,0 +1,135 @@
+{
+  "model": "Harmony",
+  "page_title": "Harmony – Electric Golf Cart with Caddie Stand for Golf Courses",
+  "category": "Electric Golf Cart",
+  "description": "Tara Harmony is a fusion of luxury and efficiency — a premium electric golf cart designed for comfort and durability. With easy-to-clean all-weather seats, a tough injection-molded canopy, and stylish 8-inch iron wheels, and an adjustable steering wheel for smooth handling, Tara Harmony is a standout golf buggy for golf courses seeking both function and refined design.",
+  "schema_org": {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": "TARA Harmony",
+    "category": "Electric Golf Cart",
+    "description": "TARA Harmony lithium-powered fleet golf cart with 48V 4KW motor with EM brake and 2 luxury seats.",
+    "image": "https://taranev.com/images/harmony250626.webp",
+    "url": "https://taranev.com/harmony-fleet-golf-cart-product/",
+    "brand": {
+      "@type": "Brand",
+      "name": "TARA"
+    },
+    "additionalProperty": [
+      {
+        "@type": "PropertyValue",
+        "name": "Dimensions (mm)",
+        "value": "2750x1220x1870"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Battery",
+        "value": "48V Lithium battery"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Motor",
+        "value": "48V 4KW motor with EM brake"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Controller",
+        "value": "275A AC Controller"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Max Speed",
+        "value": "20 km/h"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Charger",
+        "value": "17A off-board charger"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Seats",
+        "value": "2 luxury seats"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Wheels/Tires",
+        "value": "8'' iron wheel, 18x8.5-8 tire"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Suspension",
+        "value": "Front: double wishbone independent; Rear: leaf spring"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Body",
+        "value": "TPO injection moulding front and rear body"
+      }
+    ]
+  },
+  "colors": [
+    {
+      "name": "WHITE",
+      "swatch_image": "WHITE.webp",
+      "variation_image": "fleet-45-color2WHITE.webp"
+    },
+    {
+      "name": "GREEN",
+      "swatch_image": "GREEN.webp",
+      "variation_image": "fleet-45-color2GREEN.webp"
+    },
+    {
+      "name": "PORTIMAO BLUE",
+      "swatch_image": "single_icon_21.webp",
+      "variation_image": "fleet-45-color2PORTIMAO-BLUE.webp"
+    },
+    {
+      "name": "ARCTIC GRAY",
+      "swatch_image": "single_icon_31.webp",
+      "variation_image": "fleet-45-color2grey.webp"
+    },
+    {
+      "name": "BEIGE",
+      "swatch_image": "BEIGE.webp",
+      "variation_image": "fleet-45-color2BEIGE.webp"
+    }
+  ],
+  "spec_sections": [
+    {
+      "section": "DIMENSIONS",
+      "content": "Harmony Dimension (mm): 2750x1220x1870."
+    },
+    {
+      "section": "POWER",
+      "content": "48V Lithium battery 48V 4KW motor with EM brake 275A AC Controller 20km/h max speed 17A off-board charger"
+    },
+    {
+      "section": "FEATURES",
+      "content": "2 Luxury Seats 8'' Iron wheel 18*8.5-8 tire Luxury Steering Wheel USB Charging Ports Ice bucket/Sand bottle/Ball washer/Caddie stand board"
+    },
+    {
+      "section": "ADDITIONAL FEATURES",
+      "content": "Foldable windshield Impact-resistant injection mold bodies Suspension: Front: double wishbone independent suspension. Rear: leaf spring suspension"
+    },
+    {
+      "section": "BODY & CHASSIS",
+      "content": "TPO injection moulding front and rear body."
+    }
+  ],
+  "gallery_images": [
+    "tara-harmony-golf-cart-on-course.webp",
+    "tara-harmony-electric-golf-cart-driving.webp",
+    "tara-harmony-cart-in-golf-course1.webp"
+  ],
+  "detail_images": [
+    "5f2d1545-Caddie-stand-board3.jpg",
+    "823f9520-25fa18ea.jpg",
+    "837fa34d-COMFORT-GRIP-STEERING-WHEEL2.jpg",
+    "85358c42-Storage-Compartment.jpg",
+    "8ad8973b-044818161.jpg",
+    "eca63208-SEAT-ALUMINUM-CANOPY3.jpg"
+  ],
+  "hero_image": "harmony250626.webp",
+  "source_page": "harmony-fleet-golf-cart-product.html"
+}

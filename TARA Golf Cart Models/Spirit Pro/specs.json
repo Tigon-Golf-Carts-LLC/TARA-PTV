@@ -1,0 +1,135 @@
+{
+  "model": "Spirit Pro",
+  "page_title": "Spirit Pro – Fleet Electric Golf Cart for Golf Courses",
+  "category": "Electric Golf Cart",
+  "description": "Tara Spirit Pro blends luxury and innovation in a sleek electric golf cart tailored for golf course. Its energy-efficient lithium battery, ergonomic features, and stylish design ensure smooth, quiet rides across the greens. With ample storage and durable 8-inch wheels, this golf course fleet vehicle offers both performance and lasting appeal — ideal for modern course operations.",
+  "schema_org": {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": "TARA Spirit Pro",
+    "category": "Electric Golf Cart",
+    "description": "TARA Spirit Pro lithium-powered fleet golf cart with 48V 4KW AC motor, 2 luxury seats, and golf course essentials.",
+    "image": "https://taranev.com/images/spirit-pro-250626.webp",
+    "url": "https://taranev.com/spirit-pro-fleet-golf-cart-product/",
+    "brand": {
+      "@type": "Brand",
+      "name": "TARA"
+    },
+    "additionalProperty": [
+      {
+        "@type": "PropertyValue",
+        "name": "Dimensions (mm)",
+        "value": "2530x1220x1870"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Battery",
+        "value": "Lithium battery"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Motor",
+        "value": "48V 4KW AC motor"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Controller",
+        "value": "400 AMP AC Controller"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Max Speed",
+        "value": "20 km/h"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Charger",
+        "value": "17A off-board charger"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Seats",
+        "value": "2 luxury seats"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Wheels/Tires",
+        "value": "8'' iron wheel, 18x8.5-8 tire"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Suspension",
+        "value": "Front: double wishbone independent; Rear: leaf spring"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Body",
+        "value": "TPO injection moulding front and rear body"
+      }
+    ]
+  },
+  "colors": [
+    {
+      "name": "WHITE",
+      "swatch_image": "WHITE.webp",
+      "variation_image": "Tara-Spirit-Pro-2-Seater-Fleet-Golf-Cart-MINERAL-WHITE.webp"
+    },
+    {
+      "name": "GREEN",
+      "swatch_image": "GREEN.webp",
+      "variation_image": "Tara-Spirit-Pro-2-Seater-Fleet-Golf-Cart-green.webp"
+    },
+    {
+      "name": "PORTIMAO BLUE",
+      "swatch_image": "single_icon_21.webp",
+      "variation_image": "Tara-Spirit-Pro-2-Seater-Fleet-Golf-Cart-portimao-blue.webp"
+    },
+    {
+      "name": "ARCTIC GRAY",
+      "swatch_image": "single_icon_31.webp",
+      "variation_image": "Tara-Spirit-Pro-2-Seater-Fleet-Golf-Cart-ARCTIC-GRAY.webp"
+    },
+    {
+      "name": "BEIGE",
+      "swatch_image": "BEIGE.webp",
+      "variation_image": "Tara-Spirit-Pro-2-Seater-Fleet-Golf-Cart-BEIGE.webp"
+    }
+  ],
+  "spec_sections": [
+    {
+      "section": "DIMENSIONS",
+      "content": "SPIRIT PRO Dimension (mm): 2530×1220×1870."
+    },
+    {
+      "section": "POWER",
+      "content": "Lithium battery 48V 4KW AC motor 400 AMP AC Controller 20km/h max speed 17A off-board charger"
+    },
+    {
+      "section": "FEATURES",
+      "content": "2 luxury seats 8'' iron wheel 18*8.5-8 tire Luxury steering wheel Golf bag holder & sweater basket Horn USB charging ports Ice bucket/sand bottle/ball washer/golf bag cover"
+    },
+    {
+      "section": "ADDITIONAL FEATURES",
+      "content": "Foldable windshield Impact-resistant injection mold bodies Suspension: Front: double wishbone independent suspension. Rear: leaf spring suspension"
+    },
+    {
+      "section": "BODY & CHASSIS",
+      "content": "TPO injection moulding front and rear body."
+    }
+  ],
+  "gallery_images": [
+    "spirit-pro-banner14.webp",
+    "spirit-pro-banner32.webp",
+    "spirit-pro-banner22.webp"
+  ],
+  "detail_images": [
+    "4372fa1a-CLIMATE-LUXURY-SEAT1.png",
+    "5da0660b-APPEARANCE-DESIGN.jpg",
+    "667121fb-COMFORT-GRIP-STEERING-WHEEL5.jpg",
+    "7f012fdb-STORAGE-COMPARTMENT-tara.jpg",
+    "89695ecc-HAVY-DUTY-INJECTION-MOLDED-CANOPY.png",
+    "a13ae4d4-TIRE4.jpg"
+  ],
+  "hero_image": "spirit-pro-250626.webp",
+  "source_page": "spirit-pro-fleet-golf-cart-product.html"
+}
