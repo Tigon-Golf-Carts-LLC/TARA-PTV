@@ -1,0 +1,683 @@
+<style>
+    /* 1. 给最外层容器强行锁定纵横比，确保 JS 加载前容器高度就固定 */
+.slider-banner {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 1920 / 1000; /* 与图片比例保持一致 (1.92) */
+  overflow: hidden;
+  background-color: #f5f5f5; /* 可选：未加载出来时的占位背景色 */
+}
+
+/* 2. 在 Swiper 未完成初始化前，防范布局错乱 */
+.slider-banner .swiper-wrapper {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.slider-banner .swiper-slide {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  flex-shrink: 0;
+}
+
+/* 3. 强制限制内部 a 标签和 img 撑满 slide 容器 */
+.slider-banner .swiper-slide a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.slider-banner .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* 保证图片按比例填满容器不变形 */
+}
+/* 右侧导航 hideBox 显隐过渡 */
+.right_nav .hideBox {
+  display: none;
+  opacity: 0;
+  transition: opacity 0.2s ease;
+}
+.right_nav .hideBox.show-box {
+  display: block;
+  opacity: 1;
+}
+
+/* 右侧导航 li 平滑位移 (硬件加速) */
+.right_nav li {
+  transition: right 0.2s ease-in-out;
+}
+
+/* 移动端抽屉菜单平滑位移 */
+.mobile-head-item .side-content-wrap {
+  left: -70%;
+  transition: left 0.3s ease-in-out;
+}
+</style>
+
+     <!-- Google Tag Manager (noscript) -->
+
+<!-- End Google Tag Manager (noscript) -->
+<div class="container">
+    <!-- web_head start -->
+
+	    <header id="web-head" class="index-web-head web-head">
+         <section class="head-layer">
+            <div class="layout">
+               <figure class="logo">
+	 <a href="/">			<img width="72" height="72" style="aspect-ratio: 1 / 1;" src="/images/tara-nev-logo.png" alt="TARA Neighborhood Electric Vehicles – Electric Golf Carts Manufacturer">
+				</a>
+</figure>
+               <nav class="nav-wrap">
+                    <ul class="head-nav">
+                        <li id="menu-item-293" class="menu-item menu-item-type-custom menu-item-object-custom nav-current current_page_item menu-item-293"><a href="/" class='menu-image-title-after'><em>Home</em></a></li>
+<li id="menu-item-1944" class="products_list nav_stop menu-item menu-item-type-custom menu-item-object-custom menu-item-1944"><a class='menu-image-title-after'><em>Vehicles</em></a>
+<ul class="sub-menu">
+	<li id="menu-item-1931" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1931"><a title="Tara T1 Series Electric Golf Carts" href="/t1-series/" class='menu-image-title-after'><em>T1 Golf Cart Series</em></a>
+	<ul class="sub-menu">
+		<li id="menu-item-1509" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1509"><a title="tara harmony golf cart product page" href="/harmony-fleet-golf-cart-product/" class='menu-image-title-after menu-image-not-hovered'><img width="1000" height="1000" src="/images/harmony250626.webp" class="menu-image menu-image-title-after" alt="tara-harmony-menu-image" /><em>HARMONY</em></a></li>
+		<li id="menu-item-1803" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1803"><a title="tara spirit pro golf cart product page" href="/spirit-pro-fleet-golf-cart-product/" class='menu-image-title-after menu-image-not-hovered'><img width="1000" height="1000" src="/images/spirit-pro-250626.webp" class="menu-image menu-image-title-after" alt="tara-spirit-pro-menu-image" /><em>SPIRIT PRO</em></a></li>
+		<li id="menu-item-1510" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1510"><a title="tara spirit plus golf cart product page" href="/spirit-plus-fleet-golf-cart-product/" class='menu-image-title-after menu-image-not-hovered'><img width="1000" height="1000" src="/images/spirit-plus-250626.webp" class="menu-image menu-image-title-after" alt="tara-spirit-plus-menu-image" /><em>SPIRIT PLUS</em></a></li>
+		<li id="menu-item-1566" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1566"><a title="tara roadster 2+2 golf cart product page" href="/roadster-2-2-golf-cart-product/" class='menu-image-title-after menu-image-not-hovered'><img width="1000" height="1000" src="/images/roadster-2+24.webp" class="menu-image menu-image-title-after" alt="tara roadster 2+2 golf cart" /><em>ROADSTER  2+2</em></a></li>
+		<li id="menu-item-1587" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1587"><a title="tara explorer 2+2 golf cart product page" href="/explorer-2-2-golf-cart-product/" class='menu-image-title-after menu-image-not-hovered'><img width="1000" height="1000" src="/images/explorer-2+22.webp" class="menu-image menu-image-title-after" alt="tara explorer 2+2 golf cart" /><em>EXPLORER 2+2</em></a></li>
+	</ul>
+</li>
+	<li id="menu-item-1930" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1930"><a title="Tara T2 Series Electric Utility Vehicles" href="/t2-series/" class='menu-image-title-after'><em>T2 Utility Golf Cart Series</em></a>
+	<ul class="sub-menu">
+		<li id="menu-item-3477" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3477"><a title="tara turfman 450 utility vehicle product page" href="/turfman-450-utility-vehicle-product/" class='menu-image-title-after menu-image-not-hovered'><img width="1000" height="1000" src="/images/turfman-450.webp" class="menu-image menu-image-title-after" alt="turfman 450" /><em>TURFMAN 450</em></a></li>
+		<li id="menu-item-3479" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3479"><a title="tara turfman 700 utility vehicle product page" href="/turfman-700-utility-vehicle-product/" class='menu-image-title-after menu-image-not-hovered'><img width="1000" height="1000" src="/images/turfman-700.webp" class="menu-image menu-image-title-after" alt="turfman 700" /><em>TURFMAN 700</em></a></li>
+		<li id="menu-item-3481" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3481"><a title="tara turfman 700 eec utility vehicle product page" href="/turfman-700-eec-utility-vehicle-product/" class='menu-image-title-after menu-image-not-hovered'><img width="1000" height="1000" src="/images/TURFMAN-700-EEC.webp" class="menu-image menu-image-title-after" alt="TURFMAN-700-EEC" /><em>TURFMAN 700 EEC</em></a></li>
+		<li id="menu-item-3483" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3483"><a title="tara turfman 1000 utility vehicle product page" href="/turfman-1000-utility-vehicle-product/" class='menu-image-title-after menu-image-not-hovered'><img width="1216" height="1000" src="/images/TURFMAN-1000.webp" class="menu-image menu-image-title-after" alt="TURFMAN-1000" /><em>TURFMAN 1000</em></a></li>
+	</ul>
+</li>
+	<li id="menu-item-2654" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2654"><a title="Tara T3 Series Electric Golf Carts" href="/t3-series/" class='menu-image-title-after'><em>T3 Street Legal Series</em></a>
+	<ul class="sub-menu">
+		<li id="menu-item-2656" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-2656"><a title="tara t3 2+2 golf cart product page" href="/t3-2-2-golf-cart-product/" class='menu-image-title-after menu-image-not-hovered'><img width="500" height="500" src="/images/T3-2+2-250612.webp" class="menu-image menu-image-title-after" alt="TARA T3 2+2 GOLF CART" /><em>T3 2+2 &#8211; Modern Electric Golf Cart</em></a></li>
+	</ul>
+</li>
+</ul>
+</li>
+<li id="menu-item-1313" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1313"><a href="/accessories/" class='menu-image-title-after'><em>Accessories</em></a></li>
+<li id="menu-item-1941" class="products_list products_lists menu-item menu-item-type-custom menu-item-object-custom menu-item-1941"><a class='menu-image-title-after'><em>Support</em></a>
+<ul class="sub-menu">
+	<li id="menu-item-4988" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4988"><a href="/fleet-golf-carts/" class='menu-image-title-after'><em>Solution</em></a></li>
+	<li id="menu-item-1320" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1320"><a href="/maintenance-support/" class='menu-image-title-after'><em>Maintenance Support</em></a></li>
+	<li id="menu-item-1854" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1854"><a href="/technical-document-2/" class='menu-image-title-after'><em>Technical Document</em></a></li>
+	<li id="menu-item-3048" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3048"><a href="/cases/" class='menu-image-title-after'><em>Product Gallery &#038; Customer Cases</em></a></li>
+	<li id="menu-item-3831" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3831"><a href="/faqs/" class='menu-image-title-after'><em>FAQs</em></a></li>
+</ul>
+</li>
+<li id="menu-item-1304" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1304"><a href="/blog/" class='menu-image-title-after'><em>Blog</em></a></li>
+<li id="menu-item-3037" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3037"><a href="/about-us/" class='menu-image-title-after'><em>About Us</em></a></li>
+<li id="menu-item-1324" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1324"><a href="/contact/" class='menu-image-title-after'><em>Contact</em></a></li>
+                    </ul>
+                </nav>
+
+               <div class="head-right">
+
+
+<!--theme260-->
+               </div>
+            </div>
+         </section>
+      </header>
+    <!--// web_head end -->   <section class="web_main index_main">
+   <!-- banner -->
+         <section class="slider-banner">
+            <div class="swiper-wrapper">
+
+                            <div class="swiper-slide"> <a href="/fleet-golf-carts/"><img fetchpriority="high" width="1920" height="1000" style="aspect-ratio: 1920 / 1000;" src="/images/hero-cream-golf-cart-lake.webp" alt="TARA electric golf cart on a premium golf course"/></a>
+
+          </div>
+
+
+
+                            <div class="swiper-slide"> <a href="/contact/"><img class="swiper-lazy" width="1920" height="1000" style="aspect-ratio: 1920 / 1000;"  data-src="/images/hero-resort-evening-cart.webp" alt="TARA golf cart at a resort entrance in the evening"/></a>
+
+          </div>
+
+
+
+                            <div class="swiper-slide"> <a href=""><img class="swiper-lazy" width="1920" height="1000" style="aspect-ratio: 1920 / 1000;"  data-src="/images/hero-cabin-utility-cart.webp" alt="TARA utility cart at a mountain cabin"/></a>
+
+          </div>
+
+
+
+                            <div class="swiper-slide"> <a href="/spirit-plus-fleet-golf-cart-product/"><img class="swiper-lazy" width="1920" height="1000" style="aspect-ratio: 1920 / 1000;"  data-src="/images/hero-campus-utility-cart.webp" alt="TARA utility vehicle on a business campus"/></a>
+
+          </div>
+
+
+
+                            <div class="swiper-slide"> <a href="/contact/"><img class="swiper-lazy" width="1920" height="1000" style="aspect-ratio: 1920 / 1000;"  data-src="/images/hero-campground-rv-cart.webp" alt="TARA golf cart at an RV campground"/></a>
+
+          </div>
+
+
+
+                            <div class="swiper-slide"> <a href="/explorer-2-2-golf-cart-product/"><img class="swiper-lazy" width="1920" height="1000" style="aspect-ratio: 1920 / 1000;"  data-src="/images/hero-mountain-course-cart.webp" alt="TARA lifted golf cart on a mountain course road"/></a>
+
+          </div>
+
+                            <div class="swiper-slide"> <a href="/t1-series/"><img class="swiper-lazy" width="1920" height="1000" style="aspect-ratio: 1920 / 1000;"  data-src="/images/hero-black-golf-cart-course.webp" alt="Black TARA golf cart parked beside a fairway at sunset"/></a>
+
+          </div>
+
+
+
+		              </div>
+
+
+            <div class="slider-swiper-control">
+               <div class="swiper-buttons">
+                  <div class="swiper-button-prev swiper-button-white"><span class="slide-page-box"></span></div>
+                  <div class="swiper-button-next swiper-button-white"><span class="slide-page-box"></span></div>
+               </div>
+               <div class="swiper-pagination swiper-pagination-white"></div>
+            </div>
+         </section>
+
+
+
+
+      <!-- adv-layer -->
+         <section class="adv-layer">
+            <div class="layer-bd">
+               <div class="layout">
+
+                   <header class="index-title-adv">
+                    <h2 class="index-title">Explore the Tara Neighborhood Electric Vehicle Lineup</h2>
+
+                </header>
+
+
+
+                  <ul class="adv-items flex-row adv-items-3col">
+				                        <li class="adv-item wow fadeInA" data-wow-delay="0" data-wow-duration=".8s">
+                        <figure class="item-inner">
+                           <span class="item-img"><img loading="lazy" width="230" height="230" style="aspect-ratio: 230 / 230;" src="/images/spirit-plusPORTIMAO-BLUE-3.webp" alt="Engineered for performance and durability, the T1 Golf Cart Series is the trusted choice for modern golf courses." /></span>
+                           <figcaption class="item-info">
+                              <h3 class="item-title">T1 Golf Cart Series</h3>
+                              <p class="item-desc">Engineered for performance and durability, the T1 Golf Cart Series is the trusted choice for modern golf courses.</p>
+                              <div class="item-more"><a href="/t1-series/" class="sys-btn">SEE MORE</a></div>
+                           </figcaption>
+                        </figure>
+                     </li>
+					                       <li class="adv-item wow fadeInA" data-wow-delay=".1s" data-wow-duration=".8s">
+                        <figure class="item-inner">
+                           <span class="item-img"><img loading="lazy" width="230" height="230" style="aspect-ratio: 230 / 230;" src="/images/turfman700Flamenco-Red2.webp" alt="Versatile and tough, the T2 lineup is built to handle maintenance, logistics, and all on-course tasks." /></span>
+                           <figcaption class="item-info">
+                              <h3 class="item-title">T2 Utility Golf Cart Series</h3>
+                              <p class="item-desc">Versatile and tough, the T2 lineup is built to handle maintenance, logistics, and all on-course tasks.</p>
+                              <div class="item-more"><a href="/t2-series/" class="sys-btn">SEE MORE</a></div>
+                           </figcaption>
+                        </figure>
+                     </li>
+					                       <li class="adv-item wow fadeInA" data-wow-delay=".2s" data-wow-duration=".8s">
+                        <figure class="item-inner">
+                           <span class="item-img"><img loading="lazy" width="230" height="230" style="aspect-ratio: 230 / 230;" src="/images/颜色mineral-white2.webp" alt="Stylish, powerful, and refined — the T3 Street Legal Series offers a premium driving experience beyond the course." /></span>
+                           <figcaption class="item-info">
+                              <h3 class="item-title">T3 Street Legal Series</h3>
+                              <p class="item-desc">Stylish, powerful, and refined — the T3 Street Legal Series offers a premium driving experience beyond the course.</p>
+                              <div class="item-more"><a href="/t3-series/" class="sys-btn">SEE MORE</a></div>
+                           </figcaption>
+                        </figure>
+                     </li>
+
+
+                  </ul>
+               </div>
+            </div>
+         </section>
+
+         <!-- adv-layer: T1 Series -->
+         <section class="adv-layer">
+            <div class="layer-bd">
+               <div class="layout">
+                   <header class="index-title-adv">
+                    <h2 class="index-title">T1 Golf Cart Series</h2>
+                </header>
+                  <ul class="adv-items flex-row adv-items-3col">
+                        <li class="adv-item wow fadeInA" data-wow-delay="0s" data-wow-duration=".8s">
+                        <figure class="item-inner">
+                           <span class="item-img"><img loading="lazy" width="230" height="230" style="aspect-ratio: 230 / 230;" src="/images/harmony250626.webp" alt="HARMONY" /></span>
+                           <figcaption class="item-info">
+                              <h3 class="item-title">HARMONY</h3>
+                              <p class="item-desc">A quiet, refined fleet golf cart built for premium courses.</p>
+                              <div class="item-more"><a href="/harmony-fleet-golf-cart-product/" class="sys-btn">SEE MORE</a></div>
+                           </figcaption>
+                        </figure>
+                     </li>
+                        <li class="adv-item wow fadeInA" data-wow-delay=".1s" data-wow-duration=".8s">
+                        <figure class="item-inner">
+                           <span class="item-img"><img loading="lazy" width="230" height="230" style="aspect-ratio: 230 / 230;" src="/images/spirit-pro-250626.webp" alt="SPIRIT PRO" /></span>
+                           <figcaption class="item-info">
+                              <h3 class="item-title">SPIRIT PRO</h3>
+                              <p class="item-desc">The dependable workhorse of modern golf course fleets.</p>
+                              <div class="item-more"><a href="/spirit-pro-fleet-golf-cart-product/" class="sys-btn">SEE MORE</a></div>
+                           </figcaption>
+                        </figure>
+                     </li>
+                        <li class="adv-item wow fadeInA" data-wow-delay=".2s" data-wow-duration=".8s">
+                        <figure class="item-inner">
+                           <span class="item-img"><img loading="lazy" width="230" height="230" style="aspect-ratio: 230 / 230;" src="/images/spirit-plus-250626.webp" alt="SPIRIT PLUS" /></span>
+                           <figcaption class="item-info">
+                              <h3 class="item-title">SPIRIT PLUS</h3>
+                              <p class="item-desc">Elevated comfort and ride quality for every round.</p>
+                              <div class="item-more"><a href="/spirit-plus-fleet-golf-cart-product/" class="sys-btn">SEE MORE</a></div>
+                           </figcaption>
+                        </figure>
+                     </li>
+                        <li class="adv-item wow fadeInA" data-wow-delay=".3s" data-wow-duration=".8s">
+                        <figure class="item-inner">
+                           <span class="item-img"><img loading="lazy" width="230" height="230" style="aspect-ratio: 230 / 230;" src="/images/roadster-2+2.webp" alt="ROADSTER 2+2" /></span>
+                           <figcaption class="item-info">
+                              <h3 class="item-title">ROADSTER 2+2</h3>
+                              <p class="item-desc">Four seats and flexible cargo for course and community.</p>
+                              <div class="item-more"><a href="/roadster-2-2-golf-cart-product/" class="sys-btn">SEE MORE</a></div>
+                           </figcaption>
+                        </figure>
+                     </li>
+                        <li class="adv-item wow fadeInA" data-wow-delay=".4s" data-wow-duration=".8s">
+                        <figure class="item-inner">
+                           <span class="item-img"><img loading="lazy" width="230" height="230" style="aspect-ratio: 230 / 230;" src="/images/explorer-2+2.webp" alt="EXPLORER 2+2" /></span>
+                           <figcaption class="item-info">
+                              <h3 class="item-title">EXPLORER 2+2</h3>
+                              <p class="item-desc">Lifted clearance and all-terrain capability for any path.</p>
+                              <div class="item-more"><a href="/explorer-2-2-golf-cart-product/" class="sys-btn">SEE MORE</a></div>
+                           </figcaption>
+                        </figure>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+         </section>
+
+         <!-- adv-layer: T2 Utility Series -->
+         <section class="adv-layer">
+            <div class="layer-bd">
+               <div class="layout">
+                   <header class="index-title-adv">
+                    <h2 class="index-title">T2 Utility Golf Cart Series</h2>
+                </header>
+                  <ul class="adv-items flex-row adv-items-3col">
+                        <li class="adv-item wow fadeInA" data-wow-delay="0s" data-wow-duration=".8s">
+                        <figure class="item-inner">
+                           <span class="item-img"><img loading="lazy" width="230" height="230" style="aspect-ratio: 230 / 230;" src="/images/turfman450Mineral-White.webp" alt="TURFMAN 450" /></span>
+                           <figcaption class="item-info">
+                              <h3 class="item-title">TURFMAN 450</h3>
+                              <p class="item-desc">Compact electric utility for everyday grounds work.</p>
+                              <div class="item-more"><a href="/turfman-450-utility-vehicle-product/" class="sys-btn">SEE MORE</a></div>
+                           </figcaption>
+                        </figure>
+                     </li>
+                        <li class="adv-item wow fadeInA" data-wow-delay=".1s" data-wow-duration=".8s">
+                        <figure class="item-inner">
+                           <span class="item-img"><img loading="lazy" width="230" height="230" style="aspect-ratio: 230 / 230;" src="/images/turfman700Flamenco-Red2.webp" alt="TURFMAN 700" /></span>
+                           <figcaption class="item-info">
+                              <h3 class="item-title">TURFMAN 700</h3>
+                              <p class="item-desc">More payload and power for bigger properties.</p>
+                              <div class="item-more"><a href="/turfman-700-utility-vehicle-product/" class="sys-btn">SEE MORE</a></div>
+                           </figcaption>
+                        </figure>
+                     </li>
+                        <li class="adv-item wow fadeInA" data-wow-delay=".2s" data-wow-duration=".8s">
+                        <figure class="item-inner">
+                           <span class="item-img"><img loading="lazy" width="230" height="230" style="aspect-ratio: 230 / 230;" src="/images/turfman-700-eec-card.webp" alt="TURFMAN 700 EEC" /></span>
+                           <figcaption class="item-info">
+                              <h3 class="item-title">TURFMAN 700 EEC</h3>
+                              <p class="item-desc">Road-homologated utility for public street use.</p>
+                              <div class="item-more"><a href="/turfman-700-eec-utility-vehicle-product/" class="sys-btn">SEE MORE</a></div>
+                           </figcaption>
+                        </figure>
+                     </li>
+                        <li class="adv-item wow fadeInA" data-wow-delay=".3s" data-wow-duration=".8s">
+                        <figure class="item-inner">
+                           <span class="item-img"><img loading="lazy" width="230" height="230" style="aspect-ratio: 230 / 230;" src="/images/TURFMAN-1000.webp" alt="TURFMAN 1000" /></span>
+                           <figcaption class="item-info">
+                              <h3 class="item-title">TURFMAN 1000</h3>
+                              <p class="item-desc">Heavy-duty electric hauling for the toughest jobs.</p>
+                              <div class="item-more"><a href="/turfman-1000-utility-vehicle-product/" class="sys-btn">SEE MORE</a></div>
+                           </figcaption>
+                        </figure>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+         </section>
+
+         <!-- adv-layer: T3 Series -->
+         <section class="adv-layer">
+            <div class="layer-bd">
+               <div class="layout">
+                   <header class="index-title-adv">
+                    <h2 class="index-title">T3 Street Legal Series</h2>
+                </header>
+                  <ul class="adv-items flex-row adv-items-3col">
+                        <li class="adv-item wow fadeInA" data-wow-delay="0s" data-wow-duration=".8s">
+                        <figure class="item-inner">
+                           <span class="item-img"><img loading="lazy" width="230" height="230" style="aspect-ratio: 230 / 230;" src="/images/T3-2+2.webp" alt="T3 2+2" /></span>
+                           <figcaption class="item-info">
+                              <h3 class="item-title">T3 2+2</h3>
+                              <p class="item-desc">A premium four-seat personal electric vehicle with automotive styling.</p>
+                              <div class="item-more"><a href="/t3-2-2-golf-cart-product/" class="sys-btn">SEE MORE</a></div>
+                           </figcaption>
+                        </figure>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+         </section>
+
+
+
+
+
+         <!-- company-intro-layer -->
+
+
+
+	   <!-- business-layer -->
+         <section class="business-layer"  >
+             <img loading="lazy"  class="bg" src="/images/home-pic-d-012.webp " alt="">
+            <div class="layer-bd">
+               <div class="layout">
+
+                    <header class="index-title-business">
+                    <h2 class="index-title">TARA Neighborhood Electric Vehicles</h2>
+
+                </header>
+
+                  <div class="flex-row">
+                     <div class="sys-col layer-hd layer-hds wow fadeInA" data-wow-delay=".1s" data-wow-dura.8ion="1s">
+                        <h4 class="hd-subtit"></h4>
+                        <h1 class="hd-title">
+                          Tara Electric Golf Carts for Golf Courses
+                        </h1>
+                        <div class="hd-desc">
+                           Join a community of like-minded people, represent a highly respected golf cart product line and chart your own path to success.                        </div>
+                        <div class="hd-more">
+                           <a href="/contact/" class="sys-btn">BEGIN TODAY</a>
+                        </div>
+                     </div>
+                     <div class="sys-col layer-cont business-slider layer-hd wow fadeInA" data-wow-delay=".2s" data-wow-duration=".8s">
+                        <div class="swiper-container">
+                           <ul class="swiper-wrapper">
+
+                              <li class="swiper-slide business-item">
+                                 <div class="item-img"><a href=""><img loading="lazy" width="755" height="755" style="aspect-ratio: 755 / 755;" src="/images/hot-car-green1.webp" alt="Green Tara Spirit Plus Golf Cart Built for Golfers">
+                                 <!--<span class="sys-badge">Hot</span>-->
+                                 </a></div>
+                              </li>
+
+                              <li class="swiper-slide business-item">
+                                 <div class="item-img"><a href=""><img loading="lazy" width="755" height="755" style="aspect-ratio: 755 / 755;" src="/images/blue4.webp" alt="Blue Tara Spirit Plus Golf Cart Designed for Performance and Style">
+                                 <!--<span class="sys-badge">Hot</span>-->
+                                 </a></div>
+                              </li>
+
+                              <li class="swiper-slide business-item">
+                                 <div class="item-img"><a href=""><img loading="lazy" width="755" height="755" style="aspect-ratio: 755 / 755;" src="/images/gray1.webp" alt="Gray Tara Spirit Plus Golf Cart with Modern Styling and Lithium Power">
+                                 <!--<span class="sys-badge">Hot</span>-->
+                                 </a></div>
+                              </li>
+
+                              <li class="swiper-slide business-item">
+                                 <div class="item-img"><a href=""><img loading="lazy" width="755" height="755" style="aspect-ratio: 755 / 755;" src="/images/hot-car-white3.webp" alt="White Tara Spirit Plus Golf Cart for Golf Courses and Private Use">
+                                 <!--<span class="sys-badge">Hot</span>-->
+                                 </a></div>
+                              </li>
+
+                              <li class="swiper-slide business-item">
+                                 <div class="item-img"><a href=""><img loading="lazy" width="755" height="755" style="aspect-ratio: 755 / 755;" src="/images/beige5.webp" alt="Beige Tara Spirit Plus Golf Cart Combining Elegance and Comfort">
+                                 <!--<span class="sys-badge">Hot</span>-->
+                                 </a></div>
+                              </li>
+
+                           </ul>
+                        </div>
+                        <div class="swiper-control index-swiper-control">
+                           <div class="swiper-pagination"></div>
+                           <div class="swiper-buttons">
+                              <div class="swiper-button-prev"></div>
+                              <div class="swiper-button-next"></div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <ul class="brand-items">
+
+                  </ul>
+               </div>
+            </div>
+         </section>
+	   <!-- product-layer -->
+         <section class="product-layer">
+            <div class="layer-bd">
+               <div class="layout">
+                  <div class="flex-row">
+                     <div class="layer-cont product-slider wow fadeInLeftA" data-wow-delay=".1s" data-wow-duration=".8s">
+                        <div class="swiper-container">
+                           <ul class="swiper-wrapper product_items">
+
+                              <li class="swiper-slide product_item">
+                                 <figure>
+                                    <div class="features_badge">
+                                       <span class="sys-badge bg-primary">SALE</span>
+                                    </div>
+                                    <span class="item_img">
+                                      <img loading="lazy" width="280" height="280" style="aspect-ratio: 280 / 280;" src="/images/GPS1.webp" alt="GPS for tara golf cart"/><a href="/spirit-plus-fleet-golf-cart-product/"></a>
+                                    </span>
+                                    <figcaption>
+                                       <h3 class="item_title"><a href="/spirit-plus-fleet-golf-cart-product/">GPS for tara golf cart</a></h3>
+
+                                       <div class="item_more"><a href="/spirit-plus-fleet-golf-cart-product/" class="sys-btn">See More</a></div>
+                                    </figcaption>
+                                 </figure>
+                              </li>
+
+                              <li class="swiper-slide product_item">
+                                 <figure>
+                                    <div class="features_badge">
+                                       <span class="sys-badge bg-primary">SALE</span>
+                                    </div>
+                                    <span class="item_img">
+                                      <img loading="lazy" width="280" height="280" style="aspect-ratio: 280 / 280;" src="/images/GOLF-BAG-HOLDER-ASSEMBLY2.webp" alt="Tara Golf Bag Holder"/><a href="/accessories/"></a>
+                                    </span>
+                                    <figcaption>
+                                       <h3 class="item_title"><a href="/accessories/">Tara Golf Bag Holder</a></h3>
+
+                                       <div class="item_more"><a href="/accessories/" class="sys-btn">See More</a></div>
+                                    </figcaption>
+                                 </figure>
+                              </li>
+
+                              <li class="swiper-slide product_item">
+                                 <figure>
+                                    <div class="features_badge">
+                                       <span class="sys-badge bg-primary">SALE</span>
+                                    </div>
+                                    <span class="item_img">
+                                      <img loading="lazy" width="280" height="280" style="aspect-ratio: 280 / 280;" src="/images/GOLF-BALL-WASHER.webp" alt="Tara Ball Washer"/><a href="/accessories/"></a>
+                                    </span>
+                                    <figcaption>
+                                       <h3 class="item_title"><a href="/accessories/">Tara Ball Washer</a></h3>
+
+                                       <div class="item_more"><a href="/accessories/" class="sys-btn">See More</a></div>
+                                    </figcaption>
+                                 </figure>
+                              </li>
+
+                              <li class="swiper-slide product_item">
+                                 <figure>
+                                    <div class="features_badge">
+                                       <span class="sys-badge bg-primary">SALE</span>
+                                    </div>
+                                    <span class="item_img">
+                                      <img loading="lazy" width="280" height="280" style="aspect-ratio: 280 / 280;" src="/images/SAND-BOTTLE2.webp" alt="SAND BOTTLE"/><a href="/accessories/"></a>
+                                    </span>
+                                    <figcaption>
+                                       <h3 class="item_title"><a href="/accessories/">SAND BOTTLE</a></h3>
+
+                                       <div class="item_more"><a href="/accessories/" class="sys-btn">See More</a></div>
+                                    </figcaption>
+                                 </figure>
+                              </li>
+
+                              <li class="swiper-slide product_item">
+                                 <figure>
+                                    <div class="features_badge">
+                                       <span class="sys-badge bg-primary">SALE</span>
+                                    </div>
+                                    <span class="item_img">
+                                      <img loading="lazy" width="280" height="280" style="aspect-ratio: 280 / 280;" src="/images/COOLER-ASSEMBLY2-1.webp" alt="Caddy Master Cooler"/><a href="/accessories/"></a>
+                                    </span>
+                                    <figcaption>
+                                       <h3 class="item_title"><a href="/accessories/">Caddy Master Cooler</a></h3>
+
+                                       <div class="item_more"><a href="/accessories/" class="sys-btn">See More</a></div>
+                                    </figcaption>
+                                 </figure>
+                              </li>
+							                            </ul>
+                        </div>
+                        <div class="swiper-control index-swiper-control">
+                           <div class="swiper-pagination"></div>
+                           <div class="swiper-buttons">
+                              <div class="swiper-button-prev"></div>
+                              <div class="swiper-button-next"></div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="layer-hd wow fadeInRightA" data-wow-delay=".1s" data-wow-duration=".8s">
+                        <h4 class="hd-subtit"></h4>
+                        <h2 class="hd-title">
+                           Golf Cart Accessories - Enhance Your Ride with Tara
+                        </h2>
+                        <div class="hd-desc">
+                            Customize Your Golf Cart with Comprehensive Accessories.                        </div>
+                        <div class="hd-more">
+                           <a href="/accessories/" class="sys-btn">SEE MORE</a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+
+
+	  <!-- blog news -->
+        <section class="gd-layer blog-news-layer">
+            <div class="layout">
+                <header class="index-title-bar">
+                    <h2 class="index-title"><a href="/blog/">Latest News from Tara Electric Golf Carts</a></h2>
+                    <p class="title-desc">Stay updated with the latest happenings and insights.</p>
+                </header>
+                <div class="layer-body news_wipper">
+                    <ul class="blog-news-list swiper-wrapper">
+                                          <li class="blog-news-item swiper-slide">
+                            <div class="news-wrap">
+                                                                 <a class="news-img" href="/blog/"><img loading="lazy" width="355" height="226" style="aspect-ratio: 355 / 226;" src="/images/Golf-Cart-Fleet-for-Golf-Tournaments.webp" alt="Golf Cart Fleet Planning for Tournaments"></a>
+                                                                 <div class="news-info">
+                                    <div class="news-item-hd">
+                                        <div class="news-date">
+                                            <span class="date-day">12/08</span>
+                                            <span class="date-year">26</span>
+                                        </div>
+                                        <h3 class="news-title">
+                                            <a href="/blog/">Golf Cart Fleet Planning for Tournaments</a>
+                                        </h3>
+                                    </div>
+                                    <div class="news-desc">Tournaments, Corporate Golf Days, and Club Championships often involve a large number of carts used in a short period. Players need golf carts, and tournament staff, course marshals, referees, photography teams, and logistics personnel need to move between different areas. Food and beverage suppl...</div>
+                                </div>
+                            </div>
+                        </li>
+                         	                         <li class="blog-news-item swiper-slide">
+                            <div class="news-wrap">
+                                                                 <a class="news-img" href="/blog/"><img loading="lazy" width="355" height="226" style="aspect-ratio: 355 / 226;" src="/images/cart-path-only-golf-course.webp" alt="What Happens When a Course Goes Cart Path Only?"></a>
+                                                                 <div class="news-info">
+                                    <div class="news-item-hd">
+                                        <div class="news-date">
+                                            <span class="date-day">05/08</span>
+                                            <span class="date-year">26</span>
+                                        </div>
+                                        <h3 class="news-title">
+                                            <a href="/blog/">What Happens When a Course Goes Cart Path...</a>
+                                        </h3>
+                                    </div>
+                                    <div class="news-desc">When there is continuous rain, frost, or insufficient drainage, a course will implement Cart Path Only. Under this rule, golf carts can still be used, but must travel along designated paths and cannot enter fairways, rough, or temporarily closed areas of the green.
+This rule changes how players m...</div>
+                                </div>
+                            </div>
+                        </li>
+                         	                         <li class="blog-news-item swiper-slide">
+                            <div class="news-wrap">
+                                                                 <a class="news-img" href="/blog/"><img loading="lazy" width="355" height="226" style="aspect-ratio: 355 / 226;" src="/images/golf-cart-revenue-channel.webp" alt="When Golf Carts Become a Revenue Channel"></a>
+                                                                 <div class="news-info">
+                                    <div class="news-item-hd">
+                                        <div class="news-date">
+                                            <span class="date-day">30/07</span>
+                                            <span class="date-year">26</span>
+                                        </div>
+                                        <h3 class="news-title">
+                                            <a href="/blog/">When Golf Carts Become a Revenue Channel</a>
+                                        </h3>
+                                    </div>
+                                    <div class="news-desc">When golf courses purchase golf car fleets, they typically calculate the number of carts, their lifespan, maintenance costs, and rental revenue. However, with the introduction of connected screens and GPS fleet management systems, another value proposition is worth reassessing: a golf car that ac...</div>
+                                </div>
+                            </div>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+
+
+         </section>
+
+  <!-- web_footer start -->
+    <!-- web-footer start -->
+
+      <!--// web-footer end -->
+
+
+   <!--// container end -->
+<!---->
+
+
+
+
+</div>
+  <!-- search -->
+   <div class="web-search">
+
+      <div style=" width:100%">
+         <div class="head-search">
+         <form action="/search.php" method="get">
+               <input class="search-ipt" name="s" placeholder="Start Typing..." />
+			   <input type="hidden" name="cat" value="490"/>
+               <input class="search-btn" type="submit" value=""/>
+               <span class="search-attr">Hit enter to search or ESC to close</span>
+            </form>
+         </div>
+      </div>
+   </div>
+
+
+
+
+
+
+
+
+
+
+
+
+

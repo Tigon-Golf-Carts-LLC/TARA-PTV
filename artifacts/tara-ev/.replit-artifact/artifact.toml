@@ -1,0 +1,28 @@
+kind = "web"
+previewPath = "/"
+title = "TARA Electric Vehicles"
+description = "A full rebuild of taragolfcart.com for TARA Electric Vehicles: all pages (home, vehicle series and product pages, accessories, support, news, about, contact, policies) with original images and content, migrated to a modern React site."
+version = "1.0.0"
+id = "artifacts/tara-ev"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 19130
+
+[services.development]
+run = "pnpm --filter @workspace/tara-ev run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/tara-ev", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/tara-ev/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "19130"
+BASE_PATH = "/"
