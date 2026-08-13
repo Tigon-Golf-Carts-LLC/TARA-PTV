@@ -93,7 +93,7 @@ export default function App() {
         injectStructuredData(path, meta.title);
 
         // Update per-route meta: canonical, description, OG, Twitter Card.
-        const siteOrigin = 'https://taragolfcart.com';
+        const siteOrigin = 'https://taraptv.com';
         const canonicalUrl = `${siteOrigin}${path}`;
 
         // Canonical link tag
@@ -179,8 +179,8 @@ export default function App() {
           footer.innerHTML = `
             <div class="tf-inner">
               <div class="tf-col tf-brand">
-                <img src="${BASE}images/tara-nev-logo.png" alt="TARA Neighborhood Electric Vehicles" />
-                <p>TARA Neighborhood Electric Vehicles — sales, service, and support for electric golf carts, NEVs, and utility vehicles.</p>
+                <img src="${BASE}images/tara-ptv-logo.png" alt="TARA Personal Transportation Vehicles" />
+                <p>TARA Personal Transportation Vehicles — sales, service, and support for electric golf carts, PTVs, and utility vehicles.</p>
                 <p class="tf-disclaimer">We are an independent, authorized dealership selling TARA vehicles. We are not TARA, the manufacturer.</p>
                 <a class="tf-phone" href="tel:8448443432">&#9742; 844-844-3432</a>
               </div>
@@ -223,7 +223,7 @@ export default function App() {
               </div>
             </div>
             <div class="tf-bottom">
-              <span>&copy; ${new Date().getFullYear()} TARA Neighborhood Electric Vehicles. All rights reserved.</span>
+              <span>&copy; ${new Date().getFullYear()} TARA Personal Transportation Vehicles. All rights reserved.</span>
               <span class="tf-legal">
                 <a href="/privacy-policy/">Privacy Policy</a>
                 <a href="/terms-and-conditions/">Terms &amp; Conditions</a>

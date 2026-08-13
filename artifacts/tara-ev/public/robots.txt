@@ -1,4 +1,4 @@
-# TARA Neighborhood Electric Vehicles — robots.txt
+# TARA Personal Transportation Vehicles — robots.txt
 # All legitimate crawlers are welcome. Zero restrictions.
 
 User-agent: *
@@ -91,7 +91,7 @@ Allow: /
 User-agent: archive.org_bot
 Allow: /
 
-Sitemap: https://taranev.com/sitemap.xml
-Sitemap: https://taranev.com/sitemap-pages.xml
-Sitemap: https://taranev.com/sitemap-news.xml
-Sitemap: https://taranev.com/sitemap-images.xml
+Sitemap: https://taraptv.com/sitemap.xml
+Sitemap: https://taraptv.com/sitemap-pages.xml
+Sitemap: https://taraptv.com/sitemap-news.xml
+Sitemap: https://taraptv.com/sitemap-images.xml

@@ -1,6 +1,6 @@
-# TARA Electric Vehicles
+# TARA Personal Transportation Vehicles
 
-Full rebuild (clone) of the client's website taragolfcart.com for TARA Electric Vehicles — all 650 pages with original images and content.
+Full rebuild (clone) of the client's website (originally taragolfcart.com), rebranded site-wide to taraptv.com / "TARA Personal Transportation Vehicles" (PTV) — all 650 pages with original images and content. All "Neighborhood Electric Vehicle"/NEV wording was replaced with "Personal Transportation Vehicle"/PTV in August 2026; page URLs/slugs were intentionally left unchanged.
 
 ## Run & Operate
 

@@ -1,6 +1,6 @@
-# Image Optimization Guidelines — TARA Neighborhood Electric Vehicles
+# Image Optimization Guidelines — TARA Personal Transportation Vehicles
 - All product and content images use descriptive alt text
 - Formats: WebP preferred; PNG/JPEG fallback
 - Lazy loading enabled on content imagery
-- Image sitemap: https://taranev.com/sitemap-images.xml
+- Image sitemap: https://taraptv.com/sitemap-images.xml
 - Naming: descriptive, hyphenated, lowercase

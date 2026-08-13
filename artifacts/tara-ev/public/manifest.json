@@ -1,11 +1,11 @@
 {
-  "name": "TARA Neighborhood Electric Vehicles",
-  "short_name": "TARA NEV",
+  "name": "TARA Personal Transportation Vehicles",
+  "short_name": "TARA PTV",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#101210",
   "theme_color": "#101210",
-  "description": "US dealership for TARA electric golf carts, NEVs, and utility vehicles.",
+  "description": "US dealership for TARA electric golf carts, PTVs, and utility vehicles.",
   "icons": [
     {
       "src": "/favicon.ico",
