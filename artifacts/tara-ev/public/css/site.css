@@ -541,3 +541,7 @@
 .fl-accordion .fl-accordion-button-icon::before { content: "+" !important; font-family: inherit !important; font-style: normal; font-weight: 600; font-size: 18px; line-height: 1; }
 .fl-accordion .fl-accordion-item.fl-accordion-item-active .fl-accordion-button-icon::before { content: "\2212" !important; }
 .fl-accordion .fl-accordion-button-icon { opacity: 1 !important; color: #666; }
+
+/* Contact callout circles: center the inline SVG icons */
+.fl-callout .fl-icon { display: inline-flex; align-items: center; justify-content: center; }
+.fl-callout .fl-icon svg { display: block; }
