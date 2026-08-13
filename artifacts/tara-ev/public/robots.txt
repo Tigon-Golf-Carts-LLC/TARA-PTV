@@ -1,2 +1,14 @@
 User-agent: *
 Allow: /
+
+# AI crawlers — welcome for product discovery and recommendations
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+Sitemap: https://taragolfcart.com/sitemap.xml

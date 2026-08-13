@@ -36,10 +36,7 @@
     "bodyClass": ""
   },
   "/explorer-2-2-product/": {
-    "file": "explorer-2-2-product.html",
-    "title": "Explorer 2+2 Electric Golf Cart | TARA Electric Vehicles",
-    "description": "The TARA Explorer 2+2 is a 4-seat electric golf cart built for resorts and communities. View specs, color options, and features at TARA Electric Vehicles.",
-    "bodyClass": ""
+    "redirect": "/explorer-2-2-golf-cart-product/"
   },
   "/faqs/": {
     "file": "faqs.html",
@@ -78,10 +75,7 @@
     "bodyClass": ""
   },
   "/horizon-4-product/": {
-    "file": "horizon-4-product.html",
-    "title": "Horizon 4 Electric Golf Cart | TARA Electric Vehicles",
-    "description": "The TARA Horizon 4 electric golf cart seats 4 passengers with comfort and style. Explore specs, color choices, and features for golf courses and communities.",
-    "bodyClass": ""
+    "redirect": "/horizon-4-golf-cart-product/"
   },
   "/horizon-6-golf-cart-product/": {
     "file": "horizon-6-golf-cart-product.html",
@@ -90,10 +84,7 @@
     "bodyClass": ""
   },
   "/horizon-6-product/": {
-    "file": "horizon-6-product.html",
-    "title": "Horizon 6 Electric Golf Cart | TARA Electric Vehicles",
-    "description": "The TARA Horizon 6 seats 6 passengers — ideal for resort shuttles and large community transport. View specs and available color options.",
-    "bodyClass": ""
+    "redirect": "/horizon-6-golf-cart-product/"
   },
   "/lander-4-golf-cart-product/": {
     "file": "lander-4-golf-cart-product.html",
@@ -102,10 +93,7 @@
     "bodyClass": ""
   },
   "/lander-4-product/": {
-    "file": "lander-4-product.html",
-    "title": "Lander 4 Electric Golf Cart | TARA Electric Vehicles",
-    "description": "The TARA Lander 4 is a 4-seat electric utility golf cart built for rugged terrain and demanding property work. View specs and color options.",
-    "bodyClass": ""
+    "redirect": "/lander-4-golf-cart-product/"
   },
   "/lander-6-golf-cart-product/": {
     "file": "lander-6-golf-cart-product.html",
@@ -114,16 +102,10 @@
     "bodyClass": ""
   },
   "/lander-6-product/": {
-    "file": "lander-6-product.html",
-    "title": "Lander 6 Electric Golf Cart | TARA Electric Vehicles",
-    "description": "The TARA Lander 6 carries 6 passengers across rugged terrain — perfect for large resorts, parks, and campuses. View full specs and color options.",
-    "bodyClass": ""
+    "redirect": "/lander-6-golf-cart-product/"
   },
   "/mainitenance-support/": {
-    "file": "mainitenance-support.html",
-    "title": "Maintenance & Support | TARA Electric Vehicles",
-    "description": "TARA electric vehicle maintenance guides, service schedules, and support resources. Keep your golf cart or utility vehicle running at peak performance.",
-    "bodyClass": ""
+    "redirect": "/maintenance-support/"
   },
   "/maintenance-support/": {
     "file": "maintenance-support.html",
@@ -180,10 +162,7 @@
     "bodyClass": ""
   },
   "/spirit-plus-product/": {
-    "file": "spirit-plus-product.html",
-    "title": "Spirit Plus Electric Golf Cart | TARA Electric Vehicles",
-    "description": "The TARA Spirit Plus electric golf cart delivers premium player comfort and smooth performance. View specs, color options, and features.",
-    "bodyClass": ""
+    "redirect": "/spirit-plus-fleet-golf-cart-product/"
   },
   "/spirit-pro-fleet-golf-cart-product/": {
     "file": "spirit-pro-fleet-golf-cart-product.html",
@@ -222,28 +201,16 @@
     "bodyClass": ""
   },
   "/t3-2-2-lifted-product/": {
-    "file": "t3-2-2-lifted-product.html",
-    "title": "T3 2+2 Lifted Golf Cart | TARA Electric Vehicles",
-    "description": "The TARA T3 2+2 Lifted adds extra ground clearance to the street-legal T3 platform. Perfect for communities with varied terrain. View full specs.",
-    "bodyClass": ""
+    "redirect": "/t3-2-2-lifted-golf-cart-product/"
   },
   "/t3-2-2-product/": {
-    "file": "t3-2-2-product.html",
-    "title": "T3 2+2 Electric Golf Cart | TARA Electric Vehicles",
-    "description": "The TARA T3 2+2 electric golf cart seats 4 with a premium feel and street-legal NEV capability. View specs, color options, and community use cases.",
-    "bodyClass": ""
+    "redirect": "/t3-2-2-golf-cart-product/"
   },
   "/t3-22-lifted-product/": {
-    "file": "t3-22-lifted-product.html",
-    "title": "T3 2+2 Lifted Golf Cart | TARA Electric Vehicles",
-    "description": "The TARA T3 2+2 Lifted adds extra ground clearance to the street-legal T3 platform. Perfect for communities with varied terrain. View full specs.",
-    "bodyClass": ""
+    "redirect": "/t3-2-2-lifted-golf-cart-product/"
   },
   "/t3-22-product/": {
-    "file": "t3-22-product.html",
-    "title": "T3 2+2 Electric Golf Cart | TARA Electric Vehicles",
-    "description": "The TARA T3 2+2 electric golf cart seats 4 with a premium feel and street-legal NEV capability. View specs, color options, and community use cases.",
-    "bodyClass": ""
+    "redirect": "/t3-2-2-golf-cart-product/"
   },
   "/t3-series/": {
     "file": "t3-series.html",
@@ -252,10 +219,7 @@
     "bodyClass": ""
   },
   "/techncal-support/": {
-    "file": "techncal-support.html",
-    "title": "Technical Support | TARA Electric Vehicles",
-    "description": "TARA electric vehicle technical support resources, troubleshooting guides, and documentation. Get help with your TARA golf cart or utility vehicle.",
-    "bodyClass": ""
+    "redirect": "/technical-support/"
   },
   "/technical-document-2/": {
     "file": "technical-document-2.html",
@@ -300,10 +264,7 @@
     "bodyClass": ""
   },
   "/varranty-terms/": {
-    "file": "warranty-terms.html",
-    "title": "Warranty Terms | TARA Electric Vehicles",
-    "description": "Read the TARA Neighborhood Electric Vehicles warranty terms and coverage details. Understand what's covered for your electric golf cart or utility vehicle.",
-    "bodyClass": ""
+    "redirect": "/warranty-terms/"
   },
   "/vogue-2-2-product/": {
     "file": "vogue-2-2-product.html",
@@ -405,6 +366,2446 @@
     "file": "blog.html",
     "title": "Blog | TARA Electric Vehicles",
     "description": "The TARA Electric Vehicles blog — tips, guides, and stories about electric golf carts, NEVs, fleet management, and golf course operations.",
+    "bodyClass": ""
+  },
+  "/news/2-passenger-golf-carts-golf-course-carts/": {
+    "file": "news__2-passenger-golf-carts-golf-course-carts.html",
+    "title": "Why 2-Passenger Golf Carts Remain the Mainstream Model - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/2-people-golf-cart-for-golf-course-fleets/": {
+    "file": "news__2-people-golf-cart-for-golf-course-fleets.html",
+    "title": "Two People per Cart - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/2-person-electric-cart-the-mainstay-vehicle-for-golf-courses/": {
+    "file": "news__2-person-electric-cart-the-mainstay-vehicle-for-golf-courses.html",
+    "title": "Why Golf Courses Prefer 2-Person Electric Carts - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/2-seater-electric-golf-cart-the-ideal-choice-for-golf-courses/": {
+    "file": "news__2-seater-electric-golf-cart-the-ideal-choice-for-golf-courses.html",
+    "title": "Why 2-Seater Electric Golf Carts Remain the Market Mainstream - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/2-seater-golf-carts-compact-practical-and-perfect-for-your-needs/": {
+    "file": "news__2-seater-golf-carts-compact-practical-and-perfect-for-your-needs.html",
+    "title": "Ideal Applications for Compact Golf Carts - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/2-seater-golf-carts-for-course-fleets/": {
+    "file": "news__2-seater-golf-carts-for-course-fleets.html",
+    "title": "A Mainstay for Golf Courses - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/2026-best-golf-cart/": {
+    "file": "news__2026-best-golf-cart.html",
+    "title": "Why is the TARA Neighborhood Electric Vehicles considered the 2026 Best Golf Cart? - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/2026-golf-course-fleet-selection-guide/": {
+    "file": "news__2026-golf-course-fleet-selection-guide.html",
+    "title": "1. Harmony Series: A “High-Efficiency Basic Cart” Born for Caddie Culture - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/4-passenger-golf-cart/": {
+    "file": "news__4-passenger-golf-cart.html",
+    "title": "I. Core Value of Four-Passenger Golf Carts - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/4-person-carts-beyond-just-golf/": {
+    "file": "news__4-person-carts-beyond-just-golf.html",
+    "title": "More Seating, More Flexibility - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/4-person-golf-cart-golf-course-vehicles/": {
+    "file": "news__4-person-golf-cart-golf-course-vehicles.html",
+    "title": "Why More and More Courses are Choosing 4-Person Golf Carts - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/4-person-golf-carts-for-golf-course-resort-and-community-transportation/": {
+    "file": "news__4-person-golf-carts-for-golf-course-resort-and-community-transportation.html",
+    "title": "Why is the 4-Person Golf Carts Market Growing Rapidly? - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/4-seat-electric-golf-cart/": {
+    "file": "news__4-seat-electric-golf-cart.html",
+    "title": "Why is the 4-Seat Electric Golf Cart Becoming Increasingly Popular? - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/4-seater-golf-car-comfort-meets-versatility-for-group-mobility/": {
+    "file": "news__4-seater-golf-car-comfort-meets-versatility-for-group-mobility.html",
+    "title": "What is a 4 Seater Golf Car? - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/4-seater-golf-cart-your-guide-to-comfort-convenience-and-capability/": {
+    "file": "news__4-seater-golf-cart-your-guide-to-comfort-convenience-and-capability.html",
+    "title": "What is the advantage of a 4 seater golf cart? - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/4-seater-golf-carts-comfortable-transportation-on-golf-courses/": {
+    "file": "news__4-seater-golf-carts-comfortable-transportation-on-golf-courses.html",
+    "title": "What are 4-Seater Golf Carts? - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/4-wheel-drive-electric-golf-cart-better-grip-and-maneuverability/": {
+    "file": "news__4-wheel-drive-electric-golf-cart-better-grip-and-maneuverability.html",
+    "title": "1. Why Choose a 4-Wheel Drive Electric Golf Cart? - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/4-wheel-trolley-ideal-for-golf-and-everyday-transportation/": {
+    "file": "news__4-wheel-trolley-ideal-for-golf-and-everyday-transportation.html",
+    "title": "Key Advantages of the 4-Wheel Trolley - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/48v-lithium-golf-cart-battery-high-performance-and-long-life/": {
+    "file": "news__48v-lithium-golf-cart-battery-high-performance-and-long-life.html",
+    "title": "Why Choose a 48V Lithium Golf Cart Battery? - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/48v-vs-72v-golf-carts-what-s-the-difference/": {
+    "file": "news__48v-vs-72v-golf-carts-what-s-the-difference.html",
+    "title": "I. What Does Voltage Mean? - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/4wd-golf-carts-power-precision-and-off-road-capability-for-2025/": {
+    "file": "news__4wd-golf-carts-power-precision-and-off-road-capability-for-2025.html",
+    "title": "Why Choose a 4WD Golf Cart? - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/4x4-golf-cart-off-road-power-meets-golf-cart-convenience/": {
+    "file": "news__4x4-golf-cart-off-road-power-meets-golf-cart-convenience.html",
+    "title": "1. What Is a 4×4 Golf Cart? - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/4x4-golf-cart/": {
+    "file": "news__4x4-golf-cart.html",
+    "title": "Ⅰ. Core Advantages of the 4×4 Golf Cart - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/6-passenger-golf-cart-buyers-guide/": {
+    "file": "news__6-passenger-golf-cart-buyers-guide.html",
+    "title": "Why choose a six-passenger golf cart? - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/8-seater-golf-cart-ideal-for-multi-passenger-travel/": {
+    "file": "news__8-seater-golf-cart-ideal-for-multi-passenger-travel.html",
+    "title": "I. Why Choose an 8-Seater Golf Cart? - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/9-and-18-hole-golf-course-how-many-golf-carts-are-needed/": {
+    "file": "news__9-and-18-hole-golf-course-how-many-golf-carts-are-needed.html",
+    "title": "1. Golf Cart Demand Analysis for 9-Hole Golf Courses - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/a-complete-analysis-of-lsvs-what-are-low-speed-%E2%80%8B%E2%80%8Bvehicles/": {
+    "file": "news__a-complete-analysis-of-lsvs-what-are-low-speed-%E2%80%8B%E2%80%8Bvehicles.html",
+    "title": "What is an LSV? - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/a-complete-guide-to-buying-an-electric-golf-cart/": {
+    "file": "news__a-complete-guide-to-buying-an-electric-golf-cart.html",
+    "title": "A Complete Guide To Buying An Electric Golf Cart - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/a-comprehensive-guide-to-golf-cart-brands-in-2025/": {
+    "file": "news__a-comprehensive-guide-to-golf-cart-brands-in-2025.html",
+    "title": "What Are the Best Golf Cart Brands Today? - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/affordable-golf-carts/": {
+    "file": "news__affordable-golf-carts.html",
+    "title": "I. The Rise of Affordable Golf Carts - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/aluminum-golf-cart-the-perfect-combination-of-lightweight-and-durability/": {
+    "file": "news__aluminum-golf-cart-the-perfect-combination-of-lightweight-and-durability.html",
+    "title": "Why Choose an Aluminum Golf Cart? - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/autonomous-golf-carts-are-they-coming-soon/": {
+    "file": "news__autonomous-golf-carts-are-they-coming-soon.html",
+    "title": "I. The Concept of Autonomous Golf Carts Has Been “Partially Realized” - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/battery-powered-golf-cart/": {
+    "file": "news__battery-powered-golf-cart.html",
+    "title": "I. Battery-Powered Golf Cart: The Smart Choice Driving a Green Future - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/battery-utility-vehicle-an-ideal-choice-for-transportation-and-work/": {
+    "file": "news__battery-utility-vehicle-an-ideal-choice-for-transportation-and-work.html",
+    "title": "What is a Battery Utility Vehicle? - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/beach-golf-carts/": {
+    "file": "news__beach-golf-carts.html",
+    "title": "I. Beach Golf Carts: The Ideal Choice for Beach Travel - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/beach-trolley-cart-the-perfect-choice-for-enjoying-beach-life/": {
+    "file": "news__beach-trolley-cart-the-perfect-choice-for-enjoying-beach-life.html",
+    "title": "Why You Need a High-Quality Beach Trolley Cart - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/beach-trolley-your-perfect-companion-for-the-shore/": {
+    "file": "news__beach-trolley-your-perfect-companion-for-the-shore.html",
+    "title": "Why a Beach Trolley Is a Must-Have - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/beachside-golf-carts-electric-mobility-solution-for-coastal-destinations/": {
+    "file": "news__beachside-golf-carts-electric-mobility-solution-for-coastal-destinations.html",
+    "title": "Designed for Coastal Transportation - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/become-a-golf-cart-dealer-opportunities-and-guidelines/": {
+    "file": "news__become-a-golf-cart-dealer-opportunities-and-guidelines.html",
+    "title": "Why become a golf cart dealer? - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/best-automotive-choosing-the-best-mobility-and-transportation-solutions/": {
+    "file": "news__best-automotive-choosing-the-best-mobility-and-transportation-solutions.html",
+    "title": "Best Automotive’s Diverse Understanding - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/best-car-for-golfers-electric-golf-carts-for-golf-courses/": {
+    "file": "news__best-car-for-golfers-electric-golf-carts-for-golf-courses.html",
+    "title": "Why Ordinary Cars Are Not Suitable for Golf Courses - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/best-cars-for-golf-clubs/": {
+    "file": "news__best-cars-for-golf-clubs.html",
+    "title": "Why Electric Golf Carts are the First Choice for Golf Courses - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/best-cars-for-golf/": {
+    "file": "news__best-cars-for-golf.html",
+    "title": "I. What are the core standards for Best Cars For Golf? - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/best-electric-golf-buggy-for-golf-courses/": {
+    "file": "news__best-electric-golf-buggy-for-golf-courses.html",
+    "title": "What kind of vehicle qualifies as the best electric golf buggy? - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/best-electric-golf-cart/": {
+    "file": "news__best-electric-golf-cart.html",
+    "title": "I. Introduction: The New Era of Electric Golf Carts - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/best-electric-golf-push-cart/": {
+    "file": "news__best-electric-golf-push-cart.html",
+    "title": "I. Market Trends for Best Electric Golf Push Cart - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/best-electric-truck-exploring-the-electric-pickup-trucks/": {
+    "file": "news__best-electric-truck-exploring-the-electric-pickup-trucks.html",
+    "title": "Electric Pickup Truck Development Trends - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/best-family-car-2025-discover-tara-golf-car/": {
+    "file": "news__best-family-car-2025-discover-tara-golf-car.html",
+    "title": "Why do families need to rethink their “family car”? - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/best-farm-utility-vehicle/": {
+    "file": "news__best-farm-utility-vehicle.html",
+    "title": "I. What Makes a Best Farm Utility Vehicle? - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/best-golf-apps-essential-smart-apps-for-golfers/": {
+    "file": "news__best-golf-apps-essential-smart-apps-for-golfers.html",
+    "title": "Why Golfers Need the Best Golf Apps - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/best-golf-buggy/": {
+    "file": "news__best-golf-buggy.html",
+    "title": "I. The Core Definition of a Best Golf Buggy: Not Just a Vehicle, but a Mature and Stable Transportation System - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/best-golf-cart-to-buy/": {
+    "file": "news__best-golf-cart-to-buy.html",
+    "title": "Core Requirements of Golf Courses for Golf Carts - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/best-golf-carts/": {
+    "file": "news__best-golf-carts.html",
+    "title": "I. What kind of golf cart can be called the Best Golf Carts? - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/best-mini-golf-cart/": {
+    "file": "news__best-mini-golf-cart.html",
+    "title": "I. A New Trend in Lightweight Travel: The Rise of the Mini Golf Cart - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/best-new-vehicles-review-market-trends-and-ideal-choices/": {
+    "file": "news__best-new-vehicles-review-market-trends-and-ideal-choices.html",
+    "title": "I. Market Trends in Best New Vehicles - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/best-sport-utv-performance-and-value/": {
+    "file": "news__best-sport-utv-performance-and-value.html",
+    "title": "What is the best sport UTV? - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/best-wholesale-golf-carts-bulk-deals-for-courses-resorts/": {
+    "file": "news__best-wholesale-golf-carts-bulk-deals-for-courses-resorts.html",
+    "title": "Why choose wholesale golf carts? - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/beyond-the-purchase-price-golf-cart-fleet-costs/": {
+    "file": "news__beyond-the-purchase-price-golf-cart-fleet-costs.html",
+    "title": "Vehicle Purchase - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/brand-new-golf-cart/": {
+    "file": "news__brand-new-golf-cart.html",
+    "title": "I. Introduction: The Next-Generation Brand New Golf Cart is Redefining the Travel Experience - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/brands-of-golf-cart/": {
+    "file": "news__brands-of-golf-cart.html",
+    "title": "Why Brands of Golf Cart are Becoming Increasingly Important - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/buggie-car-golf-club-transportation/": {
+    "file": "news__buggie-car-golf-club-transportation.html",
+    "title": "What is a Buggie Car? - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/buggy-4-seats-application-value-and-buyers-guide/": {
+    "file": "news__buggy-4-seats-application-value-and-buyers-guide.html",
+    "title": "Why Choose a 4-Seater Buggy? - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/buggy-buggy-car-the-evolution-of-fun-and-function-on-four-wheels/": {
+    "file": "news__buggy-buggy-car-the-evolution-of-fun-and-function-on-four-wheels.html",
+    "title": "What is a buggy buggy car? - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/buggy-car-selection-guide/": {
+    "file": "news__buggy-car-selection-guide.html",
+    "title": "I. Core Uses of Buggy Cars - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/buggy-for-golf/": {
+    "file": "news__buggy-for-golf.html",
+    "title": "I. Introduction: A New Mobile Experience on the Golf Course - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/buggy-golf-cart/": {
+    "file": "news__buggy-golf-cart.html",
+    "title": "I. What is a buggy golf cart? How does it differ from a traditional golf cart? - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/buggy-road-legal-what-makes-a-golf-cart-street-ready/": {
+    "file": "news__buggy-road-legal-what-makes-a-golf-cart-street-ready.html",
+    "title": "Introduction - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/buggy-speed-from-recreational-to-professional-use/": {
+    "file": "news__buggy-speed-from-recreational-to-professional-use.html",
+    "title": "I. How Fast is a Buggy? - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/buy-golf-cars-a-guide-to-purchasing-golf-cars/": {
+    "file": "news__buy-golf-cars-a-guide-to-purchasing-golf-cars.html",
+    "title": "Before Buying Golf Cars - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/buying-a-beach-golf-cart/": {
+    "file": "news__buying-a-beach-golf-cart.html",
+    "title": "1. Why Choose a Beach Golf Cart? - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/caddy-cart-its-role-and-alternatives-in-golf/": {
+    "file": "news__caddy-cart-its-role-and-alternatives-in-golf.html",
+    "title": "What is a caddy cart? - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/car-makers-innovation-design-and-the-future-of-mobility/": {
+    "file": "news__car-makers-innovation-design-and-the-future-of-mobility.html",
+    "title": "What Defines a Leading Car Maker? - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/cart-in-golf/": {
+    "file": "news__cart-in-golf.html",
+    "title": "I. Definition and Core Functions of Carts in Golf - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/cheap-golf-car/": {
+    "file": "news__cheap-golf-car.html",
+    "title": "What truly constitutes a cheap golf car? - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/cheapest-golf-cart-for-golf-courses/": {
+    "file": "news__cheapest-golf-cart-for-golf-courses.html",
+    "title": "Does the “Cheapest Golf Cart” Equal the Lowest Purchase Price? - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/choosing-a-utility-cart-with-wheels/": {
+    "file": "news__choosing-a-utility-cart-with-wheels.html",
+    "title": "I. Core Selling Points of the Turfman 700 (for purchasing consideration) - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/choosing-the-right-club-car-golf-cart-a-comprehensive-guide/": {
+    "file": "news__choosing-the-right-club-car-golf-cart-a-comprehensive-guide.html",
+    "title": "What Is the Difference Between a Golf Car and a Club Car? - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/club-car-vs-tara-golf-cart/": {
+    "file": "news__club-car-vs-tara-golf-cart.html",
+    "title": "Market Characteristics of Club Car Golf Cart - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/commercial-golf-carts/": {
+    "file": "news__commercial-golf-carts.html",
+    "title": "Why are Commercial Golf Carts more needed in commercial settings? - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/cool-golf-carts-making-golf-courses-more-attractive/": {
+    "file": "news__cool-golf-carts-making-golf-courses-more-attractive.html",
+    "title": "I. What kind of product can be called a “cool golf cart”? - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/cost-of-new-golf-cart/": {
+    "file": "news__cost-of-new-golf-cart.html",
+    "title": "Why is there such a significant difference in the cost of a new golf cart? - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/creative-golf-cart-decorations-add-personality-and-fun-to-your-cart/": {
+    "file": "news__creative-golf-cart-decorations-add-personality-and-fun-to-your-cart.html",
+    "title": "Why decorate a golf cart? - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/custom-carts/": {
+    "file": "news__custom-carts.html",
+    "title": "1. Why Choose Custom Carts? - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/custom-golf-carts-style-performance-and-personalization/": {
+    "file": "news__custom-golf-carts-style-performance-and-personalization.html",
+    "title": "Why Choose a Customized Golf Cart? - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/dealer-golf-carts/": {
+    "file": "news__dealer-golf-carts.html",
+    "title": "I. What are Dealer Golf Carts? - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/dimensions-golf-cart-what-you-need-to-know-before-buying/": {
+    "file": "news__dimensions-golf-cart-what-you-need-to-know-before-buying.html",
+    "title": "Why should you care about golf cart dimensions? - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/disc-golf-cart-selection-guide/": {
+    "file": "news__disc-golf-cart-selection-guide.html",
+    "title": "What is a Disc Golf Cart and Its Main Uses? - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/discover-the-right-golf-car-in-egypt-options-prices-and-smart-buying-tips/": {
+    "file": "news__discover-the-right-golf-car-in-egypt-options-prices-and-smart-buying-tips.html",
+    "title": "What is the difference between a golf car and a golf cart? - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/discover-the-world-of-custom-buggies-power-style-and-versatility/": {
+    "file": "news__discover-the-world-of-custom-buggies-power-style-and-versatility.html",
+    "title": "What is a Custom Buggy? - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/driving-sustainability-the-future-of-golf-with-electric-carts/": {
+    "file": "news__driving-sustainability-the-future-of-golf-with-electric-carts.html",
+    "title": "Industry Trend 1: Low Carbon and Environmental Protection Become Core Goals - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/electric-buggy-redefining-fun-utility-and-green-mobility/": {
+    "file": "news__electric-buggy-redefining-fun-utility-and-green-mobility.html",
+    "title": "Understanding the Electric Buggy - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/electric-cargo-cart-solution-for-material-transport/": {
+    "file": "news__electric-cargo-cart-solution-for-material-transport.html",
+    "title": "Why Businesses Are Switching to Electric Cargo Carts - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/electric-carts-the-efficient-choice-for-golf-course/": {
+    "file": "news__electric-carts-the-efficient-choice-for-golf-course.html",
+    "title": "Why Electric Carts are Replacing Traditional Vehicles - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/electric-farm-utility-vehicle-for-farm-operations/": {
+    "file": "news__electric-farm-utility-vehicle-for-farm-operations.html",
+    "title": "Why Farms Are Switching to Electric Utility Vehicles - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/electric-golf-buggies-customized-for-golf-courses/": {
+    "file": "news__electric-golf-buggies-customized-for-golf-courses.html",
+    "title": "Why Electric Golf Buggies are Becoming the Industry Standard - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/electric-golf-caddy/": {
+    "file": "news__electric-golf-caddy.html",
+    "title": "Analysis of the Advantages of Electric Golf Caddies - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/electric-golf-cars-smart-sustainable-and-versatile-vehicles/": {
+    "file": "news__electric-golf-cars-smart-sustainable-and-versatile-vehicles.html",
+    "title": "1. What Is an Electric Golf Car? - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/electric-golf-cart-manufacturer/": {
+    "file": "news__electric-golf-cart-manufacturer.html",
+    "title": "Why Electric Golf Cart Manufacturers Are Becoming Increasingly Important - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/electric-golf-cart-motor-the-core-power-of-golf-carts/": {
+    "file": "news__electric-golf-cart-motor-the-core-power-of-golf-carts.html",
+    "title": "Why is the electric golf cart motor so important? - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/electric-golf-cart-service/": {
+    "file": "news__electric-golf-cart-service.html",
+    "title": "I. What is Electric Golf Cart Service? - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/electric-golf-carts-a-new-trend-in-sustainable-golf-courses/": {
+    "file": "news__electric-golf-carts-a-new-trend-in-sustainable-golf-courses.html",
+    "title": "Environmentally Friendly and Sustainable - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/electric-golf-carts-pioneering-the-future-of-sustainable-mobility/": {
+    "file": "news__electric-golf-carts-pioneering-the-future-of-sustainable-mobility.html",
+    "title": "A Market on the Rise - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/electric-golf-carts-smart-clean-and-efficient-mobility/": {
+    "file": "news__electric-golf-carts-smart-clean-and-efficient-mobility.html",
+    "title": "Are electric golf carts worth it? - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/electric-golf-trolley-discover-a-new-golf-course-equipment/": {
+    "file": "news__electric-golf-trolley-discover-a-new-golf-course-equipment.html",
+    "title": "I. Advantages of the Electric Golf Trolley - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/electric-hunting-carts-quiet-capable-and-built-for-the-outdoors/": {
+    "file": "news__electric-hunting-carts-quiet-capable-and-built-for-the-outdoors.html",
+    "title": "Why Electric Hunting Carts Are Growing in Popularity - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/electric-mobility-solutions/": {
+    "file": "news__electric-mobility-solutions.html",
+    "title": "I. Upgrading Demands for Electrified Mobility: Why are Electric Mobility Solutions an Inevitable Trend? - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/electric-scooter-the-best-choice-for-smart-short-distance-travel/": {
+    "file": "news__electric-scooter-the-best-choice-for-smart-short-distance-travel.html",
+    "title": "I. Advantages of Electric Scooters - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/electric-utility-cart-an-efficient-and-eco-friendly-choice/": {
+    "file": "news__electric-utility-cart-an-efficient-and-eco-friendly-choice.html",
+    "title": "What is an Electric Utility Cart? - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/electric-utility-carts-for-golf-course-operations/": {
+    "file": "news__electric-utility-carts-for-golf-course-operations.html",
+    "title": "Why Golf Courses Need Electric Utility Carts - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/electric-utility-vehicle-efficiency-meets-innovation-in-every-drive/": {
+    "file": "news__electric-utility-vehicle-efficiency-meets-innovation-in-every-drive.html",
+    "title": "What is an Electric Utility Vehicle? - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/electric-utility-vehicles-efficiency-meets-versatility-in-every-industry/": {
+    "file": "news__electric-utility-vehicles-efficiency-meets-versatility-in-every-industry.html",
+    "title": "What Is an Electric Utility Vehicle Used For? - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/electric-utility-vehicles-the-smart-solution-for-modern-transport-needs/": {
+    "file": "news__electric-utility-vehicles-the-smart-solution-for-modern-transport-needs.html",
+    "title": "What Is an Electric Utility Vehicle? - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/electric-utvs-what-you-need-to-know-before-you-buy/": {
+    "file": "news__electric-utvs-what-you-need-to-know-before-you-buy.html",
+    "title": "1. What is the range of an electric UTV? - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/electric-vs-gasoline-golf-carts-which-is-the-best-choice-for-your-golf-course-in-2025/": {
+    "file": "news__electric-vs-gasoline-golf-carts-which-is-the-best-choice-for-your-golf-course-in-2025.html",
+    "title": "1. Energy Consumption Difference - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/electrical-golf-cart-a-solution-for-the-golf-course/": {
+    "file": "news__electrical-golf-cart-a-solution-for-the-golf-course.html",
+    "title": "What is an Electrical Golf Cart? - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/elegant-travel-driven-by-green-taras-sustainable-practice/": {
+    "file": "news__elegant-travel-driven-by-green-taras-sustainable-practice.html",
+    "title": "1. Start from the Source of Energy: Clean and Safe Lithium Power System - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/elevate-your-golfing-experience-tara-spirit-plus/": {
+    "file": "news__elevate-your-golfing-experience-tara-spirit-plus.html",
+    "title": "Built for Maximum Comfort - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/empowering-golf-course-sustainability-with-electric-fleet-innovation/": {
+    "file": "news__empowering-golf-course-sustainability-with-electric-fleet-innovation.html",
+    "title": "Ⅰ. Why Turn to Electric Fleets? - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/enclosed-golf-cart-combining-comfort-and-functionality/": {
+    "file": "news__enclosed-golf-cart-combining-comfort-and-functionality.html",
+    "title": "Ⅰ. Why choose an Enclosed Golf Cart? - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/enclosed-golf-carts/": {
+    "file": "news__enclosed-golf-carts.html",
+    "title": "What are Enclosed Golf Carts? - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/enjoy-your-ride-a-complete-guide-to-golf-cart-speakers/": {
+    "file": "news__enjoy-your-ride-a-complete-guide-to-golf-cart-speakers.html",
+    "title": "What Are Golf Cart Speakers Used For? - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/essential-maintenance-tips-for-golf-carts/": {
+    "file": "news__essential-maintenance-tips-for-golf-carts.html",
+    "title": "Essential Maintenance Tips For Golf Carts - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/ev-cars-leading-the-future-of-mobility/": {
+    "file": "news__ev-cars-leading-the-future-of-mobility.html",
+    "title": "Ⅰ. Why are EV cars becoming a trend? - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/ev-golf-cart/": {
+    "file": "news__ev-golf-cart.html",
+    "title": "I. What is an EV golf cart? Why is it becoming mainstream? - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/everything-you-need-to-know-about-utility-vehicles-and-battery-powered-options/": {
+    "file": "news__everything-you-need-to-know-about-utility-vehicles-and-battery-powered-options.html",
+    "title": "What Is a Utility Vehicle? - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/evolution-of-battery-technology-for-electric-golf-carts-from-lead-acid-to-lifepo4/": {
+    "file": "news__evolution-of-battery-technology-for-electric-golf-carts-from-lead-acid-to-lifepo4.html",
+    "title": "Limitations of lead-acid batteries - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/expanding-beyond-the-course-tara-golf-carts-in-tourism-campuses-and-communities/": {
+    "file": "news__expanding-beyond-the-course-tara-golf-carts-in-tourism-campuses-and-communities.html",
+    "title": "Tourism and High-End Resort Industry: Creating a Quiet and Comfortable Mobile Experience for Guests - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/explore-the-allure-of-4-seater-go-karts-and-their-alternatives/": {
+    "file": "news__explore-the-allure-of-4-seater-go-karts-and-their-alternatives.html",
+    "title": "Why Choose a 4-Seater Go Kart? - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/exploring-the-6-seater-golf-cart-comfort-utility-and-group-mobility/": {
+    "file": "news__exploring-the-6-seater-golf-cart-comfort-utility-and-group-mobility.html",
+    "title": "What Defines a True 6 Seater Golf Cart? - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/exploring-the-golf-trolley-a-smart-and-comfortable-golf-experience/": {
+    "file": "news__exploring-the-golf-trolley-a-smart-and-comfortable-golf-experience.html",
+    "title": "I. Definition and Function of a Golf Trolley - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/ezgo-vs-tara-golf-cart/": {
+    "file": "news__ezgo-vs-tara-golf-cart.html",
+    "title": "Fleet Appearance Matters More Than Ever - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/facing-forward-golf-cart/": {
+    "file": "news__facing-forward-golf-cart.html",
+    "title": "Passenger Comfort Changes the Experience - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/fairway-golf-carts-enhance-the-course-experience/": {
+    "file": "news__fairway-golf-carts-enhance-the-course-experience.html",
+    "title": "Choose Fairway Golf Carts to Improve Course Efficiency and Comfort - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/fancy-golf-cart-the-perfect-blend-of-luxury-and-practicality/": {
+    "file": "news__fancy-golf-cart-the-perfect-blend-of-luxury-and-practicality.html",
+    "title": "The Unique Charm of the Fancy Golf Cart - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/fast-golf-carts/": {
+    "file": "news__fast-golf-carts.html",
+    "title": "I. What are Fast Golf Carts? - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/features-behind-top-rated-electric-golf-carts/": {
+    "file": "news__features-behind-top-rated-electric-golf-carts.html",
+    "title": "Reliable Performance for Daily Use - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/find-the-perfect-beach-cart-for-every-adventure/": {
+    "file": "news__find-the-perfect-beach-cart-for-every-adventure.html",
+    "title": "Why You Need a Beach Cart - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/fleet-carts-smart-solutions-for-modern-golf-courses/": {
+    "file": "news__fleet-carts-smart-solutions-for-modern-golf-courses.html",
+    "title": "Why Do Golf Courses Need Fleet Carts? - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/fleet-golf-cars-solution-for-efficient-course-operations/": {
+    "file": "news__fleet-golf-cars-solution-for-efficient-course-operations.html",
+    "title": "The True Value of Fleet Golf Cars - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/fleet-golf-cart-dealer/": {
+    "file": "news__fleet-golf-cart-dealer.html",
+    "title": "Why a Fleet Golf Cart Dealer is More Important Than a Simple Vehicle Supplier - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/fleet-renewal-a-key-step-in-upgrading-golf-course-operations/": {
+    "file": "news__fleet-renewal-a-key-step-in-upgrading-golf-course-operations.html",
+    "title": "1. Aging Appearance: Don’t Let These Problems Become Uncontrollable - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/fleet-utilization-strategies-for-busy-golf-courses/": {
+    "file": "news__fleet-utilization-strategies-for-busy-golf-courses.html",
+    "title": "Fleet Utilization Strategies For Busy Golf Courses - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/four-person-golf-cart-for-golf-clubs/": {
+    "file": "news__four-person-golf-cart-for-golf-clubs.html",
+    "title": "Guest Services and Operations - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/four-seater-golf-cart-the-ideal-multi-passenger-golf-cart/": {
+    "file": "news__four-seater-golf-cart-the-ideal-multi-passenger-golf-cart.html",
+    "title": "Why Choose a Four-Seat Golf Cart? - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/four-seater-golf-carts/": {
+    "file": "news__four-seater-golf-carts.html",
+    "title": "I. Introduction: A Comfortable and Practical Way of Travel - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/from-course-to-community-discovering-the-main-differences-in-golf-carts/": {
+    "file": "news__from-course-to-community-discovering-the-main-differences-in-golf-carts.html",
+    "title": "Golf Carts for Golf Course - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/gas-powered-golf-cart-battery/": {
+    "file": "news__gas-powered-golf-cart-battery.html",
+    "title": "Gas vs Electric: The Ongoing Debate - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/gas-powered-golf-carts-power-performance/": {
+    "file": "news__gas-powered-golf-carts-power-performance.html",
+    "title": "I. Advantages of Gas-Powered Golf Carts - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/gas-vs-electric-golf-cart-choosing-the-best-power-choice/": {
+    "file": "news__gas-vs-electric-golf-cart-choosing-the-best-power-choice.html",
+    "title": "Understanding the Basics: Electric vs Gas - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/gas-vs-electric-golf-cart-comparing-performance-and-efficiency/": {
+    "file": "news__gas-vs-electric-golf-cart-comparing-performance-and-efficiency.html",
+    "title": "Gas Vs Electric Golf Cart Comparing Performance And Efficiency - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/golf-bag-cart-a-convenient-and-comfortable-choice-for-golf/": {
+    "file": "news__golf-bag-cart-a-convenient-and-comfortable-choice-for-golf.html",
+    "title": "Why Choose a Golf Bag Cart? - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/golf-battery-cart/": {
+    "file": "news__golf-battery-cart.html",
+    "title": "Why Choose a Golf Battery Cart - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/golf-buggy-accessories-everything-you-need-to-upgrade-your-ride/": {
+    "file": "news__golf-buggy-accessories-everything-you-need-to-upgrade-your-ride.html",
+    "title": "What are the most essential accessories for a golf buggy? - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/golf-buggy-dealers/": {
+    "file": "news__golf-buggy-dealers.html",
+    "title": "Ⅰ. Why Choosing a Professional Golf Buggy Dealer is Crucial - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/golf-buggy-dimensions-standard-sizes-and-a-practical-guide/": {
+    "file": "news__golf-buggy-dimensions-standard-sizes-and-a-practical-guide.html",
+    "title": "Why Golf Buggy Dimensions Are Important - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/golf-buggy-for-sale/": {
+    "file": "news__golf-buggy-for-sale.html",
+    "title": "Ⅰ. Why Golf Buggies Have Become a Popular Choice - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/golf-buggy-guide-choosing-the-right-one-for-performance-comfort-and-terrain/": {
+    "file": "news__golf-buggy-guide-choosing-the-right-one-for-performance-comfort-and-terrain.html",
+    "title": "What is a golf buggy and how does it differ from a golf cart? - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/golf-buggy-lights-the-perfect-choice-for-enhanced-safety-and-style/": {
+    "file": "news__golf-buggy-lights-the-perfect-choice-for-enhanced-safety-and-style.html",
+    "title": "Why are golf buggy lights so important? - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/golf-buggy-manufacturer/": {
+    "file": "news__golf-buggy-manufacturer.html",
+    "title": "Why a Golf Buggy Manufacturer is So Important for Course Operations - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/golf-buggy-suppliers-worth-considering/": {
+    "file": "news__golf-buggy-suppliers-worth-considering.html",
+    "title": "What Golf Courses Expect - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/golf-buggy-with-seat/": {
+    "file": "news__golf-buggy-with-seat.html",
+    "title": "Types of Golf Buggy with Seat - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/golf-buggy-with-trailer/": {
+    "file": "news__golf-buggy-with-trailer.html",
+    "title": "Ⅰ. Applications and Advantages of Golf Buggies with Trailers - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/golf-caddie-cart/": {
+    "file": "news__golf-caddie-cart.html",
+    "title": "Built for Caddies - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/golf-caddy-cart/": {
+    "file": "news__golf-caddy-cart.html",
+    "title": "I. The Concept and Usage Scenarios of Golf Caddy Carts - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/golf-car-financing/": {
+    "file": "news__golf-car-financing.html",
+    "title": "Why do golf courses consider Golf Car Financing when purchasing? - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/golf-car-or-golf-cart-understanding-the-terminology-around-golf-vehicles/": {
+    "file": "news__golf-car-or-golf-cart-understanding-the-terminology-around-golf-vehicles.html",
+    "title": "Is It Called a Golf Car or a Golf Cart? - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/golf-car-terms/": {
+    "file": "news__golf-car-terms.html",
+    "title": "Fleet-Related Golf Car Terms - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/golf-cars-the-ideal-choice-for-golf-courses/": {
+    "file": "news__golf-cars-the-ideal-choice-for-golf-courses.html",
+    "title": "I. Main Types and Applications of Golf Cars - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/golf-cart-ac/": {
+    "file": "news__golf-cart-ac.html",
+    "title": "I. What is an AC power system? Why is it becoming a trend in golf carts? - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/golf-cart-accessories-enhance-your-ride-with-style-and-functionality/": {
+    "file": "news__golf-cart-accessories-enhance-your-ride-with-style-and-functionality.html",
+    "title": "Golf Cart Accessories Enhance Your Ride With Style And Functionality - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/golf-cart-batteries-types-lifespan-costs-and-setup-explained/": {
+    "file": "news__golf-cart-batteries-types-lifespan-costs-and-setup-explained.html",
+    "title": "Golf Cart Batteries Types Lifespan Costs And Setup Explained - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/golf-cart-business-dealer-guide-for-electric-golf-carts/": {
+    "file": "news__golf-cart-business-dealer-guide-for-electric-golf-carts.html",
+    "title": "What is the essence of a Golf Cart Business? - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/golf-cart-cost-analysis/": {
+    "file": "news__golf-cart-cost-analysis.html",
+    "title": "I. Main Factors Affecting Golf Cart Cost - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/golf-cart-course-gps/": {
+    "file": "news__golf-cart-course-gps.html",
+    "title": "More Than Yardage - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/golf-cart-dealers-adding-value-to-course-operations/": {
+    "file": "news__golf-cart-dealers-adding-value-to-course-operations.html",
+    "title": "I. Market Demand for Professional Golf Cart Dealers Continues to Grow - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/golf-cart-dimensions-a-complete-guide-to-sizing-your-ride/": {
+    "file": "news__golf-cart-dimensions-a-complete-guide-to-sizing-your-ride.html",
+    "title": "What Are the Standard Golf Cart Dimensions? - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/golf-cart-enclosures/": {
+    "file": "news__golf-cart-enclosures.html",
+    "title": "I. Why Have Golf Cart Enclosures Become Standard Equipment for Some Golf Courses? - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/golf-cart-fans-for-golf-course-fleets/": {
+    "file": "news__golf-cart-fans-for-golf-course-fleets.html",
+    "title": "Which courses are best suited for golf cart fans? - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/golf-cart-fleet-costs/": {
+    "file": "news__golf-cart-fleet-costs.html",
+    "title": "Pitfall 1: Focusing Only on Cart Price, Ignoring the “Total Cost of Ownership” - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/golf-cart-fleet-how-to-build-manage-and-upgrade-for-maximum-efficiency/": {
+    "file": "news__golf-cart-fleet-how-to-build-manage-and-upgrade-for-maximum-efficiency.html",
+    "title": "What Is a Golf Cart Fleet? - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/golf-cart-fleet-lease/": {
+    "file": "news__golf-cart-fleet-lease.html",
+    "title": "Why Golf Courses Are Reconsidering Fleet Ownership - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/golf-cart-fleet-planning-for-tournaments/": {
+    "file": "news__golf-cart-fleet-planning-for-tournaments.html",
+    "title": "Fleet Roles - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/golf-cart-fleets-solutions/": {
+    "file": "news__golf-cart-fleets-solutions.html",
+    "title": "Why are Golf Cart Fleets Core Assets for Golf Course Operations? - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/golf-cart-gps-for-golf-courses/": {
+    "file": "news__golf-cart-gps-for-golf-courses.html",
+    "title": "Real-Time Tracking - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/golf-cart-gps-tracker-intelligent-fleet-management/": {
+    "file": "news__golf-cart-gps-tracker-intelligent-fleet-management.html",
+    "title": "What is a Golf Cart GPS Tracker? - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/golf-cart-gps-tracking-course-vehicle-management/": {
+    "file": "news__golf-cart-gps-tracking-course-vehicle-management.html",
+    "title": "I. What is Golf Cart GPS Tracking? - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/golf-cart-heaters/": {
+    "file": "news__golf-cart-heaters.html",
+    "title": "I. Meaning of Golf Cart Heaters: Cabin Heating vs. Battery Heating - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/golf-cart-insurance/": {
+    "file": "news__golf-cart-insurance.html",
+    "title": "Why is golf cart insurance important? - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/golf-cart-led-lights-enhancing-safety-and-visibility/": {
+    "file": "news__golf-cart-led-lights-enhancing-safety-and-visibility.html",
+    "title": "Why are golf cart LED lights becoming the industry standard? - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/golf-cart-lights-improving-safety-and-nighttime-visibility/": {
+    "file": "news__golf-cart-lights-improving-safety-and-nighttime-visibility.html",
+    "title": "I. Key Functions of Golf Cart Lights - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/golf-cart-makers-trustworthy-manufacturer/": {
+    "file": "news__golf-cart-makers-trustworthy-manufacturer.html",
+    "title": "The Role of Golf Cart Makers in the Industry - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/golf-cart-manufacturing-how-golf-carts-are-built/": {
+    "file": "news__golf-cart-manufacturing-how-golf-carts-are-built.html",
+    "title": "It Starts Long Before Production - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/golf-cart-models-choosing-the-right-model-for-your-course/": {
+    "file": "news__golf-cart-models-choosing-the-right-model-for-your-course.html",
+    "title": "The Core Classification Logic of Golf Cart Models - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/golf-cart-parts-analysis-for-accessories-and-customization/": {
+    "file": "news__golf-cart-parts-analysis-for-accessories-and-customization.html",
+    "title": "Core Categories of Golf Cart Parts - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/golf-cart-purchase-buy-a-cost-effective-electric-golf-cart/": {
+    "file": "news__golf-cart-purchase-buy-a-cost-effective-electric-golf-cart.html",
+    "title": "Ⅰ. Advantages of Golf Cart Purchase - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/golf-cart-rental-why-tara-golf-carts-are-the-better-choice/": {
+    "file": "news__golf-cart-rental-why-tara-golf-carts-are-the-better-choice.html",
+    "title": "Ⅰ. Growing Demand for Golf Cart Rentals - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/golf-cart-repair-professional-guide-repair-considerations/": {
+    "file": "news__golf-cart-repair-professional-guide-repair-considerations.html",
+    "title": "Common Types of Golf Cart Repair - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/golf-cart-safety-driving-regulations-and-golf-course-etiquettes/": {
+    "file": "news__golf-cart-safety-driving-regulations-and-golf-course-etiquettes.html",
+    "title": "Basic operating regulations: the whole process from starting to parking - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/golf-cart-seat-belts/": {
+    "file": "news__golf-cart-seat-belts.html",
+    "title": "Why are golf cart seat belts becoming increasingly important? - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/golf-cart-seat/": {
+    "file": "news__golf-cart-seat.html",
+    "title": "Golf Cart Seat Types and Features - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/golf-cart-service/": {
+    "file": "news__golf-cart-service.html",
+    "title": "I. Introduction: A High-Quality Golf Cart Depends on Professional Service - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/golf-cart-services/": {
+    "file": "news__golf-cart-services.html",
+    "title": "What are Golf Cart Services? - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/golf-cart-size-what-to-know-before-you-buy/": {
+    "file": "news__golf-cart-size-what-to-know-before-you-buy.html",
+    "title": "Why Golf Cart Size Matters - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/golf-cart-speed-how-fast-can-it-go-legally-and-technically/": {
+    "file": "news__golf-cart-speed-how-fast-can-it-go-legally-and-technically.html",
+    "title": "1. What Is the Standard Speed of a Golf Cart? - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/golf-cart-store/": {
+    "file": "news__golf-cart-store.html",
+    "title": "What qualities should a professional golf cart store possess? - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/golf-cart-supplier/": {
+    "file": "news__golf-cart-supplier.html",
+    "title": "How to Choose the Right Golf Cart Supplier? - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/golf-cart-supply/": {
+    "file": "news__golf-cart-supply.html",
+    "title": "I. What Constitutes a Complete and High-Quality Golf Cart Supply? - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/golf-cart-the-perfect-companion-for-fall-outings/": {
+    "file": "news__golf-cart-the-perfect-companion-for-fall-outings.html",
+    "title": "Golf Cart The Perfect Companion For Fall Outings - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/golf-cart-tires-your-complete-guide-to-choosing-maintaining-and-upgrading/": {
+    "file": "news__golf-cart-tires-your-complete-guide-to-choosing-maintaining-and-upgrading.html",
+    "title": "1. What type of tire do I need for my golf cart? - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/golf-cart-trailer-the-ultimate-guide-to-hauling-smartly-and-safely/": {
+    "file": "news__golf-cart-trailer-the-ultimate-guide-to-hauling-smartly-and-safely.html",
+    "title": "What Exactly Is a Golf Cart Trailer? - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/golf-cart-utv/": {
+    "file": "news__golf-cart-utv.html",
+    "title": "I. The Rise of Golf Cart UTVs: A New Era of Multi-Scenario Mobility - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/golf-cart-vin-number-everything-you-need-to-know/": {
+    "file": "news__golf-cart-vin-number-everything-you-need-to-know.html",
+    "title": "What is a Golf Cart VIN Number? - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/golf-cart-warehouse-golf-course-vehicle-management/": {
+    "file": "news__golf-cart-warehouse-golf-course-vehicle-management.html",
+    "title": "Optimized Vehicle Storage: Functional Analysis of a Golf Cart Warehouse - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/golf-cart-weight-what-you-need-to-know-before-you-buy/": {
+    "file": "news__golf-cart-weight-what-you-need-to-know-before-you-buy.html",
+    "title": "1. Why Golf Cart Weight Matters - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/golf-cart-wheels-for-sale/": {
+    "file": "news__golf-cart-wheels-for-sale.html",
+    "title": "I. Why is “golf cart wheels for sale” a frequently searched term? - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/golf-cart-wheels-how-to-choose-and-taras-solution/": {
+    "file": "news__golf-cart-wheels-how-to-choose-and-taras-solution.html",
+    "title": "1. Why are golf cart wheels so important? - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/golf-cart-windshield-a-comprehensive-guide/": {
+    "file": "news__golf-cart-windshield-a-comprehensive-guide.html",
+    "title": "Why is a golf cart windshield so important? - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/golf-cart-with-lift-golf-cart-upgrade-solutions/": {
+    "file": "news__golf-cart-with-lift-golf-cart-upgrade-solutions.html",
+    "title": "What is a Golf Cart With Lift? - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/golf-cart-with-lithium-battery/": {
+    "file": "news__golf-cart-with-lithium-battery.html",
+    "title": "I. Why are golf carts fully transitioning to lithium batteries? - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/golf-cart-with-roof-comfort-and-practicality/": {
+    "file": "news__golf-cart-with-roof-comfort-and-practicality.html",
+    "title": "Why Golf Carts with Roofs are Becoming Increasingly Important - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/golf-cart-world/": {
+    "file": "news__golf-cart-world.html",
+    "title": "I. Introduction: Entering the Electric Era of Golf Cart World - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/golf-carts-2025-top-picks-brands-buying-guide/": {
+    "file": "news__golf-carts-2025-top-picks-brands-buying-guide.html",
+    "title": "1. What Makes a Golf Cart the “Best” in 2025? - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/golf-carts-for-country-clubs/": {
+    "file": "news__golf-carts-for-country-clubs.html",
+    "title": "I. Why Do Country Clubs Need Professional Golf Carts? - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/golf-carts-for-rent/": {
+    "file": "news__golf-carts-for-rent.html",
+    "title": "I. Introduction: A Flexible and Convenient Way to Travel Short Distances - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/golf-carts-for-sale-what-to-know-before-you-buy/": {
+    "file": "news__golf-carts-for-sale-what-to-know-before-you-buy.html",
+    "title": "Golf Carts For Sale What To Know Before You Buy - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/golf-carts-with-back-seats-comfort-functionality-and-versatility-for-modern-needs/": {
+    "file": "news__golf-carts-with-back-seats-comfort-functionality-and-versatility-for-modern-needs.html",
+    "title": "Why Choose a Golf Cart with a Back Seat? - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/golf-carts-with-gps/": {
+    "file": "news__golf-carts-with-gps.html",
+    "title": "Why are Golf Carts With GPS Becoming Increasingly Popular? - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/golf-carts-with-lights/": {
+    "file": "news__golf-carts-with-lights.html",
+    "title": "I. Introduction: Extending Golf Carts from Day to Night - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/golf-carts-with-speakers/": {
+    "file": "news__golf-carts-with-speakers.html",
+    "title": "Ⅰ. When Music Meets Golf - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/golf-club-buggy-golf-course-operations/": {
+    "file": "news__golf-club-buggy-golf-course-operations.html",
+    "title": "The Important Role of the Golf Club Buggy in Golf Courses - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/golf-clubs-everything-you-need-to-know-before-choosing-your-set/": {
+    "file": "news__golf-clubs-everything-you-need-to-know-before-choosing-your-set.html",
+    "title": "1. What Are the Different Types of Golf Clubs? - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/golf-course-a-deep-dive-into-design-experience-and-global-rankings/": {
+    "file": "news__golf-course-a-deep-dive-into-design-experience-and-global-rankings.html",
+    "title": "1. What Defines a Modern Golf Course? - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/golf-fleet-vehicles/": {
+    "file": "news__golf-fleet-vehicles.html",
+    "title": "More Than Transportation - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/golf-karts-vehicles-used-at-golf-courses/": {
+    "file": "news__golf-karts-vehicles-used-at-golf-courses.html",
+    "title": "Why Have Golf Karts Become Standard Equipment on Golf Courses? - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/golf-small-car-the-best-small-golf-car-for-golf-courses/": {
+    "file": "news__golf-small-car-the-best-small-golf-car-for-golf-courses.html",
+    "title": "Why Choose a Golf Small Car? - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/golf-tee-times/": {
+    "file": "news__golf-tee-times.html",
+    "title": "I. Introduction: Precisely Plan Your Golf Tee Times for a More Relaxed Swing - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/golf-truck-electric-utility-vehicle-for-golf-courses/": {
+    "file": "news__golf-truck-electric-utility-vehicle-for-golf-courses.html",
+    "title": "What Exactly Is a Golf Truck? Not a “Truck,” but a Functional Extension - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/golfkar-alles-wat-je-moet-weten-over-moderne-elektrische-golfkarren/": {
+    "file": "news__golfkar-alles-wat-je-moet-weten-over-moderne-elektrische-golfkarren.html",
+    "title": "Waarom kiezen voor een elektrische golfkar? - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/good-golf-carts/": {
+    "file": "news__good-golf-carts.html",
+    "title": "I. Criteria for a Good Golf Cart: More Than Just a Tool - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/gps-golf-trolley-the-ideal-choice-for-golfers/": {
+    "file": "news__gps-golf-trolley-the-ideal-choice-for-golfers.html",
+    "title": "What is a GPS Golf Trolley? - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/guide-to-lawn-carts-choosing-and-using-the-best-lawn-cart/": {
+    "file": "news__guide-to-lawn-carts-choosing-and-using-the-best-lawn-cart.html",
+    "title": "What is a Lawn Cart and Its Uses - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/heavy-duty-trolley-guide-durable-versatile-and-built-to-last/": {
+    "file": "news__heavy-duty-trolley-guide-durable-versatile-and-built-to-last.html",
+    "title": "What Makes a Trolley “Heavy Duty”? - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/high-quality-golf-cart-bodies/": {
+    "file": "news__high-quality-golf-cart-bodies.html",
+    "title": "I. What is the core function of Golf Cart Bodies? - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/high-quality-utility-carts-for-sale/": {
+    "file": "news__high-quality-utility-carts-for-sale.html",
+    "title": "Ⅰ. What is a utility cart? - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/how-do-i-dispose-of-a-lithium-battery/": {
+    "file": "news__how-do-i-dispose-of-a-lithium-battery.html",
+    "title": "Why do lithium batteries require special handling? - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/how-does-a-golf-fleet-work/": {
+    "file": "news__how-does-a-golf-fleet-work.html",
+    "title": "Calculate Available Vehicles First - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/how-fast-do-golf-carts-go/": {
+    "file": "news__how-fast-do-golf-carts-go.html",
+    "title": "Standard Electric Golf Cart Speed ​​Analysis - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/how-golf-cart-fleets-impact-pace-of-play/": {
+    "file": "news__how-golf-cart-fleets-impact-pace-of-play.html",
+    "title": "How Golf Cart Fleets Impact Pace Of Play - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/how-golf-carts-boost-golf-course-revenue/": {
+    "file": "news__how-golf-carts-boost-golf-course-revenue.html",
+    "title": "Golf Cart Rental Services: The Most Direct and Stable Source of Revenue - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/how-golf-courses-manage-mixed-fleets/": {
+    "file": "news__how-golf-courses-manage-mixed-fleets.html",
+    "title": "Why Mixed Fleets Happen - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/how-golf-courses-plan-for-golf-cart-fleet-replacement/": {
+    "file": "news__how-golf-courses-plan-for-golf-cart-fleet-replacement.html",
+    "title": "Lifecycle Management - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/how-golf-courses-reduce-cart-path-congestion/": {
+    "file": "news__how-golf-courses-reduce-cart-path-congestion.html",
+    "title": "Route Design - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/how-gps-fleet-management-helps-protect-golf-course-turf/": {
+    "file": "news__how-gps-fleet-management-helps-protect-golf-course-turf.html",
+    "title": "I. Real-time Cart Location Tracking - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/how-lithium-power-transforms-golf-course-operations/": {
+    "file": "news__how-lithium-power-transforms-golf-course-operations.html",
+    "title": "Three Mainstream Power Systems for Golf Carts - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/how-long-do-golf-cart-batteries-last-a-practical-guide-for-longevity-and-performance/": {
+    "file": "news__how-long-do-golf-cart-batteries-last-a-practical-guide-for-longevity-and-performance.html",
+    "title": "What Affects How Long Golf Cart Batteries Last? - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/how-many-seats-does-a-golf-cart-have/": {
+    "file": "news__how-many-seats-does-a-golf-cart-have.html",
+    "title": "How Many Seats Does a Golf Cart Have? - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/how-much-does-a-golf-buggy-weigh/": {
+    "file": "news__how-much-does-a-golf-buggy-weigh.html",
+    "title": "Typical Weights - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/how-much-does-a-golf-cart-weigh-a-complete-2025-guide/": {
+    "file": "news__how-much-does-a-golf-cart-weigh-a-complete-2025-guide.html",
+    "title": "What Is the Average Weight of a Golf Cart? - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/how-premium-golf-cart-fleets-influence-member-experience/": {
+    "file": "news__how-premium-golf-cart-fleets-influence-member-experience.html",
+    "title": "Member Perceptions of the Experience are Changing - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/how-temperature-affects-golf-cart-battery-performance/": {
+    "file": "news__how-temperature-affects-golf-cart-battery-performance.html",
+    "title": "The Impact of Low Temperatures on Battery Performance - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/how-to-build-and-manage-a-golf-cart-fleet-efficiently/": {
+    "file": "news__how-to-build-and-manage-a-golf-cart-fleet-efficiently.html",
+    "title": "What Is a Golf Cart Fleet? - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/how-to-choose-a-car-for-golf/": {
+    "file": "news__how-to-choose-a-car-for-golf.html",
+    "title": "Usage Scenarios - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/how-to-choose-a-commercially-suitable-electric-golf-cart/": {
+    "file": "news__how-to-choose-a-commercially-suitable-electric-golf-cart.html",
+    "title": "Why Do Golf Courses Need Professional-Grade Electric Golf Carts? - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/how-to-choose-a-reliable-golf-cart-manufacturer/": {
+    "file": "news__how-to-choose-a-reliable-golf-cart-manufacturer.html",
+    "title": "Why Choosing a Professional Golf Cart Manufacturer is Important - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/how-to-choose-fleet-golf-carts/": {
+    "file": "news__how-to-choose-fleet-golf-carts.html",
+    "title": "Investment Planning - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/how-to-choose-the-best-electric-utv/": {
+    "file": "news__how-to-choose-the-best-electric-utv.html",
+    "title": "Consider Battery Technology - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/how-to-choose-the-right-electric-golf-cart/": {
+    "file": "news__how-to-choose-the-right-electric-golf-cart.html",
+    "title": "Identify Your Usage Needs - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/how-to-drive-a-golf-cart/": {
+    "file": "news__how-to-drive-a-golf-cart.html",
+    "title": "Basic Structure and Driving Logic of a Golf Cart - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/how-to-excel-as-a-golf-cart-dealer-key-strategies-for-success/": {
+    "file": "news__how-to-excel-as-a-golf-cart-dealer-key-strategies-for-success.html",
+    "title": "1. Understand Your Market - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/how-to-improve-the-operation-efficiency-of-golf-courses-with-utility-vehicles/": {
+    "file": "news__how-to-improve-the-operation-efficiency-of-golf-courses-with-utility-vehicles.html",
+    "title": "1. Strengthen cargo and traction functions and simplify logistics processes - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/how-to-properly-store-a-golf-cart/": {
+    "file": "news__how-to-properly-store-a-golf-cart.html",
+    "title": "How To Properly Store A Golf Cart - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/how-to-reduce-golf-cart-downtime-in-peak-season/": {
+    "file": "news__how-to-reduce-golf-cart-downtime-in-peak-season.html",
+    "title": "I. Pre-Peak Preventative Maintenance - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/hunting-buggies-for-outdoor-mobility/": {
+    "file": "news__hunting-buggies-for-outdoor-mobility.html",
+    "title": "Quiet Power Makes a Difference - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/hunting-golf-carts/": {
+    "file": "news__hunting-golf-carts.html",
+    "title": "The Rise of Electric Hunting Vehicles - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/inexpensive-golf-cart/": {
+    "file": "news__inexpensive-golf-cart.html",
+    "title": "I. What Makes a Truly “Inexpensive Golf Cart”? - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/inexpensive-golf-carts-how-to-choose-a-truly-cost-effective-golf-cart/": {
+    "file": "news__inexpensive-golf-carts-how-to-choose-a-truly-cost-effective-golf-cart.html",
+    "title": "Does Inexpensive Golf Cart mean performance compromise? - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/innovation-and-sustainability-in-golf-carts-driving-the-future-forward/": {
+    "file": "news__innovation-and-sustainability-in-golf-carts-driving-the-future-forward.html",
+    "title": "Sustainable Advancements in Battery Technology - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/innovation-in-car-technologies-and-an-elevated-golf-experience/": {
+    "file": "news__innovation-in-car-technologies-and-an-elevated-golf-experience.html",
+    "title": "Development Trends in Car Technologies - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/intelligent-and-professional-golf-equipment/": {
+    "file": "news__intelligent-and-professional-golf-equipment.html",
+    "title": "I. The Development Direction of Golf Equipment: Modern Systems - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/investing-in-electric-golf-carts-maximizing-cost-savings-and-profitability-for-golf-courses/": {
+    "file": "news__investing-in-electric-golf-carts-maximizing-cost-savings-and-profitability-for-golf-courses.html",
+    "title": "Investing In Electric Golf Carts Maximizing Cost Savings And Profitability For Golf Courses - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/is-your-golf-course-ready-for-the-lithium-era/": {
+    "file": "news__is-your-golf-course-ready-for-the-lithium-era.html",
+    "title": "I. Does Your Course Really Need to Upgrade to Lithium Batteries? — Three Questions for Self-Assessment - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/join-tara-at-the-2026-pga-show-booth-3129/": {
+    "file": "news__join-tara-at-the-2026-pga-show-booth-3129.html",
+    "title": "What You Can Expect at Booth #3129: - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/join-the-tara-dealer-network-and-drive-success/": {
+    "file": "news__join-the-tara-dealer-network-and-drive-success.html",
+    "title": "Join The Tara Dealer Network And Drive Success - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/keep-your-electric-golf-cart-running-smoothly-with-these-top-cleaning-and-maintenance-tips/": {
+    "file": "news__keep-your-electric-golf-cart-running-smoothly-with-these-top-cleaning-and-maintenance-tips.html",
+    "title": "1. Start with a Thorough Wash—But Watch the Water! - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/lawn-equipment/": {
+    "file": "news__lawn-equipment.html",
+    "title": "I. Introduction: The Importance and Intelligent Development of Lawn Equipment - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/lawn-machine/": {
+    "file": "news__lawn-machine.html",
+    "title": "I. Introduction: A New Era from Traditional Lawn Movers to Intelligent Lawn Machines - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/leading-buggy-manufacturers-today/": {
+    "file": "news__leading-buggy-manufacturers-today.html",
+    "title": "What Sets Manufacturers Apart? - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/learning-to-drive-a-golf-cart-a-complete-guide/": {
+    "file": "news__learning-to-drive-a-golf-cart-a-complete-guide.html",
+    "title": "1. Why Learn How to Drive a Golf Cart? - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/leasing-vs-buying-golf-cart-fleets-what-should-courses-consider/": {
+    "file": "news__leasing-vs-buying-golf-cart-fleets-what-should-courses-consider.html",
+    "title": "Cash Flow Pressure vs. Long-Term Asset Stagnation - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/leroad-vs-tara-golf-carts/": {
+    "file": "news__leroad-vs-tara-golf-carts.html",
+    "title": "Beyond the Golf Cart Itself - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/lifted-golf-cart/": {
+    "file": "news__lifted-golf-cart.html",
+    "title": "I. What is a Lifted Golf Cart? - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/lifted-golf-carts-explained-benefits-costs-and-buying-tips/": {
+    "file": "news__lifted-golf-carts-explained-benefits-costs-and-buying-tips.html",
+    "title": "Why choose lifted golf carts? - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/lifted-tara-golf-cart/": {
+    "file": "news__lifted-tara-golf-cart.html",
+    "title": "Why is the Lifted TARA Neighborhood Electric Vehicles Becoming Increasingly Popular? - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/lifted-trucks/": {
+    "file": "news__lifted-trucks.html",
+    "title": "Ⅰ. What is a Lifted Truck? - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/light-utility-vehicles-golf-course-operation-vehicles/": {
+    "file": "news__light-utility-vehicles-golf-course-operation-vehicles.html",
+    "title": "Definition and Core Advantages of Light Utility Vehicles - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/lithium-battery-for-golf-carts/": {
+    "file": "news__lithium-battery-for-golf-carts.html",
+    "title": "Why Lithium Battery for Golf Carts is Becoming an Industry Trend - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/lithium-golf-cart-fleet-the-foundation-of-golf-course-operations/": {
+    "file": "news__lithium-golf-cart-fleet-the-foundation-of-golf-course-operations.html",
+    "title": "Why Fleet Operators Are Switching to Lithium - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/lithium-golf-cart-the-electric-revolution/": {
+    "file": "news__lithium-golf-cart-the-electric-revolution.html",
+    "title": "Why choose a Lithium Golf Cart? - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/low-price-golf-carts/": {
+    "file": "news__low-price-golf-carts.html",
+    "title": "Ⅰ. Why Choose Low-Price Golf Carts? - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/lsv-golf-cart/": {
+    "file": "news__lsv-golf-cart.html",
+    "title": "Advantages of the LSV Golf Cart - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/lsv-vehicles-what-they-are-and-why-theyre-gaining-popularity/": {
+    "file": "news__lsv-vehicles-what-they-are-and-why-theyre-gaining-popularity.html",
+    "title": "What Is an LSV Vehicle? - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/luxury-golf-buggy/": {
+    "file": "news__luxury-golf-buggy.html",
+    "title": "I. What is a True Luxury Golf Buggy? - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/luxury-golf-cart/": {
+    "file": "news__luxury-golf-cart.html",
+    "title": "Ⅰ. The Unique Value of Luxury Golf Carts - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/map-golf-courses/": {
+    "file": "news__map-golf-courses.html",
+    "title": "I. Introduction: Redefining Golf Travel with Maps - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/mazze-da-golf-guida-completa-per-scegliere-il-set-giusto-e-migliorare-il-gioco/": {
+    "file": "news__mazze-da-golf-guida-completa-per-scegliere-il-set-giusto-e-migliorare-il-gioco.html",
+    "title": "Quali sono i tipi principali di mazze da golf? - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/meeting-modern-micro-travel-needs-taras-innovative-response/": {
+    "file": "news__meeting-modern-micro-travel-needs-taras-innovative-response.html",
+    "title": "New Characteristics of Demand - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/merry-christmas-from-tara-thank-you-for-driving-with-us-in-2025/": {
+    "file": "news__merry-christmas-from-tara-thank-you-for-driving-with-us-in-2025.html",
+    "title": "Tara Continues to Steadily Grow Across the United States in 2025 - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/mini-car-compact-mobility-for-adults-with-big-possibilities/": {
+    "file": "news__mini-car-compact-mobility-for-adults-with-big-possibilities.html",
+    "title": "What is a Mini Car? - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/mini-electric-cars-compact-mobility-with-big-impact/": {
+    "file": "news__mini-electric-cars-compact-mobility-with-big-impact.html",
+    "title": "What is a Mini Electric Car and How is It Different? - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/mini-electric-cart-golf-course-transportation/": {
+    "file": "news__mini-electric-cart-golf-course-transportation.html",
+    "title": "I. What is a Mini Electric Cart? - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/mini-golf-car-compact-performance-for-big-adventures/": {
+    "file": "news__mini-golf-car-compact-performance-for-big-adventures.html",
+    "title": "What Is a Mini Golf Car? - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/mini-golf-cart-compact-convenience-for-golfers-and-more/": {
+    "file": "news__mini-golf-cart-compact-convenience-for-golfers-and-more.html",
+    "title": "What Is a Mini Golf Cart? - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/mini-golfcart-a-golf-course-transportation-option/": {
+    "file": "news__mini-golfcart-a-golf-course-transportation-option.html",
+    "title": "What is a Mini Golfcart? - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/mobility-scooter-the-ideal-choice-for-comfortable-travel/": {
+    "file": "news__mobility-scooter-the-ideal-choice-for-comfortable-travel.html",
+    "title": "Why Choose a Two-Seater Mobility Scooter? - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/modern-golf-cart/": {
+    "file": "news__modern-golf-cart.html",
+    "title": "Ⅰ. What is a Modern Golf Cart? - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/modified-golf-carts/": {
+    "file": "news__modified-golf-carts.html",
+    "title": "Why are Modified Golf Carts Becoming Increasingly Popular? - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/motor-golf-buggy-core-equipment-for-golf-courses/": {
+    "file": "news__motor-golf-buggy-core-equipment-for-golf-courses.html",
+    "title": "The Real Role of Motor Golf Buggies on Golf Courses - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/motorcycle-golf-cart-the-rise-and-future/": {
+    "file": "news__motorcycle-golf-cart-the-rise-and-future.html",
+    "title": "The Concept and Trends of the Motorcycle Golf Cart - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/navigating-the-greens-how-golf-carts-have-revolutionized-the-sports-world/": {
+    "file": "news__navigating-the-greens-how-golf-carts-have-revolutionized-the-sports-world.html",
+    "title": "Navigating The Greens How Golf Carts Have Revolutionized The Sports World - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/neighborhood-electric-vehicles/": {
+    "file": "news__neighborhood-electric-vehicles.html",
+    "title": "What is a Neighborhood Electric Vehicle? - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/neighborhood-ev-community-mobility/": {
+    "file": "news__neighborhood-ev-community-mobility.html",
+    "title": "I. The Core Value of Neighborhood EVs: Transportation Built for Communities - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/nev-golf-cart-short-distance-community-transportation/": {
+    "file": "news__nev-golf-cart-short-distance-community-transportation.html",
+    "title": "What is an NEV Golf Cart? - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/new-golf-buggies/": {
+    "file": "news__new-golf-buggies.html",
+    "title": "I. Core Advantages of New Golf Buggies - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/new-golf-car-fleets/": {
+    "file": "news__new-golf-car-fleets.html",
+    "title": "Why Courses Need New Golf Car Fleets - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/new-golf-cart-price/": {
+    "file": "news__new-golf-cart-price.html",
+    "title": "I. Basic Components of a New Golf Cart Price - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/new-golf-carts-a-complete-guide-to-buying-a-new-golf-cart/": {
+    "file": "news__new-golf-carts-a-complete-guide-to-buying-a-new-golf-cart.html",
+    "title": "Why Choose New Golf Carts? - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/off-road-electric-golf-cart/": {
+    "file": "news__off-road-electric-golf-cart.html",
+    "title": "I. What is an Off-Road Electric Golf Cart? - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/off-road-fun-and-utility-the-ultimate-guide-to-buggy-cars/": {
+    "file": "news__off-road-fun-and-utility-the-ultimate-guide-to-buggy-cars.html",
+    "title": "1. What Is a Buggy Car? - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/off-road-utility-vehicles/": {
+    "file": "news__off-road-utility-vehicles.html",
+    "title": "I. What are off-road utility vehicles? Why are they rapidly gaining popularity across multiple industries? - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/off-road-utvs/": {
+    "file": "news__off-road-utvs.html",
+    "title": "Ⅰ. Features and Applications of Off-Road UTVs - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/offroad-buggy-discover-the-tara-off-road-buggy/": {
+    "file": "news__offroad-buggy-discover-the-tara-off-road-buggy.html",
+    "title": "Key Advantages of the TARA Offroad Buggy - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/offroad-golf-cart-selection-and-guide/": {
+    "file": "news__offroad-golf-cart-selection-and-guide.html",
+    "title": "Why choose an offroad golf cart? - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/old-golf-carts/": {
+    "file": "news__old-golf-carts.html",
+    "title": "I. Why are old golf carts still popular? - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/optimize-your-operations-with-a-smart-golf-fleet/": {
+    "file": "news__optimize-your-operations-with-a-smart-golf-fleet.html",
+    "title": "What is a Golf Cart Fleet and Why Does It Matter? - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/optimizing-your-golf-cart-fleet/": {
+    "file": "news__optimizing-your-golf-cart-fleet.html",
+    "title": "Optimizing the Fleet - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/outdoor-cart/": {
+    "file": "news__outdoor-cart.html",
+    "title": "Ⅰ. Diverse Applications of Outdoor Carts - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/page__10/": {
+    "file": "news__page__10.html",
+    "title": "Page 10 - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/page__11/": {
+    "file": "news__page__11.html",
+    "title": "Page 11 - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/page__12/": {
+    "file": "news__page__12.html",
+    "title": "Page 12 - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/page__13/": {
+    "file": "news__page__13.html",
+    "title": "Page 13 - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/page__14/": {
+    "file": "news__page__14.html",
+    "title": "Page 14 - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/page__15/": {
+    "file": "news__page__15.html",
+    "title": "Page 15 - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/page__16/": {
+    "file": "news__page__16.html",
+    "title": "Page 16 - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/page__17/": {
+    "file": "news__page__17.html",
+    "title": "Page 17 - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/page__18/": {
+    "file": "news__page__18.html",
+    "title": "Page 18 - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/page__19/": {
+    "file": "news__page__19.html",
+    "title": "Page 19 - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/page__2/": {
+    "file": "news__page__2.html",
+    "title": "Page 2 - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/page__20/": {
+    "file": "news__page__20.html",
+    "title": "Page 20 - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/page__21/": {
+    "file": "news__page__21.html",
+    "title": "Page 21 - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/page__22/": {
+    "file": "news__page__22.html",
+    "title": "Page 22 - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/page__23/": {
+    "file": "news__page__23.html",
+    "title": "Page 23 - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/page__24/": {
+    "file": "news__page__24.html",
+    "title": "Page 24 - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/page__25/": {
+    "file": "news__page__25.html",
+    "title": "Page 25 - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/page__26/": {
+    "file": "news__page__26.html",
+    "title": "Page 26 - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/page__27/": {
+    "file": "news__page__27.html",
+    "title": "Page 27 - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/page__28/": {
+    "file": "news__page__28.html",
+    "title": "Page 28 - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/page__29/": {
+    "file": "news__page__29.html",
+    "title": "Page 29 - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/page__3/": {
+    "file": "news__page__3.html",
+    "title": "Page 3 - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/page__30/": {
+    "file": "news__page__30.html",
+    "title": "Page 30 - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/page__31/": {
+    "file": "news__page__31.html",
+    "title": "Page 31 - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/page__32/": {
+    "file": "news__page__32.html",
+    "title": "Page 32 - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/page__33/": {
+    "file": "news__page__33.html",
+    "title": "Page 33 - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/page__34/": {
+    "file": "news__page__34.html",
+    "title": "Page 34 - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/page__35/": {
+    "file": "news__page__35.html",
+    "title": "Page 35 - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/page__36/": {
+    "file": "news__page__36.html",
+    "title": "Page 36 - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/page__37/": {
+    "file": "news__page__37.html",
+    "title": "Page 37 - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/page__38/": {
+    "file": "news__page__38.html",
+    "title": "Page 38 - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/page__39/": {
+    "file": "news__page__39.html",
+    "title": "Page 39 - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/page__4/": {
+    "file": "news__page__4.html",
+    "title": "Page 4 - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/page__40/": {
+    "file": "news__page__40.html",
+    "title": "Page 40 - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/page__41/": {
+    "file": "news__page__41.html",
+    "title": "Page 41 - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/page__42/": {
+    "file": "news__page__42.html",
+    "title": "Page 42 - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/page__43/": {
+    "file": "news__page__43.html",
+    "title": "Page 43 - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/page__44/": {
+    "file": "news__page__44.html",
+    "title": "Page 44 - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/page__45/": {
+    "file": "news__page__45.html",
+    "title": "Page 45 - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/page__5/": {
+    "file": "news__page__5.html",
+    "title": "Page 5 - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/page__6/": {
+    "file": "news__page__6.html",
+    "title": "Page 6 - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/page__7/": {
+    "file": "news__page__7.html",
+    "title": "Page 7 - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/page__8/": {
+    "file": "news__page__8.html",
+    "title": "Page 8 - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/page__9/": {
+    "file": "news__page__9.html",
+    "title": "Page 9 - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/panoramic-comparison-of-the-two-major-power-solutions-in-2025-electric-vs-fuel/": {
+    "file": "news__panoramic-comparison-of-the-two-major-power-solutions-in-2025-electric-vs-fuel.html",
+    "title": "Overview - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/people-movers-efficient-passenger-transport-for-modern-spaces/": {
+    "file": "news__people-movers-efficient-passenger-transport-for-modern-spaces.html",
+    "title": "What Is a People Mover? - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/performance-golf-carts/": {
+    "file": "news__performance-golf-carts.html",
+    "title": "I. Advantages of Performance Golf Carts - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/personal-golf-cart-a-new-trend/": {
+    "file": "news__personal-golf-cart-a-new-trend.html",
+    "title": "Why Choose a Personal Golf Cart? - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/precise-control-a-comprehensive-guide-to-golf-cart-gps-systems/": {
+    "file": "news__precise-control-a-comprehensive-guide-to-golf-cart-gps-systems.html",
+    "title": "Why Do Golf Carts Need GPS? - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/protecting-your-investment-the-complete-guide-to-golf-buggy-covers/": {
+    "file": "news__protecting-your-investment-the-complete-guide-to-golf-buggy-covers.html",
+    "title": "Why Golf Buggy Covers Are Essential - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/quest-ce-quun-club-de-golf-et-quels-sont-ses-types/": {
+    "file": "news__quest-ce-quun-club-de-golf-et-quels-sont-ses-types.html",
+    "title": "Pourquoi un bon club fait-il la différence ? - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/reclaiming-joy-fighting-depression-with-golf-cart-therapy/": {
+    "file": "news__reclaiming-joy-fighting-depression-with-golf-cart-therapy.html",
+    "title": "Reclaiming Joy Fighting Depression With Golf Cart Therapy - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/reflecting-on-2024-a-transformative-year-for-the-golf-cart-industry-and-what-to-expect-in-2025/": {
+    "file": "news__reflecting-on-2024-a-transformative-year-for-the-golf-cart-industry-and-what-to-expect-in-2025.html",
+    "title": "2024: A Year of Growth and Sustainability - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/remote-control-golf-carts-and-tara-solutions/": {
+    "file": "news__remote-control-golf-carts-and-tara-solutions.html",
+    "title": "I. Why is the Remote Control Golf Cart Becoming an Industry Trend? - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/resort-electric-cart-a-solution-for-resort-transportation/": {
+    "file": "news__resort-electric-cart-a-solution-for-resort-transportation.html",
+    "title": "Why Resort Electric Carts are More Suitable for Resort Venues - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/ride-in-style-and-sound-exploring-the-best-golf-cart-sound-bar-options/": {
+    "file": "news__ride-in-style-and-sound-exploring-the-best-golf-cart-sound-bar-options.html",
+    "title": "Why Add a Sound Bar to Your Golf Cart? - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/road-ready-golf-cart/": {
+    "file": "news__road-ready-golf-cart.html",
+    "title": "I. Road Ready Golf Cart: A New Trend in All-Round Transportation from the Golf Course to the City - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/running-buggy-or-electric-golf-cart-tara-offers-the-better-choice/": {
+    "file": "news__running-buggy-or-electric-golf-cart-tara-offers-the-better-choice.html",
+    "title": "What is a running buggy? - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/should-golf-courses-hire-lease-or-buy-their-golf-cart-fleets/": {
+    "file": "news__should-golf-courses-hire-lease-or-buy-their-golf-cart-fleets.html",
+    "title": "Matching Fleet Strategy to Demand - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/single-seat-golf-cart-a-new-transportation-option/": {
+    "file": "news__single-seat-golf-cart-a-new-transportation-option.html",
+    "title": "Why Choose a Single-Seat Golf Cart? - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/six-seater-golf-cart-multi-passenger-transportation/": {
+    "file": "news__six-seater-golf-cart-multi-passenger-transportation.html",
+    "title": "I. Why Choose a Six-Seater Golf Cart? - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/small-electric-cart/": {
+    "file": "news__small-electric-cart.html",
+    "title": "I. Small Electric Cart: A New Favorite for Urban and Holiday Use - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/small-golf-cart-a-convenient-and-efficient-small-electric-vehicle/": {
+    "file": "news__small-golf-cart-a-convenient-and-efficient-small-electric-vehicle.html",
+    "title": "I. Advantages of Small Golf Carts - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/smooth-golf-cart-delivery-a-guide-for-golf-courses/": {
+    "file": "news__smooth-golf-cart-delivery-a-guide-for-golf-courses.html",
+    "title": "I. Pre-Delivery Preparations - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/specialized-golf-carts/": {
+    "file": "news__specialized-golf-carts.html",
+    "title": "What are Specialized Golf Carts? - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/strategic-guide-to-golf-course-cart-selection-and-procurement/": {
+    "file": "news__strategic-guide-to-golf-course-cart-selection-and-procurement.html",
+    "title": "Revolutionary improvement of golf course operation efficiency - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/street-legal-golf-carts-everything-you-need-to-know/": {
+    "file": "news__street-legal-golf-carts-everything-you-need-to-know.html",
+    "title": "1. What kind of golf cart is street-legal? - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/superintendent-day-tara-pays-tribute-to-golf-course-superintendents/": {
+    "file": "news__superintendent-day-tara-pays-tribute-to-golf-course-superintendents.html",
+    "title": "The Significance of SUPERINTENDENT DAY - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/tara-4-seater-golf-cart-meeting-the-diverse-travel-needs-of-golf-courses/": {
+    "file": "news__tara-4-seater-golf-cart-meeting-the-diverse-travel-needs-of-golf-courses.html",
+    "title": "Why are 4-Seater Golf Carts Popular? - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/tara-at-the-2026-pga-show/": {
+    "file": "news__tara-at-the-2026-pga-show.html",
+    "title": "Showcasing Tara’s Latest Electric Golf Carts - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/tara-electric-golf-cart-buying-guide/": {
+    "file": "news__tara-electric-golf-cart-buying-guide.html",
+    "title": "[Two-seat Model Comparison: Between Basic and Upgrade] - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/tara-electric-shuttle-cart-redefines-short-distance-travel/": {
+    "file": "news__tara-electric-shuttle-cart-redefines-short-distance-travel.html",
+    "title": "Multi-Dimensional Application Scenarios of Electric Shuttle Carts - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/tara-electric-vehicle-electric-vehicle-solutions-for-golf-courses/": {
+    "file": "news__tara-electric-vehicle-electric-vehicle-solutions-for-golf-courses.html",
+    "title": "Tara Electric Vehicle Application Scenarios - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/tara-ev-roadster-for-golf-courses-and-communities/": {
+    "file": "news__tara-ev-roadster-for-golf-courses-and-communities.html",
+    "title": "A Modern Take on the Electric Golf Cart - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/tara-explorer-22-redefining-electric-golf-carts/": {
+    "file": "news__tara-explorer-22-redefining-electric-golf-carts.html",
+    "title": "Unmatched Versatility for Any Terrain - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/tara-golf-buggy-a-new-mobility-option-for-modern-courses-and-resorts/": {
+    "file": "news__tara-golf-buggy-a-new-mobility-option-for-modern-courses-and-resorts.html",
+    "title": "Why Modern Golf Courses Are Increasingly Focusing on the Golf Buggy Experience - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/tara-golf-cart-advanced-lifepo4-batteries-with-long-warranty-and-smart-monitoring/": {
+    "file": "news__tara-golf-cart-advanced-lifepo4-batteries-with-long-warranty-and-smart-monitoring.html",
+    "title": "In-House Manufacturing for Superior Quality and Control - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/tara-golf-cart-review/": {
+    "file": "news__tara-golf-cart-review.html",
+    "title": "TARA Neighborhood Electric Vehicles Product Positioning - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/tara-golf-cart-spring-sales-event/": {
+    "file": "news__tara-golf-cart-spring-sales-event.html",
+    "title": "Time: April 1 – April 30, 2025 (Non-US Market) - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/tara-golf-cart-to-showcase-innovations-at-2025-pga-and-gcsaa-exhibitions/": {
+    "file": "news__tara-golf-cart-to-showcase-innovations-at-2025-pga-and-gcsaa-exhibitions.html",
+    "title": "Tara Golf Cart To Showcase Innovations At 2025 Pga And Gcsaa Exhibitions - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/tara-golf-fleet-cart-for-course-operations/": {
+    "file": "news__tara-golf-fleet-cart-for-course-operations.html",
+    "title": "Why are courses increasingly emphasizing Fleet Golf Carts? - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/tara-harmony-electric-golf-cart-a-blend-of-luxury-and-functionality/": {
+    "file": "news__tara-harmony-electric-golf-cart-a-blend-of-luxury-and-functionality.html",
+    "title": "Stylish Design - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/tara-hunting-buggies-outdoor-mobility/": {
+    "file": "news__tara-hunting-buggies-outdoor-mobility.html",
+    "title": "Core Value: The Ultimate Concealment from Silent Drive - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/tara-hunting-cart-built-for-outdoor-transportation/": {
+    "file": "news__tara-hunting-cart-built-for-outdoor-transportation.html",
+    "title": "Quiet Operation Matters - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/tara-introduces-a-simple-gps-solution-for-golf-cart-management/": {
+    "file": "news__tara-introduces-a-simple-gps-solution-for-golf-cart-management.html",
+    "title": "I. Key Features of the Simple System - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/tara-lithium-golf-carts/": {
+    "file": "news__tara-lithium-golf-carts.html",
+    "title": "Why are Lithium-ion Golf Carts Rapidly Replacing Traditional Models? - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/tara-pga-show-2025-gcsaa/": {
+    "file": "news__tara-pga-show-2025-gcsaa.html",
+    "title": "TARA’s New Golf Cart Series Debuts - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/tara-roadster-22-bridging-the-gap-between-golf-carts-and-urban-mobility/": {
+    "file": "news__tara-roadster-22-bridging-the-gap-between-golf-carts-and-urban-mobility.html",
+    "title": "Tara Roadster 22 Bridging The Gap Between Golf Carts And Urban Mobility - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/tara-spirit-plus-golf-cart-review/": {
+    "file": "news__tara-spirit-plus-golf-cart-review.html",
+    "title": "Powertrain Configuration - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/tara-spirit-plus-the-ultimate-golf-cart-fleet-for-clubs/": {
+    "file": "news__tara-spirit-plus-the-ultimate-golf-cart-fleet-for-clubs.html",
+    "title": "Pain Points and Challenges of Course Operations - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/tara-utility-vehicle-efficient-golf-course-operations/": {
+    "file": "news__tara-utility-vehicle-efficient-golf-course-operations.html",
+    "title": "Why Choose a Tara Utility Vehicle? - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/tara-vs-denago-golf-cart/": {
+    "file": "news__tara-vs-denago-golf-cart.html",
+    "title": "A Changing Customer Base - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/tara-vs-excar-golf-cart/": {
+    "file": "news__tara-vs-excar-golf-cart.html",
+    "title": "Tara vs Excar Golf Cart - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/tara-vs-yamaha-golf-cart/": {
+    "file": "news__tara-vs-yamaha-golf-cart.html",
+    "title": "Yamaha’s Longstanding Reputation - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/taras-competitive-edge-dual-focus-on-quality-service/": {
+    "file": "news__taras-competitive-edge-dual-focus-on-quality-service.html",
+    "title": "Analysis of industry competition situation - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/the-complete-guide-to-lithium-golf-cart-batteries/": {
+    "file": "news__the-complete-guide-to-lithium-golf-cart-batteries.html",
+    "title": "Why Are Lithium Batteries Better for Golf Carts? - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/the-core-value-of-a-golf-cart-chassis/": {
+    "file": "news__the-core-value-of-a-golf-cart-chassis.html",
+    "title": "1. What is a golf cart chassis? - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/the-creativity-and-future-of-car-builders/": {
+    "file": "news__the-creativity-and-future-of-car-builders.html",
+    "title": "The Multifaceted Connotations of Car Builders - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/the-evolution-of-golf-carts-a-journey-through-history-and-innovation/": {
+    "file": "news__the-evolution-of-golf-carts-a-journey-through-history-and-innovation.html",
+    "title": "The Evolution Of Golf Carts A Journey Through History And Innovation - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/the-evolution-of-golf-vehicles/": {
+    "file": "news__the-evolution-of-golf-vehicles.html",
+    "title": "I. The Core Value of Golf Vehicles: More Than Just Transportation, They are Key to Operational Efficiency - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/the-evolution-of-the-cart-from-utility-tool-to-smart-mobility-solution/": {
+    "file": "news__the-evolution-of-the-cart-from-utility-tool-to-smart-mobility-solution.html",
+    "title": "What Defines a Cart in Today’s World? - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/the-future-trends-of-golf-carts-intelligentization-and-sustainable-development/": {
+    "file": "news__the-future-trends-of-golf-carts-intelligentization-and-sustainable-development.html",
+    "title": "1. Intelligentization: The Core Competitiveness of Future Golf Carts - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/the-golf-caddy-and-the-evolution-of-modern-golf-equipment/": {
+    "file": "news__the-golf-caddy-and-the-evolution-of-modern-golf-equipment.html",
+    "title": "I. The Traditional Role and Modern Transformation of the Golf Caddy - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/the-golf-cart-company/": {
+    "file": "news__the-golf-cart-company.html",
+    "title": "I. What kind of company can be called a true golf cart company? - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/the-green-revolution-how-electric-golf-carts-are-leading-the-way-in-sustainable-golf/": {
+    "file": "news__the-green-revolution-how-electric-golf-carts-are-leading-the-way-in-sustainable-golf.html",
+    "title": "Advantages of Electric Golf Carts - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/the-perfect-ride-why-a-4-seater-buggy-is-your-ideal-adventure-companion/": {
+    "file": "news__the-perfect-ride-why-a-4-seater-buggy-is-your-ideal-adventure-companion.html",
+    "title": "What Is a 4 Seater Buggy? - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/the-rise-of-electric-utvs-efficiency-power-and-innovation/": {
+    "file": "news__the-rise-of-electric-utvs-efficiency-power-and-innovation.html",
+    "title": "What Is an Electric UTV? - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/the-rise-of-golf-carts-in-golf-clubs/": {
+    "file": "news__the-rise-of-golf-carts-in-golf-clubs.html",
+    "title": "Multiple Pressures and Challenges of Course Operations Management - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/the-surprising-reason-more-golf-carts-are-becoming-car-replacements/": {
+    "file": "news__the-surprising-reason-more-golf-carts-are-becoming-car-replacements.html",
+    "title": "The Surprising Reason More Golf Carts Are Becoming Car Replacements - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/the-ultimate-guide-to-choosing-the-right-hunting-buggy/": {
+    "file": "news__the-ultimate-guide-to-choosing-the-right-hunting-buggy.html",
+    "title": "Why Use a Hunting Buggy? - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/top-5-mistakes-in-golf-cart-maintenance/": {
+    "file": "news__top-5-mistakes-in-golf-cart-maintenance.html",
+    "title": "1. “Charge Until Depleted” - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/tourist-vehicles-efficient-transportation-in-scenic-spots-and-resorts/": {
+    "file": "news__tourist-vehicles-efficient-transportation-in-scenic-spots-and-resorts.html",
+    "title": "What is a Tourist Vehicle? - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/tournament-season-starts-with-the-fleet/": {
+    "file": "news__tournament-season-starts-with-the-fleet.html",
+    "title": "More Than Just Player Transportation - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/transportation-vehicles/": {
+    "file": "news__transportation-vehicles.html",
+    "title": "Why do golf courses need high-quality transportation vehicles? - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/trends-in-golf-course-fleet-procurement-what-s-changing-in-2026/": {
+    "file": "news__trends-in-golf-course-fleet-procurement-what-s-changing-in-2026.html",
+    "title": "I. Environmental Protection and Sustainability Driving Procurement Decisions - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/turfman-making-golf-course-maintenance-more-efficient/": {
+    "file": "news__turfman-making-golf-course-maintenance-more-efficient.html",
+    "title": "The Role of Turfmans in Golf Courses - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/two-passenger-golf-cart-for-golf-course/": {
+    "file": "news__two-passenger-golf-cart-for-golf-course.html",
+    "title": "Why Most Golf Cart Fleets Primarily Use Two Passenger Golf Carts - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/two-passenger-golf-carts/": {
+    "file": "news__two-passenger-golf-carts.html",
+    "title": "Built for Daily Play - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/two-seater-electric-car-an-ideal-choice-for-new-transportation/": {
+    "file": "news__two-seater-electric-car-an-ideal-choice-for-new-transportation.html",
+    "title": "Why Choose a Two-Seater Electric Car? - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/two-seater-golf-cart/": {
+    "file": "news__two-seater-golf-cart.html",
+    "title": "I. The New Trend of Two-Seater Golf Carts - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/types-of-golf-carts/": {
+    "file": "news__types-of-golf-carts.html",
+    "title": "Fleet Golf Carts - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/understanding-the-golf-cart-a-modern-guide-to-names-types-and-power/": {
+    "file": "news__understanding-the-golf-cart-a-modern-guide-to-names-types-and-power.html",
+    "title": "What Is a Golf Cart Called? - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/understanding-the-golf-cart-frame-durability-and-customization-at-its-core/": {
+    "file": "news__understanding-the-golf-cart-frame-durability-and-customization-at-its-core.html",
+    "title": "What Is a Golf Cart Frame? - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/understanding-the-modern-golf-car-a-complete-guide-for-todays-buyers/": {
+    "file": "news__understanding-the-modern-golf-car-a-complete-guide-for-todays-buyers.html",
+    "title": "What Is a Golf Car and How Does It Differ from a Golf Cart? - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/upgrade-your-golfing-experience-why-choose-a-golf-cart-with-a-cooler/": {
+    "file": "news__upgrade-your-golfing-experience-why-choose-a-golf-cart-with-a-cooler.html",
+    "title": "I. Key Benefits of a Golf Cart with a Cooler - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/upgrading-old-fleets-tara-helps-golf-courses-go-smart/": {
+    "file": "news__upgrading-old-fleets-tara-helps-golf-courses-go-smart.html",
+    "title": "From Traditional Fleets to Smart Operations: The Inevitable Trend of Course Upgrades - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/utility-cart-the-ultimate-multi-purpose-tool-cart/": {
+    "file": "news__utility-cart-the-ultimate-multi-purpose-tool-cart.html",
+    "title": "I. What is a utility cart used for? - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/utility-farm-vehicles/": {
+    "file": "news__utility-farm-vehicles.html",
+    "title": "I. Definition and Advantages of Utility Farm Vehicles - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/utility-golf-buggy/": {
+    "file": "news__utility-golf-buggy.html",
+    "title": "I. Introduction: An All-Round Assistant from the Course to Multiple Uses - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/utility-golf-cart/": {
+    "file": "news__utility-golf-cart.html",
+    "title": "Ⅰ. What is a Utility Golf Cart? - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/utility-golf-carts/": {
+    "file": "news__utility-golf-carts.html",
+    "title": "Core Positioning and Value of Utility Golf Carts - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/utility-task-vehicle-golf-course-maintenance-equipment/": {
+    "file": "news__utility-task-vehicle-golf-course-maintenance-equipment.html",
+    "title": "Why has the Utility Task Vehicle become the industry standard? - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/utility-task-vehicle-golf-course-maintenance/": {
+    "file": "news__utility-task-vehicle-golf-course-maintenance.html",
+    "title": "What is a Utility Task Vehicle? - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/utvs-for-sale-how-to-choose-a-reliable-utility-vehicle/": {
+    "file": "news__utvs-for-sale-how-to-choose-a-reliable-utility-vehicle.html",
+    "title": "I. Definition and Application of UTVs - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/vehicle-on-golf-course-the-core-of-golf-course-operations/": {
+    "file": "news__vehicle-on-golf-course-the-core-of-golf-course-operations.html",
+    "title": "The Role and Value of Golf Course Vehicles - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/village-golf-carts-in-communities-resorts-and-parks/": {
+    "file": "news__village-golf-carts-in-communities-resorts-and-parks.html",
+    "title": "I. The Real Definition and Usage Scenarios of Village Golf Carts - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/villages-golf-cart/": {
+    "file": "news__villages-golf-cart.html",
+    "title": "Why Villages Golf Carts Are Suitable for Community Environments - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/walking-golf-cart/": {
+    "file": "news__walking-golf-cart.html",
+    "title": "I. Definition and Application Scenarios of Walking Golf Carts - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/what-are-golf-club-vehicles/": {
+    "file": "news__what-are-golf-club-vehicles.html",
+    "title": "Player Vehicles - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/what-are-the-components-of-an-electric-golf-cart/": {
+    "file": "news__what-are-the-components-of-an-electric-golf-cart.html",
+    "title": "What Are The Components Of An Electric Golf Cart - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/what-golf-courses-look-for-when-choosing-a-golf-cart-supplier/": {
+    "file": "news__what-golf-courses-look-for-when-choosing-a-golf-cart-supplier.html",
+    "title": "What Golf Courses Look For When Choosing A Golf Cart Supplier - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/what-happens-when-a-course-goes-cart-path-only/": {
+    "file": "news__what-happens-when-a-course-goes-cart-path-only.html",
+    "title": "More Walking - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/what-is-a-golf-kart-and-how-is-it-different-from-a-regular-golf-cart/": {
+    "file": "news__what-is-a-golf-kart-and-how-is-it-different-from-a-regular-golf-cart.html",
+    "title": "Are Golf Karts Used by RV and Campground Operators? - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/what-is-a-golf-trolley-how-can-it-enhance-the-golf-experience/": {
+    "file": "news__what-is-a-golf-trolley-how-can-it-enhance-the-golf-experience.html",
+    "title": "1. What is a Golf Trolley? - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/what-is-the-difference-between-an-lsv-and-a-golf-cart/": {
+    "file": "news__what-is-the-difference-between-an-lsv-and-a-golf-cart.html",
+    "title": "Definition and Legal Positioning - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/what-makes-a-golf-cart-fleet-easy-to-maintain/": {
+    "file": "news__what-makes-a-golf-cart-fleet-easy-to-maintain.html",
+    "title": "Build Reliability from the Beginning - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/wheel-golf-carts/": {
+    "file": "news__wheel-golf-carts.html",
+    "title": "I. Introduction: The Diversification of Wheel Golf Carts and Modern Golf Transportation - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/when-golf-carts-become-a-revenue-channel/": {
+    "file": "news__when-golf-carts-become-a-revenue-channel.html",
+    "title": "Sell at the Right Moment - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/when-should-a-course-replace-its-cart-fleet/": {
+    "file": "news__when-should-a-course-replace-its-cart-fleet.html",
+    "title": "I. Determining Replacement Timing Based on the “Maintenance Cost Inflection Point” - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/where-to-buy-golf-carts/": {
+    "file": "news__where-to-buy-golf-carts.html",
+    "title": "What are the Real Vehicle Needs of Golf Courses? - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/why-more-golf-clubs-are-switching-to-tara-golf-carts/": {
+    "file": "news__why-more-golf-clubs-are-switching-to-tara-golf-carts.html",
+    "title": "1. The Ultimate Driving Experience That Takes Into Account Both Power and Silence - TARA Electric Vehicles",
+    "bodyClass": ""
+  },
+  "/news/why-more-golf-courses-are-standardizing-their-cart-fleets/": {
+    "file": "news__why-more-golf-courses-are-standardizing-their-cart-fleets.html",
+    "title": "I. Simpler Operations: The Primary Reason for Standardization - TARA Electric Vehicles",
     "bodyClass": ""
   },
   "/financing/": {

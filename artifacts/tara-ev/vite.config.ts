@@ -24,16 +24,25 @@ if (Number.isNaN(port) || port <= 0) {
 
 const basePath = process.env.BASE_PATH;
 
-if (!basePath) {
-  throw new Error(
-    'BASE_PATH environment variable is required but was not provided.',
-  );
-}
-
-// In the deployment build environment REPLIT_DOMAINS holds the production
-// domain(s); in the dev workspace it holds the temporary .replit.dev domain.
-// Social crawlers require an absolute og:image URL, so at production build
-// time we prefix relative og:image/og:url values with the published origin.
+const DEV_REDIRECTS: Record<string, string> = {
+  // Percent-encoding case duplicate: lowercase hex → uppercase canonical.
+  // Matched against the raw request URL before any decoding.
+  '/news/a-complete-analysis-of-lsvs-what-are-low-speed-%e2%80%8b%e2%80%8bvehicles/':
+    '/news/a-complete-analysis-of-lsvs-what-are-low-speed-%E2%80%8B%E2%80%8Bvehicles/',
+  '/explorer-2-2-product/': '/explorer-2-2-golf-cart-product/',
+  '/horizon-4-product/': '/horizon-4-golf-cart-product/',
+  '/horizon-6-product/': '/horizon-6-golf-cart-product/',
+  '/lander-4-product/': '/lander-4-golf-cart-product/',
+  '/lander-6-product/': '/lander-6-golf-cart-product/',
+  '/spirit-plus-product/': '/spirit-plus-fleet-golf-cart-product/',
+  '/t3-2-2-product/': '/t3-2-2-golf-cart-product/',
+  '/t3-22-product/': '/t3-2-2-golf-cart-product/',
+  '/t3-2-2-lifted-product/': '/t3-2-2-lifted-golf-cart-product/',
+  '/t3-22-lifted-product/': '/t3-2-2-lifted-golf-cart-product/',
+  '/varranty-terms/': '/warranty-terms/',
+  '/mainitenance-support/': '/maintenance-support/',
+  '/techncal-support/': '/technical-support/',
+};
 const publishedDomain = process.env.REPLIT_DOMAINS?.split(',')[0]?.trim();
 
 const absoluteOgUrls = () => ({
@@ -237,6 +246,7 @@ const prerenderPlugin = (): Plugin => ({
 export default defineConfig({
   base: basePath,
   plugins: [
+    redirectPlugin(),
     absoluteOgUrls(),
     spaMetaMiddleware(),
     prerenderPlugin(),
@@ -289,3 +299,34 @@ export default defineConfig({
     allowedHosts: true,
   },
 });
+
+function redirectPlugin() {
+  const handler = (
+    server: import('vite').ViteDevServer | import('vite').PreviewServer,
+  ) => {
+    server.middlewares.use((req, res, next) => {
+      const raw = req.url?.split('?')[0] ?? '/';
+      // Strip base path prefix so lookup keys always start with '/'.
+      const stripped =
+        basePath !== '/' && raw.startsWith(basePath.replace(/\/$/, ''))
+          ? raw.slice(basePath.replace(/\/$/, '').length) || '/'
+          : raw;
+      const normalized =
+        !stripped.includes('.') && !stripped.endsWith('/')
+          ? stripped + '/'
+          : stripped;
+      const target = DEV_REDIRECTS[normalized];
+      if (target) {
+        res.writeHead(301, { Location: target });
+        res.end();
+        return;
+      }
+      next();
+    });
+  };
+  return {
+    name: 'canonical-redirects',
+    configureServer: handler,
+    configurePreviewServer: handler,
+  };
+}

@@ -15,13 +15,16 @@ localPort = 19130
 run = "pnpm --filter @workspace/tara-ev run dev"
 
 [services.production]
-build = [ "pnpm", "--filter", "@workspace/tara-ev", "run", "build" ]
-serve = "static"
-publicDir = "artifacts/tara-ev/dist/public"
 
-[[services.production.rewrites]]
-from = "/*"
-to = "/index.html"
+[services.production.build]
+args = ["pnpm", "--filter", "@workspace/tara-ev", "run", "build"]
+
+[services.production.run]
+args = ["node", "artifacts/tara-ev/server.mjs"]
+
+[services.production.run.env]
+PORT = "19130"
+NODE_ENV = "production"
 
 [services.env]
 PORT = "19130"

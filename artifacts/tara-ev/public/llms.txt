@@ -1,0 +1,26 @@
+# TARA Electric Vehicles
+> Authorized dealership for TARA electric golf carts, neighborhood electric vehicles (NEVs), and utility vehicles for golf courses, resorts, and communities.
+
+## Key pages
+- /: Home — TARA vehicle lineup overview
+- /t1-series/: T1 Golf Cart Series — fleet golf carts for golf courses
+- /t2-series/: T2 Utility Golf Cart Series — electric utility vehicles for course maintenance
+- /t3-series/: T3 Street Legal Series — street-legal electric carts for communities
+- /fleet-golf-carts/: Fleet solutions for golf courses and resorts
+- /harmony-fleet-golf-cart-product/: Harmony — 2-seat fleet golf cart
+- /spirit-pro-fleet-golf-cart-product/: Spirit Pro — premium fleet cart
+- /spirit-plus-fleet-golf-cart-product/: Spirit Plus — player-comfort fleet cart
+- /roadster-2-2-golf-cart-product/: Roadster 2+2 — 4-seat cart
+- /explorer-2-2-golf-cart-product/: Explorer 2+2 — adventure 4-seat cart
+- /t3-2-2-golf-cart-product/: T3 2+2 — street-legal 4-seat cart
+- /turfman-700-utility-vehicle-product/: Turfman 700 — electric utility vehicle
+- /turfman-1000-utility-vehicle-product/: Turfman 1000 — heavy-duty utility vehicle
+- /contact/: Request a quote or inquiry
+- /blog/: Product guides and buying advice
+- /about-us/: About the dealership
+- /faqs/: Frequently asked questions
+- /warranty-terms/: Warranty terms and coverage
+- /maintenance-support/: Maintenance and service support
+
+## News & articles
+The /news/ section contains 489 informational articles covering electric golf cart topics including fleet selection, battery technology, model comparisons, and golf course vehicle management.

@@ -4,8 +4,10 @@ import { injectStructuredData } from './structuredData';
 
 const BASE = import.meta.env.BASE_URL; // e.g. "/"
 
-type RouteMeta = { file: string; title: string; description?: string; bodyClass: string };
-type Routes = Record<string, RouteMeta>;
+type RouteMeta = { file: string; title: string; description?: string; bodyClass: string; redirect?: never };
+
+type RouteRedirect = { redirect: string };
+type Routes = Record<string, RouteEntry>;
 
 function normalizePath(p: string): string {
   let path = p;
@@ -17,7 +19,7 @@ function normalizePath(p: string): string {
   return path;
 }
 
-function lookupRoute(routes: Routes, path: string): RouteMeta | null {
+function lookupRoute(routes: Routes, path: string): RouteEntry | null {
   if (routes[path]) return routes[path];
   // tolerate percent-encoding case differences
   let decoded: string;
@@ -67,13 +69,20 @@ export default function App() {
       try {
         const routesRes = await fetch(`${BASE}content/routes.json`);
         const routes: Routes = await routesRes.json();
-        const meta = lookupRoute(routes, path);
-        if (!meta) {
+        const entry = lookupRoute(routes, path);
+        if (!entry) {
           // No 404 page — send unknown URLs to the home page.
           if (!cancelled && path !== '/') window.location.replace(BASE);
           if (!cancelled) setStatus('notfound');
           return;
         }
+        // Handle client-side redirect for duplicate/alias routes.
+        if ('redirect' in entry) {
+          const target = BASE.replace(/\/$/, '') + entry.redirect;
+          window.location.replace(target);
+          return;
+        }
+        const meta: RouteMeta = entry;
         const res = await fetch(
           `${BASE}content/${encodeURIComponent(meta.file)}`,
         );
@@ -259,3 +268,5 @@ export default function App() {
     </>
   );
 }
+
+type RouteEntry = RouteMeta | RouteRedirect;
