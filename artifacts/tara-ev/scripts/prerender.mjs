@@ -122,7 +122,7 @@ function extractOgImage(html) {
 // ─── Per-route HTML builder ───────────────────────────────────────────────────
 
 function buildPageHtml(routePath, routeMeta, contentHtml) {
-  const title = routeMeta.title || 'TARA Neighborhood Electric Vehicles';
+  const title = routeMeta.title || 'TARA Personal Transportation Vehicles';
   const description = extractDescription(contentHtml);
   const ogImage = extractOgImage(contentHtml);
   const canonicalUrl = `${origin}${routePath}`;

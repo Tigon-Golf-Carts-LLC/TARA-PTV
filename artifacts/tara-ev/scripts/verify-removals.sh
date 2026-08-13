@@ -68,6 +68,36 @@ check "inquiry form section (section.inquiry-form-wrap)" \
 check "Online Service floating sidebar (aside.scrollsidebar)" \
   '<aside[^>]*class="[^"]*scrollsidebar'
 
+# --- Rebrand guard: old NEV / golf-cart branding must not reappear ---
+# Brand is now "TARA Personal Transportation Vehicles" (taraptv.com).
+# Intentionally kept: URL slugs like /news/neighborhood-electric-vehicles/
+# and news__nev-* filenames (lowercase, hyphenated — they don't match the
+# case-sensitive/space-separated patterns below). dist/ is excluded here.
+rebrand_dirs=(public/ src/ index.html vite.config.ts scripts/)
+
+check_rebrand() {
+  local label="$1" pattern="$2"
+  shift 2
+  local hits
+  # This script necessarily contains the banned patterns — exclude itself.
+  hits=$(grep -rIlE "$@" --exclude=verify-removals.sh "$pattern" "${rebrand_dirs[@]}" 2>/dev/null | sort -u || true)
+  if [ -n "$hits" ]; then
+    echo "OLD BRANDING REAPPEARED — $label:"
+    echo "$hits" | head -20
+    fail=1
+  fi
+}
+
+# Space-separated phrase never matches the hyphenated kept slugs.
+check_rebrand "old brand phrase (Neighborhood Electric Vehicle)" \
+  'Neighborhood Electric Vehicle' -i
+# Uppercase-only standalone NEV; lowercase slugs/filenames don't match.
+check_rebrand "standalone NEV" \
+  '\bNEV\b'
+# localize-assets.mjs must reference the legacy domain to strip it.
+check_rebrand "legacy domains/handles (taragolfcart, taragolfcarts, taranev)" \
+  'taragolfcarts?|taranev' -i --exclude=localize-assets.mjs
+
 if [ "$fail" -eq 0 ]; then
   echo "OK: no removed inquiry form, popups, widgets, or footer found"
 fi
