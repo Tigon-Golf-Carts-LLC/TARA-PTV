@@ -365,3 +365,9 @@
   .fin-badges, .fin-partner-grid, .fin-cards3, .fin-steps, .fin-calc-fields { grid-template-columns: 1fr; }
   .fin-badges { grid-template-columns: 1fr 1fr; }
 }
+
+/* Remove green mountains backdrop from product cards */
+.product_item figure:before, .product_item figure:after,
+.product-layer .product_item figure:before, .product-layer .product_item figure:after {
+  background-image: none !important; content: none !important; display: none !important;
+}
