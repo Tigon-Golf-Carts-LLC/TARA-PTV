@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from 'react';
 import { mountInquiryForm } from './inquiryForm';
+import { injectStructuredData } from './structuredData';
 
 const BASE = import.meta.env.BASE_URL; // e.g. "/"
 
@@ -84,6 +85,7 @@ export default function App() {
         if (cancelled || !containerRef.current) return;
 
         document.title = meta.title;
+        injectStructuredData(path, meta.title);
         if (meta.bodyClass) document.body.className = meta.bodyClass;
         containerRef.current.innerHTML = html;
         setStatus('ready');
