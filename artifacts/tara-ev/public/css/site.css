@@ -177,7 +177,30 @@
 
 /* Vehicles mega-menu: one even row of 5 items, names under images (desktop only) */
 @media (min-width: 1025px) {
+  /* Series tabs must lay out as one horizontal centered strip — they were
+     wrapping into a vertical stack, hiding T2/T3 behind the open panel */
+  .web-head .nav-wrap .head-nav .products_list > .sub-menu {
+    display: flex !important;
+    flex-direction: row !important;
+    flex-wrap: nowrap !important;
+    justify-content: center !important;
+    align-items: stretch !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+  .web-head .nav-wrap .head-nav .products_list > .sub-menu > li {
+    float: none !important;
+    margin: 0 !important;
+    position: static !important;
+    width: auto !important;
+  }
+  /* Only the hovered/active series' panel may show — forcing display on all
+     panels made the full-width panels overlap and hide the other series tabs */
   .web-head .nav-wrap .head-nav .products_list > .sub-menu > li > .sub-menu {
+    display: none !important;
+  }
+  .web-head .nav-wrap .head-nav .products_list > .sub-menu > li.active > .sub-menu,
+  .web-head .nav-wrap .head-nav .products_list > .sub-menu > li:focus-within > .sub-menu {
     display: flex !important;
     flex-wrap: nowrap !important;
     justify-content: space-evenly !important;
