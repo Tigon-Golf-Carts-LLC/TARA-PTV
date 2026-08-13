@@ -72,8 +72,13 @@ check "Online Service floating sidebar (aside.scrollsidebar)" \
 # Brand is now "TARA Personal Transportation Vehicles" (taraptv.com).
 # Intentionally kept: URL slugs like /news/neighborhood-electric-vehicles/
 # and news__nev-* filenames (lowercase, hyphenated — they don't match the
-# case-sensitive/space-separated patterns below). dist/ is excluded here.
+# case-sensitive/space-separated patterns below).
+# In --require-dist (pre-publish) mode, also scan the build output so the
+# build/prerender step can't bake old branding into the published site.
 rebrand_dirs=(public/ src/ index.html vite.config.ts scripts/)
+if [ "$require_dist" -eq 1 ]; then
+  rebrand_dirs+=(dist/public/)
+fi
 
 check_rebrand() {
   local label="$1" pattern="$2"
