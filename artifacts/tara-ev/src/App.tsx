@@ -153,6 +153,20 @@ export default function App() {
           document.body.appendChild(finScript);
         }
 
+        // Site-wide 0% financing CTA — last section before the footer.
+        if (!document.getElementById('tara-financing-cta')) {
+          const cta = document.createElement('section');
+          cta.id = 'tara-financing-cta';
+          cta.innerHTML = `
+            <div class="tfc-inner">
+              <p class="tfc-kicker">Limited-Time Offer</p>
+              <h2>0% Financing on TARA Golf Carts</h2>
+              <p class="tfc-sub">Drive home your TARA today with 0% financing options for up to 36 months.</p>
+              <a class="tfc-button" href="/financing/">Get 0% Financing</a>
+            </div>`;
+          containerRef.current.appendChild(cta);
+        }
+
         // Site-wide footer (client-requested; original footer was removed).
         if (!document.getElementById('tara-footer')) {
           const footer = document.createElement('footer');

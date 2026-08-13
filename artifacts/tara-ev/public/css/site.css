@@ -415,3 +415,48 @@
 .fl-accordion .fl-accordion-button { cursor: pointer; }
 .fl-accordion .fl-accordion-content ul { list-style: disc; padding-left: 22px; margin: 10px 0; }
 .fl-accordion .fl-accordion-content li { margin: 4px 0; }
+
+/* 0% financing CTA — last section before the footer */
+#tara-financing-cta {
+  background: #1a1a1a;
+  color: #fff;
+  padding: 60px 20px;
+  text-align: center;
+}
+#tara-financing-cta .tfc-inner { max-width: 860px; margin: 0 auto; }
+#tara-financing-cta .tfc-kicker {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 13px;
+  color: #e8b34b;
+  margin: 0 0 12px;
+  font-weight: 600;
+}
+#tara-financing-cta h2 {
+  font-size: 34px;
+  line-height: 1.2;
+  margin: 0 0 14px;
+  color: #fff;
+  font-weight: 700;
+}
+#tara-financing-cta .tfc-sub {
+  font-size: 17px;
+  color: #ccc;
+  margin: 0 0 28px;
+}
+#tara-financing-cta .tfc-button {
+  display: inline-block;
+  background: #e8b34b;
+  color: #1a1a1a;
+  font-weight: 700;
+  font-size: 16px;
+  padding: 14px 38px;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: background 0.2s ease, transform 0.2s ease;
+}
+#tara-financing-cta .tfc-button:hover { background: #f2c364; transform: translateY(-1px); }
+@media (max-width: 640px) {
+  #tara-financing-cta { padding: 44px 16px; }
+  #tara-financing-cta h2 { font-size: 26px; }
+}
