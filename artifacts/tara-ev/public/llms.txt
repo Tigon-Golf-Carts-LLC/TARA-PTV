@@ -15,6 +15,7 @@
 - /t3-2-2-golf-cart-product/: T3 2+2 — street-legal 4-seat cart
 - /turfman-700-utility-vehicle-product/: Turfman 700 — electric utility vehicle
 - /turfman-1000-utility-vehicle-product/: Turfman 1000 — heavy-duty utility vehicle
+- /financing/: Golf cart financing — 0% APR options, six lending partners
 - /contact/: Request a quote or inquiry
 - /blog/: Product guides and buying advice
 - /about-us/: About the dealership
