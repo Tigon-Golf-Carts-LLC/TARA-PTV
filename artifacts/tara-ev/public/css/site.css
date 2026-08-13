@@ -371,3 +371,10 @@
 .product-layer .product_item figure:before, .product-layer .product_item figure:after {
   background-image: none !important; content: none !important; display: none !important;
 }
+
+/* News section: match footer background and close the white gap above the footer */
+.gd-layer.blog-news-layer {
+  background: #101210 !important;
+  margin-bottom: -40px !important; /* swallow the footer's top margin */
+  padding-bottom: 80px !important;
+}
