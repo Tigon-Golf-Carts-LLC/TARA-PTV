@@ -338,5 +338,10 @@
     "file": "blog.html",
     "title": "Blog - TARA ELECTRIC VEHICLES",
     "bodyClass": ""
+  },
+  "/financing/": {
+    "file": "financing.html",
+    "title": "Golf Cart Financing - Low Monthly Payments - TARA Neighborhood Electric Vehicles",
+    "bodyClass": ""
   }
 }

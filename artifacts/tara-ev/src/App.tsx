@@ -101,6 +101,13 @@ export default function App() {
         };
         document.body.appendChild(siteScript);
 
+        // Financing page: payment calculator behavior.
+        if (document.getElementById('fin-price')) {
+          const finScript = document.createElement('script');
+          finScript.src = `${BASE}js/financing.js`;
+          document.body.appendChild(finScript);
+        }
+
         // Site-wide footer (client-requested; original footer was removed).
         if (!document.getElementById('tara-footer')) {
           const footer = document.createElement('footer');
