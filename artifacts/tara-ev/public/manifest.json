@@ -1,0 +1,16 @@
+{
+  "name": "TARA Neighborhood Electric Vehicles",
+  "short_name": "TARA NEV",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#101210",
+  "theme_color": "#101210",
+  "description": "US dealership for TARA electric golf carts, NEVs, and utility vehicles.",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "48x48",
+      "type": "image/x-icon"
+    }
+  ]
+}

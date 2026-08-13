@@ -378,3 +378,10 @@
   margin-bottom: -40px !important; /* swallow the footer's top margin */
   padding-bottom: 80px !important;
 }
+
+/* Product spec tiles (pro_tag): match footer background and close the white gap before the footer */
+.pro_tag {
+  background: #101210 !important;
+  margin-bottom: -40px !important; /* swallow the footer's top margin */
+  padding-bottom: 60px !important;
+}

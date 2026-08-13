@@ -1,0 +1,38 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "AutoDealer",
+      "name": "TARA Neighborhood Electric Vehicles",
+      "url": "https://taranev.com",
+      "telephone": "+1-844-844-3432",
+      "email": "info@taranev.com",
+      "areaServed": "United States",
+      "openingHours": "Mo-Su 09:00-17:00",
+      "description": "Independent, authorized US dealership for TARA electric golf carts, neighborhood electric vehicles, and utility vehicles.",
+      "makesOffer": [
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Product",
+            "name": "TARA T1 Golf Cart Series"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Product",
+            "name": "TARA T2 Utility Golf Cart Series"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Product",
+            "name": "TARA T3 Street Legal Series"
+          }
+        }
+      ]
+    }
+  ]
+}

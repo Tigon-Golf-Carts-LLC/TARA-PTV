@@ -1,0 +1,10 @@
+/* TEAM */
+Business: TARA Neighborhood Electric Vehicles
+Contact: info@taranev.com
+Phone: 844-844-3432
+Website Developer: Noah Jaslow — Jaslow Digital Marketing (https://jaslowdigital.com)
+
+/* SITE */
+Last update: 2026-08-13
+Standards: HTML5, CSS3
+Components: React, Vite

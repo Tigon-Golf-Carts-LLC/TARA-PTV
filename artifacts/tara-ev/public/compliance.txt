@@ -1,0 +1,5 @@
+# Compliance & Standards — TARA Neighborhood Electric Vehicles
+- Privacy: No unnecessary personal data collection; inquiries handled via email/phone
+- Accessibility: WCAG 2.1 AA target
+- Industry: NEVs in the T3 series are designed to meet US federal NEV requirements (FMVSS 500) where applicable; street-legal operation subject to state and local law
+- Disclosure: Independent authorized dealership; not the manufacturer

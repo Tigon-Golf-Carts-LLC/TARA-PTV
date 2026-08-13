@@ -233,6 +233,9 @@ async function main() {
   let generated = 0;
 
   for (const [routePath, routeMeta] of Object.entries(routes)) {
+    // Redirect-only routes have no content file to prerender; they are
+    // handled as HTTP 301s by the server config.
+    if (routeMeta.redirect || !routeMeta.file) continue;
     const contentFile = path.join(
       artifactDir,
       'public',

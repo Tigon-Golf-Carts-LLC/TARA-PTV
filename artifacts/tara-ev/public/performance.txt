@@ -1,0 +1,5 @@
+# Performance Guidelines — TARA Neighborhood Electric Vehicles
+- Mobile-first, responsive layout
+- WebP imagery with lazy loading
+- Static asset caching via CDN-backed hosting (autoscale deployment)
+- Core Web Vitals monitored: LCP, CLS, INP

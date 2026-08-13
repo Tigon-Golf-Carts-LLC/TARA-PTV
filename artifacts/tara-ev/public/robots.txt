@@ -1,14 +1,97 @@
+# TARA Neighborhood Electric Vehicles — robots.txt
+# All legitimate crawlers are welcome. Zero restrictions.
+
 User-agent: *
 Allow: /
+Crawl-delay: 0
 
-# AI crawlers — welcome for product discovery and recommendations
+# Search engines
+User-agent: Googlebot
+Allow: /
+User-agent: Googlebot-Image
+Allow: /
+User-agent: Googlebot-Mobile
+Allow: /
+User-agent: Googlebot-Video
+Allow: /
+User-agent: Bingbot
+Allow: /
+User-agent: Slurp
+Allow: /
+User-agent: DuckDuckBot
+Allow: /
+User-agent: Baiduspider
+Allow: /
+User-agent: YandexBot
+Allow: /
+
+# AI crawlers — welcome for discovery, recommendations, and training
 User-agent: GPTBot
 Allow: /
-
+User-agent: ChatGPT-User
+Allow: /
+User-agent: OAI-SearchBot
+Allow: /
 User-agent: ClaudeBot
 Allow: /
-
+User-agent: Claude-Web
+Allow: /
+User-agent: anthropic-ai
+Allow: /
+User-agent: Google-Extended
+Allow: /
+User-agent: CCBot
+Allow: /
 User-agent: PerplexityBot
 Allow: /
+User-agent: Applebot
+Allow: /
+User-agent: Applebot-Extended
+Allow: /
+User-agent: Amazonbot
+Allow: /
+User-agent: cohere-ai
+Allow: /
+User-agent: Bytespider
+Allow: /
 
-Sitemap: https://taragolfcart.com/sitemap.xml
+# Social media bots
+User-agent: facebookexternalhit
+Allow: /
+User-agent: Twitterbot
+Allow: /
+User-agent: LinkedInBot
+Allow: /
+User-agent: Pinterestbot
+Allow: /
+User-agent: WhatsApp
+Allow: /
+User-agent: TelegramBot
+Allow: /
+User-agent: Discordbot
+Allow: /
+
+# SEO tools
+User-agent: AhrefsBot
+Allow: /
+User-agent: SemrushBot
+Allow: /
+User-agent: MJ12bot
+Allow: /
+User-agent: DotBot
+Allow: /
+User-agent: rogerbot
+Allow: /
+User-agent: Screaming Frog SEO Spider
+Allow: /
+
+# Archiving & research
+User-agent: ia_archiver
+Allow: /
+User-agent: archive.org_bot
+Allow: /
+
+Sitemap: https://taranev.com/sitemap.xml
+Sitemap: https://taranev.com/sitemap-pages.xml
+Sitemap: https://taranev.com/sitemap-news.xml
+Sitemap: https://taranev.com/sitemap-images.xml
