@@ -159,10 +159,19 @@ export default function App() {
           cta.id = 'tara-financing-cta';
           cta.innerHTML = `
             <div class="tfc-inner">
-              <p class="tfc-kicker">Limited-Time Offer</p>
-              <h2>0% Financing on TARA Golf Carts</h2>
-              <p class="tfc-sub">Drive home your TARA today with 0% financing options for up to 36 months.</p>
-              <a class="tfc-button" href="/financing/">Get 0% Financing</a>
+              <div class="tfc-rate">
+                <span class="tfc-rate-num">0<sup>%</sup></span>
+                <span class="tfc-rate-label">APR Financing</span>
+              </div>
+              <div class="tfc-copy">
+                <p class="tfc-kicker">&#9733; Limited-Time Offer</p>
+                <h2 class="tfc-title">0% Financing on TARA Golf Carts</h2>
+                <p class="tfc-sub">Drive home your TARA today &mdash; 0% financing options for up to <strong>36 months</strong>.</p>
+              </div>
+              <div class="tfc-action">
+                <a class="tfc-button" href="/financing/">Get 0% Financing &#8594;</a>
+                <span class="tfc-note">On approved credit</span>
+              </div>
             </div>`;
           containerRef.current.appendChild(cta);
         }
