@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<apiFeed version="1.0" generated="2026-08-14T14:20:48.002Z">
+  <business name="TARA Personal Transportation Vehicles" url="https://taraptv.com" phone="+1-844-844-3432" email="info@taraptv.com" areaServed="US"/>
+  <endpoints>
+    <endpoint type="sitemap" href="https://taraptv.com/sitemap.xml"/>
+    <endpoint type="products" href="https://taraptv.com/product_feed.xml"/>
+    <endpoint type="news" href="https://taraptv.com/rss.xml"/>
+    <endpoint type="llms" href="https://taraptv.com/llms.txt"/>
+  </endpoints>
+</apiFeed>

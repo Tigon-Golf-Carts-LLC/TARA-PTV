@@ -1,0 +1,15 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "TARA Personal Transportation Vehicles",
+        "telephone": "+1-844-844-3432",
+        "url": "https://taraptv.com",
+        "areaServed": "United States"
+      },
+      "geometry": null
+    }
+  ]
+}

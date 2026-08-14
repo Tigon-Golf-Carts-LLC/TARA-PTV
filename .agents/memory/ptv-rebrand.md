@@ -13,3 +13,10 @@ The site was rebranded site-wide: "Neighborhood Electric Vehicle(s)"/NEV(s) → 
 - Logo file is `tara-ptv-logo.png` (old `tara-nev-logo.png` image still on disk and its raster art still shows "NEV" — replacing the artwork is an open follow-up).
 - `dist/` is stale build output; ignore it in scans.
 - Re-run this brand/domain grep after every task merge (merges have restored removed/old content before).
+
+## PTV keyword naming (Aug 2026)
+Client wants "PTV" in series/keyword names site-wide for SEO. Canonical names:
+- "T1 Golf Cart PTV Series", "T2 Utility Golf Cart PTV Series", "T3 Street Legal PTV Series"
+- "PTV Golf Cart Accessories - Enhance Your Ride with Tara", "Latest News from Tara PTV Golf Carts", "0% Financing on TARA PTV Golf Carts"
+**Why:** client wants to rank for the term "ptv"; slugs untouched as usual.
+**How to apply:** after any merge, grep for the pre-PTV names and for accidental doubles like "PTV PTV".

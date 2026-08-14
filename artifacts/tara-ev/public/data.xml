@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<business>
+  <name>TARA Personal Transportation Vehicles</name>
+  <url>https://taraptv.com</url>
+  <telephone>+1-844-844-3432</telephone>
+  <email>info@taraptv.com</email>
+  <areaServed>United States</areaServed>
+  <products>
+    <product><name>TARA Explorer 2+2 Golf Cart</name><url>https://taraptv.com/explorer-2-2-golf-cart-product/</url></product>
+    <product><name>TARA Harmony Fleet Golf Cart</name><url>https://taraptv.com/harmony-fleet-golf-cart-product/</url></product>
+    <product><name>TARA Harmony</name><url>https://taraptv.com/harmony-product/</url></product>
+    <product><name>TARA Horizon 4 Golf Cart</name><url>https://taraptv.com/horizon-4-golf-cart-product/</url></product>
+    <product><name>TARA Horizon 6 Golf Cart</name><url>https://taraptv.com/horizon-6-golf-cart-product/</url></product>
+    <product><name>TARA Lander 4 Golf Cart</name><url>https://taraptv.com/lander-4-golf-cart-product/</url></product>
+    <product><name>TARA Lander 6 Golf Cart</name><url>https://taraptv.com/lander-6-golf-cart-product/</url></product>
+    <product><name>TARA Rambler 2</name><url>https://taraptv.com/rambler-2-product/</url></product>
+    <product><name>TARA Rambler Se2</name><url>https://taraptv.com/rambler-se2-product/</url></product>
+    <product><name>TARA Roadster 2+2 Golf Cart</name><url>https://taraptv.com/roadster-2-2-golf-cart-product/</url></product>
+    <product><name>TARA Roadster 2+2</name><url>https://taraptv.com/roadster-2-2-product/</url></product>
+    <product><name>TARA Spirit Plus Fleet Golf Cart</name><url>https://taraptv.com/spirit-plus-fleet-golf-cart-product/</url></product>
+    <product><name>TARA Spirit Pro Fleet Golf Cart</name><url>https://taraptv.com/spirit-pro-fleet-golf-cart-product/</url></product>
+    <product><name>TARA Spirit Pro</name><url>https://taraptv.com/spirit-pro-product/</url></product>
+    <product><name>TARA T3 2+2 Golf Cart</name><url>https://taraptv.com/t3-2-2-golf-cart-product/</url></product>
+    <product><name>TARA T3 2+2 Lifted Golf Cart</name><url>https://taraptv.com/t3-2-2-lifted-golf-cart-product/</url></product>
+    <product><name>TARA Turfman 1000 Utility Vehicle</name><url>https://taraptv.com/turfman-1000-utility-vehicle-product/</url></product>
+    <product><name>TARA Turfman 450 Utility Vehicle</name><url>https://taraptv.com/turfman-450-utility-vehicle-product/</url></product>
+    <product><name>TARA Turfman 700 Eec Utility Vehicle</name><url>https://taraptv.com/turfman-700-eec-utility-vehicle-product/</url></product>
+    <product><name>TARA Turfman 700 Utility Vehicle</name><url>https://taraptv.com/turfman-700-utility-vehicle-product/</url></product>
+    <product><name>TARA Vogue 2+2</name><url>https://taraptv.com/vogue-2-2-product/</url></product>
+    <product><name>TARA Vogue 2</name><url>https://taraptv.com/vogue-2-product/</url></product>
+    <product><name>TARA Vogue Se2</name><url>https://taraptv.com/vogue-se2-product/</url></product>
+  </products>
+</business>

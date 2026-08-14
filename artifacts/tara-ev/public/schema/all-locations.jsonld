@@ -1,0 +1,14 @@
+{
+  "@context": "https://schema.org",
+  "@type": "AutoDealer",
+  "name": "TARA Personal Transportation Vehicles",
+  "url": "https://taraptv.com",
+  "telephone": "+1-844-844-3432",
+  "email": "info@taraptv.com",
+  "areaServed": {
+    "@type": "Country",
+    "name": "United States"
+  },
+  "description": "Independent, authorized US dealership for TARA electric golf carts, personal transportation vehicles, and utility vehicles. Serving customers nationwide.",
+  "openingHours": "Mo-Su 09:00-17:00"
+}

@@ -15,21 +15,21 @@
           "@type": "Offer",
           "itemOffered": {
             "@type": "Product",
-            "name": "TARA T1 Golf Cart Series"
+            "name": "TARA T1 Golf Cart PTV Series"
           }
         },
         {
           "@type": "Offer",
           "itemOffered": {
             "@type": "Product",
-            "name": "TARA T2 Utility Golf Cart Series"
+            "name": "TARA T2 Utility Golf Cart PTV Series"
           }
         },
         {
           "@type": "Offer",
           "itemOffered": {
             "@type": "Product",
-            "name": "TARA T3 Street Legal Series"
+            "name": "TARA T3 Street Legal PTV Series"
           }
         }
       ]

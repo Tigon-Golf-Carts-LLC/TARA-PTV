@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>TARA Personal Transportation Vehicles</name>
+    <Placemark>
+      <name>TARA Personal Transportation Vehicles (nationwide US service)</name>
+      <description>Independent, authorized US dealership for TARA electric golf carts, personal transportation vehicles, and utility vehicles. Serving customers nationwide. Phone: +1-844-844-3432</description>
+    </Placemark>
+  </Document>
+</kml>
