@@ -103,6 +103,26 @@ check_rebrand "standalone NEV" \
 check_rebrand "legacy domains/handles (taragolfcart, taragolfcarts, taranev)" \
   'taragolfcarts?|taranev' -i --exclude=localize-assets.mjs
 
+# --- PTV keyword naming guard (Aug 2026) ---
+# Canonical names include "PTV": "T1 Golf Cart PTV Series",
+# "T2 Utility Golf Cart PTV Series", "T3 Street Legal PTV Series",
+# "Latest News from Tara PTV Golf Carts", "0% Financing on TARA PTV Golf Carts".
+# Merges have reverted renames before — fail if old names or doubled "PTV" text appear.
+check_rebrand "pre-PTV series name (T1 Golf Cart Series without PTV)" \
+  'T1 Golf Cart Series'
+check_rebrand "pre-PTV series name (T2 Utility Golf Cart Series without PTV)" \
+  'T2 Utility Golf Cart Series'
+check_rebrand "pre-PTV series name (T3 Street Legal Series without PTV)" \
+  'T3 Street Legal Series'
+check_rebrand "pre-PTV news heading (Latest News from Tara Electric Golf Carts)" \
+  'Latest News from Tara Electric Golf Carts'
+check_rebrand "pre-PTV accessories heading (Golf Cart Accessories without PTV)" \
+  '(^|[^V] )Golf Cart Accessories - Enhance Your Ride'
+check_rebrand "pre-PTV financing heading (0% Financing on TARA Golf Carts without PTV)" \
+  '0% Financing on TARA Golf Carts'
+check_rebrand "doubled PTV text (PTV PTV / PTV Series PTV)" \
+  'PTV PTV|PTV Series PTV'
+
 if [ "$fail" -eq 0 ]; then
   echo "OK: no removed inquiry form, popups, widgets, or footer found"
 fi

@@ -22,5 +22,5 @@ The site was rebranded site-wide: "Neighborhood Electric Vehicle(s)"/NEV(s) → 
 Client wants "PTV" in series/keyword names site-wide for SEO. Canonical names:
 - "T1 Golf Cart PTV Series", "T2 Utility Golf Cart PTV Series", "T3 Street Legal PTV Series"
 - "PTV Golf Cart Accessories - Enhance Your Ride with Tara", "Latest News from Tara PTV Golf Carts", "0% Financing on TARA PTV Golf Carts"
-**Why:** client wants to rank for the term "ptv"; slugs untouched as usual.
-**How to apply:** after any merge, grep for the pre-PTV names and for accidental doubles like "PTV PTV".
+**Why:** client wants to rank for the term "ptv". Slugs untouched as usual.
+**How to apply:** after any merge, check for the pre-PTV names and accidental doubles like "PTV PTV" — the verify-removals guard script now covers these checks automatically.
