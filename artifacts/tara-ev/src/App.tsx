@@ -161,7 +161,7 @@ export default function App() {
               </div>
               <div class="tfc-copy">
                 <p class="tfc-kicker">&#9733; Limited-Time Offer</p>
-                <h2 class="tfc-title">0% Financing on TARA Golf Carts</h2>
+                <h2 class="tfc-title">0% Financing on TARA PTV Golf Carts</h2>
                 <p class="tfc-sub">Drive home your TARA today &mdash; 0% financing options for up to <strong>36 months</strong>.</p>
               </div>
               <div class="tfc-action">
