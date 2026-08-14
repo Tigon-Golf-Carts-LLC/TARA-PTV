@@ -14,6 +14,10 @@ The site was rebranded site-wide: "Neighborhood Electric Vehicle(s)"/NEV(s) → 
 - `dist/` is stale build output; ignore it in scans.
 - Re-run this brand/domain grep after every task merge (merges have restored removed/old content before).
 
+
+## Series naming
+- Official series name is "T1 Golf Cart PTV Series" (renamed site-wide Aug 2026, incl. tooltips like "Tara T1 Golf Cart PTV Series Electric Golf Carts" and routes.json meta description). URL slug stays /t1-series/.
+- Merges have reverted renames before — re-grep "T1 Golf Cart Series" (case-insensitive) after every merge.
 ## PTV keyword naming (Aug 2026)
 Client wants "PTV" in series/keyword names site-wide for SEO. Canonical names:
 - "T1 Golf Cart PTV Series", "T2 Utility Golf Cart PTV Series", "T3 Street Legal PTV Series"
