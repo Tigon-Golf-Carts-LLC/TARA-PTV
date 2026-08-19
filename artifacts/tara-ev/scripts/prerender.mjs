@@ -84,51 +84,17 @@ function escHtml(str) {
     .replace(/>/g, '&gt;');
 }
 
-/**
- * Extract a ~160-character plain-text description from the content HTML.
- * Prefers the first non-trivial <p> whose text is clearly page content
- * (not a nav breadcrumb or a widget label).
- */
-function extractDescription(html) {
-  const cleaned = html
-    .replace(/<(script|style|noscript)[^>]*>[\s\S]*?<\/\1>/gi, '')
-    .replace(/<!--[\s\S]*?-->/g, '');
-
-  const pMatches = [...cleaned.matchAll(/<p[^>]*>([\s\S]*?)<\/p>/gi)];
-  for (const m of pMatches) {
-    const text = m[1].replace(/<[^>]+>/g, '').replace(/\s+/g, ' ').trim();
-    if (text.length < 50 || text.includes(' / ')) continue;
-    return text.length > 158 ? text.slice(0, 157) + '…' : text;
-  }
-
-  const fallback = cleaned.replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim();
-  return fallback.length > 158 ? fallback.slice(0, 157) + '…' : fallback;
-}
-
-/**
- * Return the first product/hero image found in the content HTML,
- * skipping logos, menu thumbnails, and icons.
- */
-function extractOgImage(html) {
-  const SKIP = /logo|favicon|menu-image|icon/i;
-  for (const m of html.matchAll(/src=["']([^"']+\.(?:webp|jpg|jpeg|png))["']/gi)) {
-    const src = m[1];
-    if (SKIP.test(src)) continue;
-    if (src.startsWith('/images/') || src.startsWith('/uploads/')) return src;
-  }
-  return '/images/og-image.png';
-}
-
 // ─── Per-route HTML builder ───────────────────────────────────────────────────
 
 function buildPageHtml(routePath, routeMeta, contentHtml) {
   const title = routeMeta.title || 'TARA Personal Transportation Vehicles';
-  const description = extractDescription(contentHtml);
-  const ogImage = extractOgImage(contentHtml);
+  const description = routeMeta.description;
+  const image = routeMeta.image;
+  const imageAlt = routeMeta.imageAlt;
   const canonicalUrl = `${origin}${routePath}`;
-  const absoluteOgImage = ogImage.startsWith('http')
-    ? ogImage
-    : `${origin}${ogImage}`;
+  const absoluteImage = image.startsWith('http')
+    ? image
+    : `${origin}${image}`;
 
   let html = shellHtml;
 
@@ -138,10 +104,22 @@ function buildPageHtml(routePath, routeMeta, contentHtml) {
     `<title>${escHtml(title)}</title>`,
   );
 
+  // Replace generic meta title
+  html = html.replace(
+    /<meta\s+name="title"[^>]*\/?>/i,
+    `<meta name="title" content="${escHtml(title)}" />`,
+  );
+
   // Replace generic meta description
   html = html.replace(
     /<meta\s+name="description"[^>]*\/?>/i,
     `<meta name="description" content="${escHtml(description)}" />`,
+  );
+
+  // Replace generic og:title
+  html = html.replace(
+    /<meta\s+name="image"[^>]*\/?>/i,
+    `<meta name="image" content="${absoluteImage}" />`,
   );
 
   // Replace generic og:title
@@ -159,15 +137,40 @@ function buildPageHtml(routePath, routeMeta, contentHtml) {
   // Replace generic og:image
   html = html.replace(
     /<meta\s+property="og:image"[^>]*\/?>/i,
-    `<meta property="og:image" content="${absoluteOgImage}" />`,
+    `<meta property="og:image" content="${absoluteImage}" />`,
+  );
+  html = html.replace(
+    /<meta\s+property="og:image:alt"[^>]*\/?>/i,
+    `<meta property="og:image:alt" content="${escHtml(imageAlt)}" />`,
   );
 
-  // Inject canonical + og:url before </head>
-  const canonicalBlock = [
-    `  <link rel="canonical" href="${canonicalUrl}" />`,
-    `  <meta property="og:url" content="${canonicalUrl}" />`,
-  ].join('\n');
-  html = html.replace('</head>', `${canonicalBlock}\n</head>`);
+  // Replace Twitter Card metadata
+  html = html.replace(
+    /<meta\s+name="twitter:title"[^>]*\/?>/i,
+    `<meta name="twitter:title" content="${escHtml(title)}" />`,
+  );
+  html = html.replace(
+    /<meta\s+name="twitter:description"[^>]*\/?>/i,
+    `<meta name="twitter:description" content="${escHtml(description)}" />`,
+  );
+  html = html.replace(
+    /<meta\s+name="twitter:image"[^>]*\/?>/i,
+    `<meta name="twitter:image" content="${absoluteImage}" />`,
+  );
+  html = html.replace(
+    /<meta\s+name="twitter:image:alt"[^>]*\/?>/i,
+    `<meta name="twitter:image:alt" content="${escHtml(imageAlt)}" />`,
+  );
+
+  // Replace canonical + og:url so each page has exactly one authoritative URL.
+  html = html.replace(
+    /<link\s+rel="canonical"[^>]*\/?>/i,
+    `<link rel="canonical" href="${canonicalUrl}" />`,
+  );
+  html = html.replace(
+    /<meta\s+property="og:url"[^>]*\/?>/i,
+    `<meta property="og:url" content="${canonicalUrl}" />`,
+  );
 
   // Embed page content inside #root so crawlers that don't execute JS
   // still see the full page content, headings, product specs, and links.

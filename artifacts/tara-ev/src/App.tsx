@@ -3,7 +3,15 @@ import { injectStructuredData } from './structuredData';
 
 const BASE = import.meta.env.BASE_URL; // e.g. "/"
 
-type RouteMeta = { file: string; title: string; description?: string; bodyClass: string; redirect?: never };
+type RouteMeta = {
+  file: string;
+  title: string;
+  description: string;
+  image: string;
+  imageAlt: string;
+  bodyClass: string;
+  redirect?: never;
+};
 
 type RouteRedirect = { redirect: string };
 type Routes = Record<string, RouteEntry>;
@@ -92,9 +100,26 @@ export default function App() {
         document.title = meta.title;
         injectStructuredData(path, meta.title);
 
-        // Update per-route meta: canonical, description, OG, Twitter Card.
+        // Update per-route meta: canonical, description, image, OG, Twitter Card.
         const siteOrigin = 'https://taraptv.com';
         const canonicalUrl = `${siteOrigin}${path}`;
+        const imageUrl = meta.image.startsWith('http')
+          ? meta.image
+          : `${siteOrigin}${meta.image}`;
+        const setMeta = (
+          selector: string,
+          attribute: 'name' | 'property',
+          key: string,
+          content: string,
+        ) => {
+          let element = document.querySelector<HTMLMetaElement>(selector);
+          if (!element) {
+            element = document.createElement('meta');
+            element.setAttribute(attribute, key);
+            document.head.appendChild(element);
+          }
+          element.setAttribute('content', content);
+        };
 
         // Canonical link tag
         let canonical = document.querySelector<HTMLLinkElement>('link[rel="canonical"]');
@@ -105,25 +130,38 @@ export default function App() {
         }
         canonical.setAttribute('href', canonicalUrl);
 
-        // Meta description
-        if (meta.description) {
-          const descEl = document.querySelector<HTMLMetaElement>('meta[name="description"]');
-          if (descEl) descEl.setAttribute('content', meta.description);
-        }
-
-        // Open Graph: og:title, og:description, og:url
-        const ogTitle = document.querySelector<HTMLMetaElement>('meta[property="og:title"]');
-        if (ogTitle) ogTitle.setAttribute('content', meta.title);
-        const ogDesc = document.querySelector<HTMLMetaElement>('meta[property="og:description"]');
-        if (ogDesc && meta.description) ogDesc.setAttribute('content', meta.description);
-        const ogUrl = document.querySelector<HTMLMetaElement>('meta[property="og:url"]');
-        if (ogUrl) ogUrl.setAttribute('content', canonicalUrl);
-
-        // Twitter Card: twitter:title, twitter:description
-        const twTitle = document.querySelector<HTMLMetaElement>('meta[name="twitter:title"]');
-        if (twTitle) twTitle.setAttribute('content', meta.title);
-        const twDesc = document.querySelector<HTMLMetaElement>('meta[name="twitter:description"]');
-        if (twDesc && meta.description) twDesc.setAttribute('content', meta.description);
+        setMeta('meta[name="title"]', 'name', 'title', meta.title);
+        setMeta('meta[name="description"]', 'name', 'description', meta.description);
+        setMeta('meta[name="image"]', 'name', 'image', imageUrl);
+        setMeta('meta[property="og:title"]', 'property', 'og:title', meta.title);
+        setMeta(
+          'meta[property="og:description"]',
+          'property',
+          'og:description',
+          meta.description,
+        );
+        setMeta('meta[property="og:image"]', 'property', 'og:image', imageUrl);
+        setMeta(
+          'meta[property="og:image:alt"]',
+          'property',
+          'og:image:alt',
+          meta.imageAlt,
+        );
+        setMeta('meta[property="og:url"]', 'property', 'og:url', canonicalUrl);
+        setMeta('meta[name="twitter:title"]', 'name', 'twitter:title', meta.title);
+        setMeta(
+          'meta[name="twitter:description"]',
+          'name',
+          'twitter:description',
+          meta.description,
+        );
+        setMeta('meta[name="twitter:image"]', 'name', 'twitter:image', imageUrl);
+        setMeta(
+          'meta[name="twitter:image:alt"]',
+          'name',
+          'twitter:image:alt',
+          meta.imageAlt,
+        );
 
         if (meta.bodyClass) document.body.className = meta.bodyClass;
         containerRef.current.innerHTML = html;
@@ -223,7 +261,7 @@ export default function App() {
               </div>
             </div>
             <div class="tf-bottom">
-              <span>&copy; ${new Date().getFullYear()} TARA Personal Transportation Vehicles. All rights reserved.</span>
+              <span>&copy; ${new Date().getFullYear()} <a href="https://tigongolfcarts.com/tara-ev" target="_blank" rel="sponsored noopener noreferrer">TARA Personal Transportation Vehicles</a>. All rights reserved.</span>
               <span class="tf-legal">
                 <a href="/privacy-policy/">Privacy Policy</a>
                 <a href="/terms-and-conditions/">Terms &amp; Conditions</a>

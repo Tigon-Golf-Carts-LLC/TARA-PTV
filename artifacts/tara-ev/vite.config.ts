@@ -22,7 +22,8 @@ if (Number.isNaN(port) || port <= 0) {
   throw new Error(`Invalid PORT value: "${rawPort}"`);
 }
 
-const basePath = process.env.BASE_PATH;
+const basePath = process.env.BASE_PATH ?? '/';
+const canonicalOrigin = 'https://taraptv.com';
 
 const DEV_REDIRECTS: Record<string, string> = {
   // Percent-encoding case duplicate: lowercase hex → uppercase canonical.
@@ -43,17 +44,13 @@ const DEV_REDIRECTS: Record<string, string> = {
   '/mainitenance-support/': '/maintenance-support/',
   '/techncal-support/': '/technical-support/',
 };
-const publishedDomain = process.env.REPLIT_DOMAINS?.split(',')[0]?.trim();
-
 const absoluteOgUrls = () => ({
   name: 'absolute-og-urls',
   apply: 'build' as const,
   transformIndexHtml(html: string) {
-    if (!publishedDomain) return html;
-    const origin = `https://${publishedDomain}`;
     return html.replace(
       /(<meta\s+property="og:(?:image|url)"\s+content=")(\/[^"]*)(")/g,
-      (_m, pre, path, post) => `${pre}${origin}${path}${post}`,
+      (_m, pre, path, post) => `${pre}${canonicalOrigin}${path}${post}`,
     );
   },
 });
@@ -68,65 +65,72 @@ function escHtml(str: string) {
     .replace(/>/g, '&gt;');
 }
 
-function extractDescription(html: string): string {
-  const cleaned = html
-    .replace(/<(script|style|noscript)[^>]*>[\s\S]*?<\/\1>/gi, '')
-    .replace(/<!--[\s\S]*?-->/g, '');
-  const pMatches = [...cleaned.matchAll(/<p[^>]*>([\s\S]*?)<\/p>/gi)];
-  for (const m of pMatches) {
-    const text = m[1].replace(/<[^>]+>/g, '').replace(/\s+/g, ' ').trim();
-    if (text.length < 50 || text.includes(' / ')) continue;
-    return text.length > 158 ? text.slice(0, 157) + '…' : text;
-  }
-  const fallback = cleaned.replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim();
-  return fallback.length > 158 ? fallback.slice(0, 157) + '…' : fallback;
-}
-
-function extractOgImage(html: string): string {
-  const SKIP = /logo|favicon|menu-image|icon/i;
-  for (const m of html.matchAll(/src=["']([^"']+\.(?:webp|jpg|jpeg|png))["']/gi)) {
-    const src = m[1];
-    if (SKIP.test(src)) continue;
-    if (src.startsWith('/images/') || src.startsWith('/uploads/')) return src;
-  }
-  return '/images/og-image.png';
-}
-
 function injectRouteMeta(
   shellHtml: string,
   routePath: string,
-  routeTitle: string,
+  routeMeta: RouteMeta,
   contentHtml: string,
   origin: string,
 ): string {
-  const description = extractDescription(contentHtml);
-  const ogImage = extractOgImage(contentHtml);
   const canonicalUrl = `${origin}${routePath}`;
-  const absoluteOgImage = ogImage.startsWith('http') ? ogImage : `${origin}${ogImage}`;
+  const absoluteImage = routeMeta.image.startsWith('http')
+    ? routeMeta.image
+    : `${origin}${routeMeta.image}`;
 
   let html = shellHtml;
-  html = html.replace(/<title>[^<]*<\/title>/, `<title>${escHtml(routeTitle)}</title>`);
+  html = html.replace(/<title>[^<]*<\/title>/, `<title>${escHtml(routeMeta.title)}</title>`);
+  html = html.replace(
+    /<meta\s+name="title"[^>]*\/?>/i,
+    `<meta name="title" content="${escHtml(routeMeta.title)}" />`,
+  );
   html = html.replace(
     /<meta\s+name="description"[^>]*\/?>/i,
-    `<meta name="description" content="${escHtml(description)}" />`,
+    `<meta name="description" content="${escHtml(routeMeta.description)}" />`,
+  );
+  html = html.replace(
+    /<meta\s+name="image"[^>]*\/?>/i,
+    `<meta name="image" content="${absoluteImage}" />`,
   );
   html = html.replace(
     /<meta\s+property="og:title"[^>]*\/?>/i,
-    `<meta property="og:title" content="${escHtml(routeTitle)}" />`,
+    `<meta property="og:title" content="${escHtml(routeMeta.title)}" />`,
   );
   html = html.replace(
     /<meta\s+property="og:description"[^>]*\/?>/i,
-    `<meta property="og:description" content="${escHtml(description)}" />`,
+    `<meta property="og:description" content="${escHtml(routeMeta.description)}" />`,
   );
   html = html.replace(
     /<meta\s+property="og:image"[^>]*\/?>/i,
-    `<meta property="og:image" content="${absoluteOgImage}" />`,
+    `<meta property="og:image" content="${absoluteImage}" />`,
   );
-  const canonicalBlock = [
-    `  <link rel="canonical" href="${canonicalUrl}" />`,
-    `  <meta property="og:url" content="${canonicalUrl}" />`,
-  ].join('\n');
-  html = html.replace('</head>', `${canonicalBlock}\n</head>`);
+  html = html.replace(
+    /<meta\s+property="og:image:alt"[^>]*\/?>/i,
+    `<meta property="og:image:alt" content="${escHtml(routeMeta.imageAlt)}" />`,
+  );
+  html = html.replace(
+    /<meta\s+name="twitter:title"[^>]*\/?>/i,
+    `<meta name="twitter:title" content="${escHtml(routeMeta.title)}" />`,
+  );
+  html = html.replace(
+    /<meta\s+name="twitter:description"[^>]*\/?>/i,
+    `<meta name="twitter:description" content="${escHtml(routeMeta.description)}" />`,
+  );
+  html = html.replace(
+    /<meta\s+name="twitter:image"[^>]*\/?>/i,
+    `<meta name="twitter:image" content="${absoluteImage}" />`,
+  );
+  html = html.replace(
+    /<meta\s+name="twitter:image:alt"[^>]*\/?>/i,
+    `<meta name="twitter:image:alt" content="${escHtml(routeMeta.imageAlt)}" />`,
+  );
+  html = html.replace(
+    /<link\s+rel="canonical"[^>]*\/?>/i,
+    `<link rel="canonical" href="${canonicalUrl}" />`,
+  );
+  html = html.replace(
+    /<meta\s+property="og:url"[^>]*\/?>/i,
+    `<meta property="og:url" content="${canonicalUrl}" />`,
+  );
   // Embed page content for crawlers
   html = html.replace(
     '<div id="root"></div>',
@@ -137,8 +141,16 @@ function injectRouteMeta(
 
 // ─── Dev middleware: serves per-route pre-rendered HTML ───────────────────────
 
-type RouteMeta = { file: string; title: string; bodyClass: string };
-type Routes = Record<string, RouteMeta>;
+type RouteMeta = {
+  file: string;
+  title: string;
+  description: string;
+  image: string;
+  imageAlt: string;
+  bodyClass: string;
+};
+type RouteRedirect = { redirect: string };
+type Routes = Record<string, RouteMeta | RouteRedirect>;
 
 const spaMetaMiddleware = (): Plugin => ({
   name: 'spa-meta-middleware',
@@ -175,6 +187,7 @@ const spaMetaMiddleware = (): Plugin => ({
 
       const meta = routes[reqPath];
       if (!meta) return next();
+      if ('redirect' in meta || !meta.file) return next();
 
       const contentFile = path.join(publicContentDir, meta.file);
       if (!fs.existsSync(contentFile)) return next();
@@ -189,16 +202,12 @@ const spaMetaMiddleware = (): Plugin => ({
         // Run Vite's own HTML transforms (so script tags are correct)
         shellHtml = await server.transformIndexHtml(reqPath, shellHtml);
 
-        const devOrigin = req.headers.host
-          ? `${req.headers['x-forwarded-proto'] ?? 'http'}://${req.headers.host}`
-          : 'http://localhost';
-
         const pageHtml = injectRouteMeta(
           shellHtml,
           reqPath,
-          meta.title,
+          meta,
           contentHtml,
-          devOrigin,
+          canonicalOrigin,
         );
 
         res.setHeader('Content-Type', 'text/html; charset=utf-8');
@@ -225,9 +234,7 @@ const prerenderPlugin = (): Plugin => ({
     // Use the *built* index.html as the shell so generated pages reference
     // Vite's hashed /assets/index-*.js bundles, not the TS source entry.
     const shellHtml = path.join(outDir, 'index.html');
-    const originArg = publishedDomain
-      ? `https://${publishedDomain}`
-      : 'https://taraptv.com';
+    const originArg = canonicalOrigin;
     // Let execFileSync throw on non-zero exit — this propagates prerender
     // failures as a build error so broken output is never silently shipped.
     execFileSync(
