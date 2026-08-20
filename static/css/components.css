@@ -1,0 +1,39 @@
+/* Static-site components: contact form, client-side search, 404.
+   These replace the server-backed inquiry endpoint and the old PHP search page. */
+
+.tara-form{max-width:820px;margin:32px auto 56px;padding:28px;border:1px solid #e3e3e3;border-radius:10px;background:#fff}
+.tara-form-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
+.tara-field{display:flex;flex-direction:column;gap:6px;font-size:15px;color:#333}
+.tara-field-wide{grid-column:1/-1}
+.tara-field span{font-weight:600}
+.tara-field input,.tara-field textarea{width:100%;padding:11px 13px;border:1px solid #ccc;border-radius:6px;font:inherit;font-size:15px;background:#fff;color:#111}
+.tara-field input:focus,.tara-field textarea:focus{outline:2px solid #1a7f37;outline-offset:1px;border-color:#1a7f37}
+.tara-form-actions{display:flex;flex-wrap:wrap;align-items:center;gap:16px;margin-top:22px}
+.tara-form-submit{padding:12px 28px;border:0;border-radius:6px;background:#101210;color:#fff;font-size:15px;font-weight:600;cursor:pointer}
+.tara-form-submit:hover{background:#1a7f37}
+.tara-form-submit[disabled]{opacity:.6;cursor:default}
+.tara-form-alt{font-size:14px;color:#555}
+.tara-form-alt a{color:#1a7f37;text-decoration:underline}
+.tara-form-status{margin:14px 0 0;font-size:14px;min-height:1em}
+.tara-form-status.is-ok{color:#1a7f37}
+.tara-form-status.is-error{color:#b3261e}
+
+.tara-search{max-width:900px;margin:0 auto;padding:56px 20px 72px}
+.tara-search h1{font-size:32px;margin:0 0 22px}
+.tara-search-form{display:flex;gap:10px;margin-bottom:28px}
+.tara-search-form input{flex:1;padding:12px 14px;border:1px solid #ccc;border-radius:6px;font:inherit;font-size:16px}
+.tara-search-form button{padding:12px 26px;border:0;border-radius:6px;background:#101210;color:#fff;font-weight:600;cursor:pointer}
+.tara-search-count{color:#666;font-size:14px;margin-bottom:16px}
+.tara-search-list{list-style:none;margin:0;padding:0}
+.tara-search-list li{padding:16px 0;border-bottom:1px solid #ececec}
+.tara-search-list a{font-size:18px;font-weight:600;color:#1a7f37;text-decoration:none}
+.tara-search-list a:hover{text-decoration:underline}
+.tara-search-list p{margin:6px 0 0;color:#555;font-size:14px;line-height:1.5}
+
+.tara-404 h1{font-size:34px;margin-bottom:12px}
+.tara-404 a{color:#1a7f37}
+
+@media (max-width:700px){
+  .tara-form-grid{grid-template-columns:1fr}
+  .tara-form{padding:20px;margin:24px 12px 40px}
+}

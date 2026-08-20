@@ -1,19 +1,41 @@
 {
-  "name": "workspace",
-  "version": "0.0.0",
-  "license": "MIT",
-  "scripts": {
-    "preinstall": "sh -c 'rm -f package-lock.json yarn.lock; case \"$npm_config_user_agent\" in pnpm/*) ;; *) echo \"Use pnpm instead\" >&2; exit 1 ;; esac'",
-    "build": "pnpm run typecheck && pnpm -r --if-present run build",
-    "typecheck:libs": "tsc --build",
-    "typecheck": "pnpm run typecheck:libs && pnpm -r --filter \"./artifacts/**\" --filter \"./scripts\" --if-present run typecheck"
-  },
+  "name": "tara-ptv",
+  "version": "1.0.0",
   "private": true,
+  "license": "MIT",
+  "type": "module",
+  "description": "TARA Personal Transportation Vehicles \u2014 100% static site for GitHub Pages",
+  "scripts": {
+    "dev": "npm run build:data && vite",
+    "build:data": "tsx script/fetch-data.ts && tsx script/generate-seo.ts && tsx script/optimize-assets.ts",
+    "build": "tsx script/fetch-data.ts && tsx script/generate-seo.ts && tsx script/optimize-assets.ts && vite build && tsx script/prerender.ts",
+    "build:site": "cross-env SKIP_REMOTE_FETCH=1 npm run build",
+    "preview": "tsx script/serve-dist.ts",
+    "verify": "tsx script/verify.ts",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "clean": "rimraf dist public .cache/images"
+  },
   "dependencies": {
-    "@replit/connectors-sdk": "^0.4.1"
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
   },
   "devDependencies": {
-    "prettier": "^3.9.6",
-    "typescript": "~5.9.3"
+    "@types/html-minifier-terser": "^7.0.2",
+    "@types/node": "^22.18.0",
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19.2.0",
+    "@vitejs/plugin-react": "^5.1.0",
+    "cross-env": "^7.0.3",
+    "html-minifier-terser": "^7.2.0",
+    "rimraf": "^6.0.1",
+    "sharp": "^0.35.3",
+    "svgo": "^3.3.2",
+    "terser": "^5.44.0",
+    "tsx": "^4.20.0",
+    "typescript": "~5.9.3",
+    "vite": "^7.1.0"
+  },
+  "engines": {
+    "node": ">=20"
   }
 }

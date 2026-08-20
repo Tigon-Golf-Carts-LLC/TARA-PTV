@@ -1,0 +1,85 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+# Required by actions/deploy-pages@v4.
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# One deploy at a time; let a newer push finish rather than cancelling it.
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+env:
+  # ─── The two knobs you are most likely to change ───────────────────────────
+  # Custom domain or <user>.github.io  → BASE_PATH: "/"
+  # Project site                       → BASE_PATH: "/<repo-name>/"
+  BASE_PATH: "/"
+  SITE_DOMAIN: "taraptv.com"
+
+  # Optional. Public by design (it is called from the browser); using a secret
+  # only keeps it out of the repo. Empty ⇒ the contact form uses mailto:.
+  FORMSPREE_ENDPOINT: ${{ secrets.FORMSPREE_ENDPOINT }}
+  # Optional live-inventory enrichment, read only by script/fetch-data.ts.
+  INVENTORY_API_URL: ${{ secrets.INVENTORY_API_URL }}
+  INVENTORY_API_KEY: ${{ secrets.INVENTORY_API_KEY }}
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Node 20
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      # Re-encoding 1,000+ images takes ~10 minutes. The cache is keyed on the
+      # image sources, so only changed images are re-encoded on later runs.
+      - name: Restore image encoder cache
+        uses: actions/cache@v4
+        with:
+          path: .cache/images
+          key: images-${{ runner.os }}-${{ hashFiles('assets-src/images/**') }}
+          restore-keys: |
+            images-${{ runner.os }}-
+
+      - name: Type-check
+        run: npm run typecheck
+
+      - name: Build static site
+        run: npm run build
+
+      - name: Verify the deploy artifact
+        run: npm run verify
+
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
