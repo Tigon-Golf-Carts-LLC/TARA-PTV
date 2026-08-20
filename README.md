@@ -19,7 +19,7 @@ script/             build pipeline (TypeScript, run with tsx)
   serve-dist.ts       static preview server (mimics GitHub Pages)
   verify.ts           pre-deploy gate
 content-src/        SOURCE page HTML (579 files) + routes.json
-assets-src/images/  SOURCE images (never shipped)
+assets-src/images/  SOURCE images, compressed masters (never shipped)
 static/             SOURCE static files: css, js, fonts, favicons, feeds
 public/             GENERATED — do not edit, do not commit
 dist/               GENERATED build output — this is what Pages serves
@@ -27,6 +27,32 @@ dist/               GENERATED build output — this is what Pages serves
 
 `public/` and `dist/` are both generated and gitignored. Edit page copy in
 `content-src/`, images in `assets-src/images/`, everything else in `static/`.
+
+### Image sources
+
+The mirror arrived with 1.3 GB of originals — 10 MB PNG photographs, EXIF
+intact, some 4000 px wide — which is repository weight and nothing else: no
+page serves an image above 1600 px. `script/compress-sources.ts` rewrote them
+as WebP masters capped at 2000 px, taking `assets-src/` from **1,256 MB to
+304 MB**.
+
+Masters are named after the file they replaced, with the original extension
+folded into the stem:
+
+```
+2+2-pass-golf-cart-color-sky-blue.png → 2+2-pass-golf-cart-color-sky-blue_png.webp
+harmony250626.webp                    → harmony250626_webp.webp
+```
+
+That encoding matters: the mirror has 519 stem collisions (a `foo.jpg` and a
+`foo.webp` of the same photo), which a plain `.webp` rename would silently
+merge. Page HTML still refers to the original file name and
+`script/optimize-assets.ts` resolves it through the same mapping, so no
+content file changed and no delivered URL moved.
+
+**Adding new images:** drop them in `assets-src/images/` under any name, then
+run `npm run compress:sources`. It only touches files not already in
+canonical form, so masters are never re-encoded and never lose a generation.
 
 ## Scripts
 
@@ -37,6 +63,7 @@ dist/               GENERATED build output — this is what Pages serves
 | `npm run build:site` | same, but never touches the network (`SKIP_REMOTE_FETCH=1`) |
 | `npm run preview` | serves `dist/` exactly the way GitHub Pages does |
 | `npm run verify` | size budget, bundle hygiene, image and route checks |
+| `npm run compress:sources` | re-compress any new image source to a WebP master (`-- --dry` to preview) |
 | `npm run typecheck` | `tsc --noEmit` |
 
 The first `npm run build` encodes ~1,000 images and takes several minutes.

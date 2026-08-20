@@ -149,7 +149,8 @@ function normalizeRef(url: string): string {
 }
 
 /** Derivative file name: "foo.jpg" → "foo_jpg" (never collides with a twin
- *  "foo.webp", of which this mirror has 519 pairs). */
+ *  "foo.webp", of which this mirror has 519 pairs). This same mapping names
+ *  the compressed masters in assets-src — see script/compress-sources.ts. */
 function stemFor(rel: string): string {
   const dir = path.dirname(rel);
   const base = path.basename(rel);
@@ -527,15 +528,37 @@ async function main() {
 
   const allSources = walk(DIRS.assetsSrc).map((p) => path.relative(DIRS.assetsSrc, p).split(path.sep).join('/'));
   const sourceSet = new Set(allSources);
-  const missing: string[] = [];
-  const todo: string[] = [];
-  for (const rel of refs) {
-    if (sourceSet.has(rel)) todo.push(rel);
-    else missing.push(rel);
-  }
-  todo.sort();
 
-  const orphans = allSources.filter((r) => !refs.has(r));
+  /**
+   * Page HTML still refers to the original file name ("foo.png"), while the
+   * compressed master on disk is "foo_png.webp". Resolve the reference to
+   * whichever of the two exists, preferring an untouched original.
+   */
+  const resolveSource = (rel: string): string | null => {
+    if (sourceSet.has(rel)) return rel;
+    const stem = stemFor(rel);
+    for (const candidate of [`${stem}.webp`, `${stem}.svg`]) {
+      if (sourceSet.has(candidate)) return candidate;
+    }
+    return null;
+  };
+
+  const missing: string[] = [];
+  /** reference path → source file backing it */
+  const todo: Array<{ ref: string; source: string }> = [];
+  const usedSources = new Set<string>();
+  for (const rel of refs) {
+    const source = resolveSource(rel);
+    if (source) {
+      todo.push({ ref: rel, source });
+      usedSources.add(source);
+    } else {
+      missing.push(rel);
+    }
+  }
+  todo.sort((a, b) => a.ref.localeCompare(b.ref));
+
+  const orphans = allSources.filter((r) => !usedSources.has(r));
   const orphanBytes = orphans.reduce((n, r) => n + fs.statSync(path.join(DIRS.assetsSrc, r)).size, 0);
 
   // ─── Cache lookup ─────────────────────────────────────────────────────────
@@ -548,15 +571,15 @@ async function main() {
   const entries = new Map<string, Entry>();
   const work: Array<{ rel: string; abs: string; hash: string }> = [];
 
-  for (const rel of todo) {
-    const abs = path.join(DIRS.assetsSrc, rel);
-    const flags = `${ogRefs.has(rel) ? 'og' : ''}${PASSTHROUGH.has(rel) ? 'pt' : ''}`;
+  for (const { ref, source } of todo) {
+    const abs = path.join(DIRS.assetsSrc, source);
+    const flags = `${ogRefs.has(ref) ? 'og' : ''}${PASSTHROUGH.has(ref) ? 'pt' : ''}`;
     const hash = hashFile(abs, flags);
-    const cached = manifest[rel];
+    const cached = manifest[ref];
     if (cached && cached.hash === hash && cached.files.every((f) => fs.existsSync(path.join(cacheOut, f)))) {
-      entries.set(rel, { rel, ...cached.meta });
+      entries.set(ref, { rel: ref, ...cached.meta });
     } else {
-      work.push({ rel, abs, hash });
+      work.push({ rel: ref, abs, hash });
     }
   }
 
@@ -568,7 +591,7 @@ async function main() {
   let done = 0;
   await pool(work, CONCURRENCY, async ({ rel, abs, hash }) => {
     try {
-      const entry = rel.toLowerCase().endsWith('.svg')
+      const entry = abs.toLowerCase().endsWith('.svg')
         ? optimizeSvg(rel, abs)
         : await encodeOne(rel, abs, ogRefs.has(rel));
       if (!entry) return;

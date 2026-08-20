@@ -4,7 +4,7 @@
   "private": true,
   "license": "MIT",
   "type": "module",
-  "description": "TARA Personal Transportation Vehicles \u2014 100% static site for GitHub Pages",
+  "description": "TARA Personal Transportation Vehicles — 100% static site for GitHub Pages",
   "scripts": {
     "dev": "npm run build:data && vite",
     "build:data": "tsx script/fetch-data.ts && tsx script/generate-seo.ts && tsx script/optimize-assets.ts",
@@ -13,7 +13,8 @@
     "preview": "tsx script/serve-dist.ts",
     "verify": "tsx script/verify.ts",
     "typecheck": "tsc -p tsconfig.json --noEmit",
-    "clean": "rimraf dist public .cache/images"
+    "clean": "rimraf dist public .cache/images",
+    "compress:sources": "tsx script/compress-sources.ts"
   },
   "dependencies": {
     "react": "^19.2.0",
