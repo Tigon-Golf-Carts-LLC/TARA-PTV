@@ -67,6 +67,11 @@ jobs:
 
       - name: Configure Pages
         uses: actions/configure-pages@v5
+        with:
+          # Turn Pages on (build_type: workflow) if the repository does not
+          # have it yet, instead of failing with "Get Pages site failed".
+          # Needs the pages: write permission granted above.
+          enablement: true
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
